@@ -17,17 +17,19 @@ export default function Footer() {
       <section className="w-full">
         <div className="mx-auto max-w-[1600px] px-6 py-14 md:py-16">
           <h2
-            className="
-              mx-auto text-center
-              uppercase font-extrabold tracking-tight
-              leading-[0.9]
-              text-[clamp(4.5rem,14vw,11rem)]
-            "
-          >
-            LE FRAGRANCE
-            <br />
-            CLUB
-          </h2>
+  className="
+    font-grande
+    mx-auto text-center uppercase tracking-tight
+    leading-[0.9]
+    text-[clamp(4.5rem,14vw,11rem)]
+  "
+>
+  LE FRAGRANCE
+  <br />
+  CLUB
+</h2>
+
+
         </div>
       </section>
 

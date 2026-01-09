@@ -160,3 +160,12 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+@font-face {
+  font-family: "Grande";
+  src: url("/fonts/grande.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
