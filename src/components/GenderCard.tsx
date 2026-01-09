@@ -44,7 +44,7 @@ const GenderCard = ({ gender, title, description, imageSrc }: GenderCardProps) =
 
       {/* Arrow indicator */}
       <div className="relative z-10 mt-6 flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
-        <span className="text-sm font-medium">Ver colección</span>
+        <span className="text-sm font-medium">Ver perfumes</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"

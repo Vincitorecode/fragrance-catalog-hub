@@ -19,8 +19,7 @@ const Home = () => {
           </p>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Descubre fragancias exclusivas de las mejores casas perfumeras del mundo.
-            Prueba antes de comprometerte.
+            La forma perfecta de descubrir perfumes de alta gama con frascos originales y aromas auténticos, dándote la libertad de probar, comparar y elegir antes de comprometerte con el frasco completo.
           </p>
         </div>
 
@@ -29,14 +28,15 @@ const Home = () => {
           <GenderCard
             gender="hombre"
             title="Hombre"
-            description="Fragancias masculinas sofisticadas y seductoras"
+            description="Fragancias seleccionadas por su calidad, elegancia y presencia. Clásicos y modernos para un estilo definido.
+"
             imageSrc="/images/gender/hombre.jpg"
           />
 
           <GenderCard
             gender="mujer"
             title="Mujer"
-            description="Esencias femeninas elegantes y cautivadoras"
+            description="Aromas sofisticados y atemporales, pensados para destacar con elegancia y personalidad."
             imageSrc="/images/gender/mujer.jpg"
           />
         </div>
