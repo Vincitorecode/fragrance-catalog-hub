@@ -5,33 +5,35 @@ const Header = () => {
   const isHome = location.pathname === "/";
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+    <header className="sticky top-0 z-50 w-full bg-[#003229]/95 backdrop-blur-sm text-white border-b border-white/15">
+
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-display text-xl font-semibold text-foreground">
+          <span className="font-display text-xl font-semibold text-white">
             Le Fragrance Club
           </span>
-          <span className="text-primary font-medium">| Decants</span>
+          <span className="text-white/70 font-medium">| Decants</span>
         </Link>
 
         {!isHome && (
           <nav className="flex items-center gap-6">
             <Link
               to="/hombre"
-              className={`text-sm font-medium transition-colors hover:text-primary ${
+              className={`text-sm font-medium transition-colors hover:text-white ${
                 location.pathname === "/hombre"
-                  ? "text-primary"
-                  : "text-muted-foreground"
+                  ? "text-white"
+                  : "text-white/70"
               }`}
             >
               Hombre
             </Link>
+
             <Link
               to="/mujer"
-              className={`text-sm font-medium transition-colors hover:text-primary ${
+              className={`text-sm font-medium transition-colors hover:text-white ${
                 location.pathname === "/mujer"
-                  ? "text-primary"
-                  : "text-muted-foreground"
+                  ? "text-white"
+                  : "text-white/70"
               }`}
             >
               Mujer

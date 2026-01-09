@@ -1,8 +1,8 @@
 const LINKS = {
-  instagram: "https://instagram.com/TU_USUARIO",
-  facebook: "https://facebook.com/TU_PAGINA",
-  email: "hola@lefragrance.club",
-  whatsappNumber: "52XXXXXXXXXX",
+  instagram: "https://www.instagram.com/lefragranceclub/",
+  facebook: "https://www.facebook.com/LeFragranceClub/",
+  email: "lefragranceclubcontact@gmail.com",
+  whatsappNumber: "5214435113228",
   whatsappText: "Hola, me gustaría información sobre sus decants/perfumes.",
 };
 
