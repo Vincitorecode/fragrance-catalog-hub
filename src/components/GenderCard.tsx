@@ -4,10 +4,12 @@ interface GenderCardProps {
   gender: "hombre" | "mujer";
   title: string;
   description: string;
-  icon: React.ReactNode;
+  imageSrc: string;
 }
 
-const GenderCard = ({ gender, title, description, icon }: GenderCardProps) => {
+
+const GenderCard = ({ gender, title, description, imageSrc }: GenderCardProps) => {
+
   return (
     <Link
       to={`/${gender}`}
@@ -17,19 +19,28 @@ const GenderCard = ({ gender, title, description, icon }: GenderCardProps) => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       
       {/* Icon container */}
-      <div className="relative z-10 w-24 h-24 md:w-32 md:h-32 mb-6 flex items-center justify-center rounded-full bg-cream group-hover:bg-secondary transition-colors duration-300">
-        <div className="text-primary group-hover:scale-110 transition-transform duration-300">
-          {icon}
+      <div className="relative z-10 w-full max-w-[380px]">
+          <div className="aspect-square w-full overflow-hidden rounded-2xl bg-cream">
+            <img
+              src={imageSrc}
+              alt={title}
+              className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </div>
+          
         </div>
-      </div>
+
+
 
       {/* Text content */}
-      <h2 className="relative z-10 font-display text-2xl md:text-3xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
-        {title}
-      </h2>
-      <p className="relative z-10 text-muted-foreground text-center max-w-xs">
-        {description}
-      </p>
+      <h2 className="relative z-10 mt-6 font-display text-3xl md:text-4xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
+  {title}
+</h2>
+<p className="relative z-10 mt-3 text-muted-foreground text-center max-w-md">
+  {description}
+</p>
+
 
       {/* Arrow indicator */}
       <div className="relative z-10 mt-6 flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
