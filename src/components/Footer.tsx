@@ -16,18 +16,21 @@ export default function Footer() {
       {/* SECCIÓN 1 · TÍTULO (más compacto) */}
       <section className="w-full">
         <div className="mx-auto max-w-[1600px] px-6 py-14 md:py-16">
-          <h2
-  className="
-    font-grande
-    mx-auto text-center uppercase tracking-tight
-    leading-[0.9]
-    text-[clamp(4.5rem,14vw,11rem)]
-  "
->
-  LE FRAGRANCE
-  <br />
-  CLUB
-</h2>
+                    <h2
+            className="
+              font-grande
+              mx-auto text-center uppercase
+              whitespace-nowrap
+              leading-[0.82]
+              tracking-[-0.05em]
+              text-[clamp(2.6rem,9vw,11rem)]
+              max-w-full
+            "
+          >
+            LE FRAGRANCE CLUB
+          </h2>
+
+
 
 
         </div>
