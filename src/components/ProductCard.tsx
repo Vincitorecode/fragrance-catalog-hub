@@ -8,8 +8,8 @@ interface ProductCardProps {
 }
 
 /**
- * Imagen informativa que aparece al hacer hover
- * Guardada en: public/images/decant-info.png
+ * Imagen informativa que aparece al hacer hover (desktop)
+ * Guardada en: public/images/decant-info.jpg
  */
 const DECANT_INFO_IMAGE = "/images/decant-info.jpg";
 
@@ -40,29 +40,37 @@ const ProductCard = ({ product }: ProductCardProps) => {
     <article className="group relative flex flex-col rounded-xl bg-card border border-border overflow-hidden card-hover animate-fade-in">
       {/* Sale Badge */}
       {onSale && (
-        <div className="absolute top-3 left-3 z-10 badge-sale">
+        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 z-10 badge-sale text-xs sm:text-sm">
           Oferta
         </div>
       )}
 
       {/* Image Container */}
-      <div className="relative aspect-square product-image-bg flex items-center justify-center p-6 overflow-hidden">
+      <div className="relative aspect-square product-image-bg flex items-center justify-center p-4 sm:p-6 overflow-hidden">
         {/* Imagen principal */}
         <img
           src={image}
           alt={`${brand} ${name}`}
-          className="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 group-hover:opacity-0"
+          className="
+            absolute inset-0 w-full h-full object-contain
+            transition-opacity duration-500
+            sm:group-hover:opacity-0
+          "
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = "/placeholder.svg";
           }}
         />
 
-        {/* Imagen hover (info decant) */}
+        {/* Imagen hover (solo desktop/>=sm) */}
         <img
           src={DECANT_INFO_IMAGE}
           alt="Información del decant"
-          className="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          className="
+            absolute inset-0 w-full h-full object-contain
+            opacity-0 transition-opacity duration-500
+            sm:group-hover:opacity-100
+          "
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = "/placeholder.svg";
@@ -71,7 +79,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-grow p-4">
+      <div className="flex flex-col flex-grow p-3 sm:p-4">
         {/* Category & Brand */}
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
@@ -85,7 +93,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
 
         {/* Name */}
-        <h3 className="font-display text-lg font-semibold text-foreground mb-2 line-clamp-2">
+        <h3 className="font-display text-base sm:text-lg font-semibold text-foreground mb-2 line-clamp-2">
           {name}
         </h3>
 
@@ -116,7 +124,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
               ${originalPriceFrom} {CURRENCY}
             </span>
           )}
-          <span className="text-lg font-semibold text-foreground">
+          <span className="text-base sm:text-lg font-semibold text-foreground">
             Desde ${priceFrom} {CURRENCY}
           </span>
         </div>

@@ -24,9 +24,7 @@ const Catalog = () => {
 
   // Get products for current gender (including unisex)
   const genderProducts = useMemo(() => {
-    return products.filter(
-      (p) => p.gender === gender || p.gender === "unisex"
-    );
+    return products.filter((p) => p.gender === gender || p.gender === "unisex");
   }, [gender, products]);
 
   // Get unique brands for filter
@@ -87,13 +85,13 @@ const Catalog = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container py-8">
+      <main className="container py-5 sm:py-8">
         {/* Page Header */}
-        <div className="mb-8 animate-fade-in">
-          <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
+        <div className="mb-6 sm:mb-8 animate-fade-in">
+          <h1 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-1.5 sm:mb-2">
             {genderTitle}
           </h1>
-          <p className="text-muted-foreground">
+          <p className="text-sm sm:text-base text-muted-foreground">
             {filteredProducts.length} productos encontrados
           </p>
         </div>
@@ -112,10 +110,11 @@ const Catalog = () => {
         {/* Products Grid */}
         {filteredProducts.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {visibleProducts.map((product, index) => (
                 <div
                   key={product.id}
+                  className="animate-fade-in"
                   style={{ animationDelay: `${index * 0.05}s` }}
                 >
                   <ProductCard product={product} />
@@ -125,29 +124,29 @@ const Catalog = () => {
 
             {/* Load More Button */}
             {hasMore && (
-              <div className="mt-12 text-center">
+              <div className="mt-10 sm:mt-12 text-center">
                 <Button
                   onClick={handleLoadMore}
                   variant="outline"
                   size="lg"
-                  className="min-w-[200px]"
+                  className="w-full sm:w-auto sm:min-w-[200px]"
                 >
                   Cargar más productos
                 </Button>
-                <p className="mt-2 text-sm text-muted-foreground">
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground">
                   Mostrando {visibleProducts.length} de {filteredProducts.length}
                 </p>
               </div>
             )}
           </>
         ) : (
-          <div className="text-center py-16">
-            <p className="text-lg text-muted-foreground">
+          <div className="text-center py-12 sm:py-16">
+            <p className="text-base sm:text-lg text-muted-foreground">
               No se encontraron productos con los filtros seleccionados.
             </p>
             <Button
               variant="outline"
-              className="mt-4"
+              className="mt-4 w-full sm:w-auto"
               onClick={() => {
                 setSearchQuery("");
                 setBrandFilter("all");
@@ -161,8 +160,8 @@ const Catalog = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border py-8 mt-12">
-        <div className="container text-center text-sm text-muted-foreground">
+      <footer className="border-t border-border py-6 sm:py-8 mt-10 sm:mt-12">
+        <div className="container text-center text-xs sm:text-sm text-muted-foreground">
           <p>© 2024 Le Fragrance Club. Todos los derechos reservados.</p>
         </div>
       </footer>
