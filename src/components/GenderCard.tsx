@@ -7,43 +7,45 @@ interface GenderCardProps {
   imageSrc: string;
 }
 
-
 const GenderCard = ({ gender, title, description, imageSrc }: GenderCardProps) => {
-
   return (
     <Link
       to={`/${gender}`}
-      className="group relative flex flex-col items-center justify-center p-8 md:p-12 rounded-2xl bg-card border border-border overflow-hidden card-hover"
+      className="group relative flex flex-col items-center justify-center p-5 sm:p-8 md:p-12 rounded-2xl bg-card border border-border overflow-hidden card-hover"
     >
-      {/* Decorative gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-      
-      {/* Icon container */}
+      {/* Decorative gradient overlay (solo se nota en hover desktop) */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300" />
+
+      {/* Image container */}
       <div className="relative z-10 w-full max-w-[380px]">
-          <div className="aspect-square w-full overflow-hidden rounded-2xl bg-cream">
-            <img
-              src={imageSrc}
-              alt={title}
-              className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-          </div>
-          
+        <div className="aspect-square w-full overflow-hidden rounded-2xl bg-cream">
+          <img
+            src={imageSrc}
+            alt={title}
+            className="h-full w-full object-cover sm:group-hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+          />
         </div>
-
-
+      </div>
 
       {/* Text content */}
-      <h2 className="relative z-10 mt-6 font-display text-3xl md:text-4xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
-  {title}
-</h2>
-<p className="relative z-10 mt-3 text-muted-foreground text-center max-w-md">
-  {description}
-</p>
+      <h2 className="relative z-10 mt-5 sm:mt-6 font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground sm:group-hover:text-primary transition-colors duration-300 text-center">
+        {title}
+      </h2>
 
+      <p className="relative z-10 mt-2.5 sm:mt-3 text-sm sm:text-base text-muted-foreground text-center max-w-md">
+        {description}
+      </p>
 
       {/* Arrow indicator */}
-      <div className="relative z-10 mt-6 flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
+      <div
+        className="
+          relative z-10 mt-5 sm:mt-6 flex items-center gap-2 text-primary
+          opacity-100 translate-x-0
+          sm:opacity-0 sm:translate-x-[-10px] sm:group-hover:opacity-100 sm:group-hover:translate-x-0
+          transition-all duration-300
+        "
+      >
         <span className="text-sm font-medium">Ver perfumes</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -7,29 +7,28 @@ const Home = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container py-12 md:py-20">
+      <main className="container py-8 sm:py-12 md:py-20">
         {/* Hero Section */}
-        <div className="text-center mb-16 md:mb-20 animate-fade-in">
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4">
+        <div className="text-center mb-10 sm:mb-16 md:mb-20 animate-fade-in">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-3 sm:mb-4">
             Le Fragrance Club
           </h1>
 
-          <p className="text-2xl md:text-3xl text-primary font-display italic mb-6">
+          <p className="text-xl sm:text-2xl md:text-3xl text-primary font-display italic mb-4 sm:mb-6">
             Decants
           </p>
 
-          <p className="text-lg text-muted-foreground max-w-xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto">
             La forma perfecta de descubrir perfumes de alta gama con frascos originales y aromas auténticos, dándote la libertad de probar, comparar y elegir antes de comprometerte con el frasco completo.
           </p>
         </div>
 
         {/* Gender Cards */}
-        <div className="grid md:grid-cols-2 gap-8 md:gap-10 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 max-w-6xl mx-auto">
           <GenderCard
             gender="hombre"
             title="Hombre"
-            description="Fragancias seleccionadas por su calidad, elegancia y presencia. Clásicos y modernos para un estilo definido.
-"
+            description="Fragancias seleccionadas por su calidad, elegancia y presencia. Clásicos y modernos para un estilo definido."
             imageSrc="/images/gender/hombre.jpg"
           />
 
@@ -42,8 +41,8 @@ const Home = () => {
         </div>
 
         {/* Features Section */}
-        <section className="mt-20 md:mt-28 text-center">
-          <div className="grid sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
+        <section className="mt-12 sm:mt-16 md:mt-28 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
             <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-cream flex items-center justify-center">
                 <svg
