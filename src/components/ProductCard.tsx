@@ -7,6 +7,12 @@ interface ProductCardProps {
   product: Product;
 }
 
+/**
+ * Imagen informativa que aparece al hacer hover
+ * Guardada en: public/images/decant-info.png
+ */
+const DECANT_INFO_IMAGE = "/images/decant-info.jpg";
+
 const ProductCard = ({ product }: ProductCardProps) => {
   const {
     brand,
@@ -27,7 +33,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
   };
 
-  const hasDiscount = onSale && originalPriceFrom && originalPriceFrom > priceFrom;
+  const hasDiscount =
+    onSale && originalPriceFrom && originalPriceFrom > priceFrom;
 
   return (
     <article className="group relative flex flex-col rounded-xl bg-card border border-border overflow-hidden card-hover animate-fade-in">
@@ -40,10 +47,22 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
       {/* Image Container */}
       <div className="relative aspect-square product-image-bg flex items-center justify-center p-6 overflow-hidden">
+        {/* Imagen principal */}
         <img
           src={image}
           alt={`${brand} ${name}`}
-          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+          className="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 group-hover:opacity-0"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = "/placeholder.svg";
+          }}
+        />
+
+        {/* Imagen hover (info decant) */}
+        <img
+          src={DECANT_INFO_IMAGE}
+          alt="Información del decant"
+          className="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-500 group-hover:opacity-100"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = "/placeholder.svg";
