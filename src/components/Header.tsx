@@ -6,29 +6,28 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-[#003229]/95 backdrop-blur-sm text-white border-b border-white/15">
-      {/* ↑ Header un poco más alto */}
-      <div className="container flex h-20 items-center justify-between">
+      {/* Header más alto */}
+      <div className="container flex h-24 items-center justify-between">
         
         {/* Logo + Decants */}
-        <Link to="/" className="flex items-center gap-4">
+        <Link to="/" className="flex items-center gap-5">
           <img
             src="/logo.png"
             alt="Le Fragrance Club"
-            className="h-14 md:h-16 w-auto object-contain"
+            className="h-16 md:h-18 w-auto object-contain"
             loading="eager"
           />
 
           <span
             className="
-              font-grande
-              text-white/90
-              text-2xl
-              md:text-3xl
+              text-[#EABB33]/90
+              font-normal
+              text-3xl
+              md:text-4xl
               leading-none
-              tracking-tight
             "
           >
-            Decants
+            | Decants
           </span>
         </Link>
 
