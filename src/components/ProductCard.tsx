@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { Star } from "lucide-react";
 import { Product } from "@/types/product";
 import { WHATSAPP_NUMBER, CURRENCY } from "@/config";
@@ -13,6 +14,12 @@ interface ProductCardProps {
  */
 const DECANT_INFO_IMAGE = "/images/decant-info.jpg";
 
+type MlOption = "2ml" | "5ml" | "10ml";
+const ML_OPTIONS: MlOption[] = ["2ml", "5ml", "10ml"];
+
+const formatMlLabel = (ml: MlOption) =>
+  ml === "2ml" ? "2 ml" : ml === "5ml" ? "5 ml" : "10 ml";
+
 const ProductCard = ({ product }: ProductCardProps) => {
   const {
     brand,
@@ -21,20 +28,53 @@ const ProductCard = ({ product }: ProductCardProps) => {
     priceFrom,
     originalPriceFrom,
     onSale,
-    rating,
-    ratingCount,
+    rating = 0,
+    ratingCount = 0,
     image,
+    prices,
   } = product;
 
-  const handleBuyClick = () => {
-    const message = encodeURIComponent(
-      `Hola, me interesa: ${brand} ${name} - $${priceFrom} ${CURRENCY}`
-    );
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
-  };
+  // Selector de ml (por defecto 2ml si existe, si no, null)
+  const [selectedMl, setSelectedMl] = useState<MlOption>("2ml");
+
+  const hasMlPrices = Boolean(
+    prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]
+  );
+
+  const selectedPrice = useMemo(() => {
+    if (!hasMlPrices) return null;
+    return prices![selectedMl];
+  }, [hasMlPrices, prices, selectedMl]);
+
+  const displayPrice = selectedPrice ?? priceFrom;
 
   const hasDiscount =
     onSale && originalPriceFrom && originalPriceFrom > priceFrom;
+
+  
+
+  const handleBuyClick = () => {
+  const mlLabel = hasMlPrices ? formatMlLabel(selectedMl) : null;
+  const finalPrice = hasMlPrices ? prices![selectedMl] : priceFrom;
+
+  const message = encodeURIComponent(
+    [
+      "Hola",
+      `Me interesa: ${brand} ${name}`,
+      mlLabel ? `Tamaño: ${mlLabel}` : null,
+      `Precio: $${finalPrice} ${CURRENCY}`,
+      "",
+      "¿Lo tienes disponible?",
+    ]
+      .filter(Boolean)
+      .join("\n")
+  );
+
+  const phone = String(WHATSAPP_NUMBER).replace(/\D/g, "");
+  window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+};
+
+
 
   return (
     <article className="group relative flex flex-col rounded-xl bg-card border border-border overflow-hidden card-hover animate-fade-in">
@@ -80,7 +120,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
       {/* Content */}
       <div className="flex flex-col flex-grow p-3 sm:p-4">
-        {/* Category & Brand */}
+        {/* Brand + Category */}
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
             {brand}
@@ -97,37 +137,110 @@ const ProductCard = ({ product }: ProductCardProps) => {
           {name}
         </h3>
 
-        {/* Rating */}
-        <div className="flex items-center gap-1.5 mb-3">
-          <div className="flex items-center">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                size={14}
-                className={
-                  i < Math.floor(rating)
-                    ? "fill-primary text-primary"
-                    : "fill-muted text-muted"
-                }
-              />
-            ))}
-          </div>
-          <span className="text-sm text-muted-foreground">
-            {rating.toFixed(1)} ({ratingCount})
-          </span>
-        </div>
+        {/* Rating (solo si hay rating real) */}
+        {rating > 0 && ratingCount > 0 && (
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-2">
+              <div className="flex items-center">
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    size={14}
+                    className={
+                      i < Math.floor(rating)
+                        ? "fill-primary text-primary"
+                        : "fill-muted text-muted"
+                    }
+                  />
+                ))}
+              </div>
+              <span className="text-sm text-muted-foreground">
+                {rating.toFixed(1)} ({ratingCount})
+              </span>
+            </div>
 
-        {/* Price */}
-        <div className="flex items-baseline gap-2 mb-4">
+            <span className="text-xs text-muted-foreground">
+              {category === "Nicho" ? "Niche" : "Selección"}
+            </span>
+          </div>
+        )}
+
+        {/* Price (dinámico por ml si existe) */}
+        <div className="flex items-baseline gap-2 mb-3">
           {hasDiscount && (
             <span className="text-sm text-muted-foreground line-through">
               ${originalPriceFrom} {CURRENCY}
             </span>
           )}
+
           <span className="text-base sm:text-lg font-semibold text-foreground">
-            Desde ${priceFrom} {CURRENCY}
+            {hasMlPrices ? (
+              <>
+                {formatMlLabel(selectedMl)}: ${displayPrice} {CURRENCY}
+              </>
+            ) : (
+              <>
+                Desde ${displayPrice} {CURRENCY}
+              </>
+            )}
           </span>
         </div>
+
+        {/* Selector de ML (chips) */}
+        {hasMlPrices && (
+          <div className="mb-4">
+            <p className="text-xs text-muted-foreground mb-2">Elige tamaño</p>
+
+            <div className="grid grid-cols-3 gap-2">
+              {ML_OPTIONS.map((ml) => {
+                const active = ml === selectedMl;
+                return (
+                  <button
+                    key={ml}
+                    type="button"
+                    onClick={() => setSelectedMl(ml)}
+                    className={[
+                      "rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
+                      "focus:outline-none focus:ring-2 focus:ring-primary/40",
+                      active
+                        ? "border-primary bg-primary/10 text-foreground"
+                        : "border-border bg-background/60 text-muted-foreground hover:border-primary/50",
+                    ].join(" ")}
+                  >
+                    <div
+  className={`
+    relative flex flex-col items-center leading-tight
+    ${ml === "5ml" && active ? "before:content-['Favorito🔥']" : "before:content-none"}
+    before:absolute
+    before:-top-3.5
+    before:left-1/2
+    before:-translate-x-1/2
+    before:rounded-full
+    before:bg-[#003229]
+    before:px-1.5
+    before:py-[1px]
+    before:text-[9px]
+    before:font-medium
+    before:text-white
+    before:leading-none
+    before:whitespace-nowrap
+  `}
+>
+  <span className="mt-1">{formatMlLabel(ml)}</span>
+
+  <span className="text-foreground">
+    ${prices![ml]}
+  </span>
+</div>
+
+
+
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Buy Button */}
         <Button
