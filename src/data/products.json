@@ -3,7 +3,7 @@
     "id": "louis-vuitton-limmensite",
     "gender": "hombre",
     "brand": "Louis Vuitton",
-    "name": "L’Immensité",
+    "name": "L'Immensité",
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 154,
@@ -12,7 +12,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/louis-vuitton-limmensite.webp"
   },
   {
     "id": "xerjoff-naxos",
@@ -27,7 +27,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/xerjoff-naxos.webp"
   },
   {
     "id": "le-labo-bergamote-22",
@@ -42,7 +42,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/le-labo-bergamote-22.webp"
   },
   {
     "id": "fugazzi-saint-remy",
@@ -57,7 +57,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/fugazzi-saint-remy.webp"
   },
   {
     "id": "sospiro-perfumes-vibrato",
@@ -72,7 +72,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/sospiro-perfumes-vibrato.webp"
   },
   {
     "id": "sospiro-perfumes-erba-pura-magica",
@@ -87,7 +87,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/sospiro-perfumes-erba-pura-magica.webp"
   },
   {
     "id": "nishane-hacivat-extrait-de-parfum",
@@ -102,7 +102,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/nishane-hacivat-extrait-de-parfum.webp"
   },
   {
     "id": "parfums-de-marly-layton",
@@ -117,7 +117,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/parfums-de-marly-layton.webp"
   },
   {
     "id": "parfums-de-marly-perseus",
@@ -132,9 +132,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/parfums-de-marly-perseus.webp"
   },
-
   {
     "id": "diptyque-tam-dao",
     "gender": "hombre",
@@ -148,7 +147,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/diptyque-tam-dao.webp"
   },
   {
     "id": "bdk-gris-charnel-eau-de-parfum",
@@ -163,9 +162,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/bdk-gris-charnel-eau-de-parfum.webp"
   },
-
   {
     "id": "beso-beach-beso-negro",
     "gender": "hombre",
@@ -179,7 +177,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/beso-beach-beso-negro.webp"
   },
   {
     "id": "fugazzi-angel-dust",
@@ -194,7 +192,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/fugazzi-angel-dust.webp"
   },
   {
     "id": "fugazzi-orange-crush",
@@ -209,9 +207,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/fugazzi-orange-crush.webp"
   },
-
   {
     "id": "amouroud-wet-stone",
     "gender": "hombre",
@@ -225,7 +222,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/amouroud-wet-stone.webp"
   },
   {
     "id": "acqua-di-parma-colonia-club",
@@ -240,13 +237,13 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/acqua-di-parma-colonia-club.webp"
   },
   {
     "id": "hermes-terre-dhermes-eau-givree",
     "gender": "hombre",
     "brand": "Hermès",
-    "name": "Terre d’Hermès Eau Givrée",
+    "name": "Terre d'Hermès Eau Givrée",
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 80,
@@ -255,9 +252,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/hermes-terre-dhermes-eau-givree.webp"
   },
-
   {
     "id": "fragrance-one-date-for-men",
     "gender": "hombre",
@@ -271,7 +267,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/fragrance-one-date-for-men.webp"
   },
   {
     "id": "bvlgari-bvlgari-man-in-black",
@@ -286,9 +282,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/bvlgari-bvlgari-man-in-black.webp"
   },
-
   {
     "id": "mancera-french-riviera",
     "gender": "hombre",
@@ -302,7 +297,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/mancera-french-riviera.webp"
   },
   {
     "id": "thomas-kosmala-exsupero",
@@ -317,9 +312,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/thomas-kosmala-exsupero.webp"
   },
-
   {
     "id": "yves-saint-laurent-myslf-le-parfum",
     "gender": "hombre",
@@ -333,9 +327,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/yves-saint-laurent-myslf-le-parfum.webp"
   },
-
   {
     "id": "jean-paul-gaultier-le-male-elixir",
     "gender": "hombre",
@@ -349,7 +342,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/jean-paul-gaultier-le-male-elixir.webp"
   },
   {
     "id": "yves-saint-laurent-y-eau-de-parfum",
@@ -364,9 +357,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/yves-saint-laurent-y-eau-de-parfum.webp"
   },
-
   {
     "id": "chedd-noir-parfums-mazunte-for-him",
     "gender": "hombre",
@@ -395,7 +387,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/jean-paul-gaultier-le-beau.webp"
   },
   {
     "id": "hugo-boss-bottled-elixir",
@@ -410,7 +402,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/hugo-boss-bottled-elixir.webp"
   },
   {
     "id": "armani-code-eau-de-parfum",
@@ -425,7 +417,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/armani-code-eau-de-parfum.webp"
   },
   {
     "id": "issey-miyake-issey-miyake",
@@ -440,7 +432,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/issey-miyake-issey-miyake.webp"
   },
   {
     "id": "chanel-allure-homme-edition-blanche",
@@ -455,7 +447,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/chanel-allure-homme-edition-blanche.webp"
   },
   {
     "id": "dior-homme-cologne",
@@ -470,7 +462,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/dior-homme-cologne.webp"
   },
   {
     "id": "loewe-7-cobalt",
@@ -485,7 +477,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/loewe-7-cobalt.webp"
   },
   {
     "id": "loewe-001-man",
@@ -500,7 +492,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/loewe-001-man.webp"
   },
   {
     "id": "loewe-solo-mercurio",
@@ -515,7 +507,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/loewe-solo-mercurio.webp"
   },
   {
     "id": "loewe-cedro",
@@ -530,7 +522,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/loewe-cedro.webp"
   },
   {
     "id": "azzaro-the-most-wanted-intense",
@@ -545,9 +537,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/azzaro-the-most-wanted-intense.webp"
   },
-
   {
     "id": "essential-parfums-bois-imperial",
     "gender": "hombre",
@@ -561,7 +552,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/essential-parfums-bois-imperial.webp"
   },
   {
     "id": "viktor-rolf-spicebomb",
@@ -576,7 +567,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/viktor-rolf-spicebomb.webp"
   },
   {
     "id": "lattafa-atlas-dupe-megamare-orto-parisi",
@@ -591,7 +582,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/lattafa-atlas-dupe-megamare-orto-parisi.webp"
   },
   {
     "id": "paris-corner-mawj-moscow-mule-dupe-blue-moon-ginger-kilian",
@@ -606,7 +597,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/paris-corner-mawj-moscow-mule-dupe-blue-moon-ginger-kilian.webp"
   },
   {
     "id": "orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv",
@@ -621,7 +612,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv.webp"
   },
   {
     "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
@@ -636,7 +627,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/aqua-di-parma-blu-mediterraneo-fico-di-amalfi.webp"
   },
   {
     "id": "givenchy-gentleman-eau-de-parfum",
@@ -651,9 +642,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/givenchy-gentleman-eau-de-parfum.webp"
   },
-
   {
     "id": "hugo-boss-bold-citrus",
     "gender": "hombre",
@@ -667,7 +657,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/hugo-boss-bold-citrus.webp"
   },
   {
     "id": "salvatore-ferragamo-bright-leather",
@@ -682,9 +672,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/salvatore-ferragamo-bright-leather.webp"
   },
-
   {
     "id": "afnan-turathi-blue-dupe-vibrato-sospiro-perfumes",
     "gender": "hombre",
@@ -698,7 +687,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/afnan-turathi-blue-dupe-vibrato-sospiro-perfumes.webp"
   },
   {
     "id": "lattafa-art-of-universe-dupe-blue-talisman-ex-nihilo",
@@ -713,7 +702,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/lattafa-art-of-universe-dupe-blue-talisman-ex-nihilo.webp"
   },
   {
     "id": "maison-alhambra-jean-lowe-vibe-dupe-pacific-chill-lv",
@@ -728,7 +717,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/maison-alhambra-jean-lowe-vibe-dupe-pacific-chill-lv.webp"
   },
   {
     "id": "maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv",
@@ -743,9 +732,8 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv.webp"
   },
-
   {
     "id": "dolce-gabbana-light-blue-2025",
     "gender": "hombre",
@@ -759,7 +747,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/dolce-gabbana-light-blue-2025.webp"
   },
   {
     "id": "montblanc-explorer-platinum",
@@ -774,145 +762,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
-  {
-    "id": "armaf-ombre-d-or-dupe-crystal-saffron-matiere-premiere",
-    "gender": "hombre",
-    "brand": "Armaf",
-    "name": "Ombre d'Or (Dupe: Crystal Saffron Matiere Premiere)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "adolfo-dominguez-citrus-cedro",
-    "gender": "hombre",
-    "brand": "Adolfo Dominguez",
-    "name": "Citrus Cedro",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "lattafa-liam-gray-dupe-gris-charnel-bdk",
-    "gender": "hombre",
-    "brand": "Lattafa",
-    "name": "Liam Gray (Dupe: Gris Charnel - BDK)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "lacoste-eau-de-lacoste-l-12-12-white",
-    "gender": "hombre",
-    "brand": "Lacoste",
-    "name": "Eau de Lacoste L.12.12. White",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
-  {
-    "id": "emper-captcha-36-dupe-the-matcha-26-le-labo",
-    "gender": "hombre",
-    "brand": "Emper",
-    "name": "Captcha 36 (Dupe: The Matcha 26 - Le Labo)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 46,
-    "prices": { "2ml": 46, "5ml": 115, "10ml": 230 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
-  {
-    "id": "calvin-klein-eternity-summer-daze",
-    "gender": "hombre",
-    "brand": "Calvin Klein",
-    "name": "Eternity Summer Daze",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "lattafa-ameer-al-oudh-dupe-by-the-fireplace-replica",
-    "gender": "hombre",
-    "brand": "Lattafa",
-    "name": "Ameer Al Oudh ( Dupe: By the Fireplace Replica)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "giorgio-armani-acqua-di-gio",
-    "gender": "hombre",
-    "brand": "Giorgio Armani",
-    "name": "Acqua di Giò",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "kenneth-cole-mankind-hero",
-    "gender": "hombre",
-    "brand": "Kenneth Cole",
-    "name": "Mankind Hero",
-    "category": "Nicho",
-    "availability": "Nuevo lanzamiento",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/montblanc-explorer-platinum.webp"
   },
   {
     "id": "versace-dylan-blue",
@@ -927,7 +777,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/versace-dylan-blue.webp"
   },
   {
     "id": "dolce-gabbana-the-one",
@@ -942,28 +792,13 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/dolce-gabbana-the-one.webp"
   },
   {
-    "id": "guy-laroche-drakkar-bleu",
+    "id": "giorgio-armani-acqua-di-gio",
     "gender": "hombre",
-    "brand": "Guy Laroche",
-    "name": "Drakkar Bleu",
-    "category": "Nicho",
-    "availability": "Nuevo lanzamiento",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "salvatore-ferragamo-aqua-essenziale",
-    "gender": "hombre",
-    "brand": "Salvatore Ferragamo",
-    "name": "Aqua Essenziale",
+    "brand": "Giorgio Armani",
+    "name": "Acqua di Giò",
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 44,
@@ -972,97 +807,7 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "john-varvatos-artisan",
-    "gender": "hombre",
-    "brand": "John Varvatos",
-    "name": "Artisan",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "armaf-club-de-nuit-sillage-dupe-silver-mountain-water-creed",
-    "gender": "hombre",
-    "brand": "Armaf",
-    "name": "Club de Nuit Sillage (Dupe: Silver Mountain Water Creed)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "armaf-club-de-nuit-milestone-dupe-millesime-imperial-creed",
-    "gender": "hombre",
-    "brand": "Armaf",
-    "name": "Club de Nuit Milestone (Dupe: Millésime Impérial Creed)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "azzaro-pour-homme-cologne-intense",
-    "gender": "hombre",
-    "brand": "Azzaro",
-    "name": "Pour Homme Cologne Intense",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "tommy-bahama-st-barts-men-cologne",
-    "gender": "hombre",
-    "brand": "Tommy Bahama",
-    "name": "St. Barts Men Cologne",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "calvin-klein-ck-one-reflections",
-    "gender": "hombre",
-    "brand": "Calvin Klein",
-    "name": "CK One Reflections",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/giorgio-armani-acqua-di-gio.webp"
   },
   {
     "id": "calvin-klein-ck-one",
@@ -1077,13 +822,13 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/calvin-klein-ck-one.webp"
   },
   {
-    "id": "dumont-nitro-red",
+    "id": "calvin-klein-ck-one-reflections",
     "gender": "hombre",
-    "brand": "Dumont",
-    "name": "Nitro Red",
+    "brand": "Calvin Klein",
+    "name": "CK One Reflections",
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 44,
@@ -1092,7 +837,22 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/calvin-klein-ck-one-reflections.webp"
+  },
+  {
+    "id": "calvin-klein-eternity-summer-daze",
+    "gender": "hombre",
+    "brand": "Calvin Klein",
+    "name": "Eternity Summer Daze",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 44,
+    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/products/calvin-klein-eternity-summer-daze.webp"
   },
   {
     "id": "le-labo-santal-33",
@@ -1108,55 +868,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "le-labo-bergamote-22",
-    "gender": "mujer",
-    "brand": "Le Labo",
-    "name": "Bergamote 22",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 144,
-    "prices": { "2ml": 144, "5ml": 360, "10ml": 720 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "sospiro-perfumes-vibrato",
-    "gender": "mujer",
-    "brand": "Sospiro Perfumes",
-    "name": "Vibrato",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 134,
-    "prices": { "2ml": 134, "5ml": 335, "10ml": 670 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "sospiro-perfumes-erba-pura-magica",
-    "gender": "mujer",
-    "brand": "Sospiro Perfumes",
-    "name": "Erba Pura Magica",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 134,
-    "prices": { "2ml": 134, "5ml": 335, "10ml": 670 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/le-labo-santal-33.webp"
   },
   {
     "id": "carolina-herrera-la-bomba",
@@ -1172,89 +884,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/carolina-herrera-la-bomba.webp"
   },
-  {
-    "id": "bdk-gris-charnel-eau-de-parfum",
-    "gender": "mujer",
-    "brand": "BDK",
-    "name": "Gris Charnel Eau de Parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 100,
-    "prices": { "2ml": 100, "5ml": 250, "10ml": 500 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "beso-beach-beso-negro",
-    "gender": "mujer",
-    "brand": "Beso Beach",
-    "name": "Beso Negro",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "fugazzi-angel-dust",
-    "gender": "mujer",
-    "brand": "Fugazzi",
-    "name": "Angel Dust",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "fugazzi-orange-crush",
-    "gender": "mujer",
-    "brand": "Fugazzi",
-    "name": "Orange Crush",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "mancera-french-riviera",
-    "gender": "mujer",
-    "brand": "Mancera",
-    "name": "French Riviera",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 84,
-    "prices": { "2ml": 84, "5ml": 210, "10ml": 420 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
   {
     "id": "valentino-donna-born-in-roma",
     "gender": "mujer",
@@ -1269,7 +900,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/valentino-donna-born-in-roma.webp"
   },
   {
     "id": "valentino-donna-born-in-roma-yellow-dream",
@@ -1285,7 +916,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/valentino-donna-born-in-roma-yellow-dream.webp"
   },
   {
     "id": "valentino-donna-born-in-roma-green-stravaganza",
@@ -1301,9 +932,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/valentino-donna-born-in-roma-green-stravaganza.webp"
   },
-
   {
     "id": "jean-paul-gaultier-divine",
     "gender": "mujer",
@@ -1318,9 +948,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/jean-paul-gaultier-divine.webp"
   },
-
   {
     "id": "yves-saint-laurent-libre-edp",
     "gender": "mujer",
@@ -1335,7 +964,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/yves-saint-laurent-libre-edp.webp"
   },
   {
     "id": "yves-saint-laurent-black-opium",
@@ -1351,9 +980,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/yves-saint-laurent-black-opium.webp"
   },
-
   {
     "id": "rabanne-fame-eau-de-parfum",
     "gender": "mujer",
@@ -1368,7 +996,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/rabanne-fame-eau-de-parfum.webp"
   },
   {
     "id": "guerlain-mon-edp",
@@ -1384,7 +1012,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/guerlain-mon-edp.webp"
   },
   {
     "id": "giorgio-armani-my-way-edp",
@@ -1400,9 +1028,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/giorgio-armani-my-way-edp.webp"
   },
-
   {
     "id": "dolce-gabbana-devotion",
     "gender": "mujer",
@@ -1417,40 +1044,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
-  {
-    "id": "orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv",
-    "gender": "mujer",
-    "brand": "Orientica Premium",
-    "name": "Exclusive Azure Fantasy (Dupe: Imagination - LV)",
-    "category": "Arabe",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
-    "gender": "mujer",
-    "brand": "Aqua di Parma",
-    "name": "Blu Mediterraneo Fico di Amalfi",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/dolce-gabbana-devotion.webp"
   },
   {
     "id": "juicy-couture-viva-la-juicy",
@@ -1466,9 +1060,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/juicy-couture-viva-la-juicy.webp"
   },
-
   {
     "id": "ariana-grande-cloud-pink",
     "gender": "mujer",
@@ -1483,7 +1076,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/ariana-grande-cloud-pink.webp"
   },
   {
     "id": "ariana-grande-cloud",
@@ -1499,7 +1092,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/ariana-grande-cloud.webp"
   },
   {
     "id": "ariana-grande-ari",
@@ -1515,9 +1108,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/ariana-grande-ari.webp"
   },
-
   {
     "id": "maison-alhambra-delilah-dupe-delina-parfums-de-marly",
     "gender": "mujer",
@@ -1532,25 +1124,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/maison-alhambra-delilah-dupe-delina-parfums-de-marly.webp"
   },
-  {
-    "id": "lattafa-art-of-universe-dupe-blue-talisman-ex-nihilo",
-    "gender": "mujer",
-    "brand": "Lattafa",
-    "name": "Art Of Universe (Dupe: Blue Talisman Ex Nihilo)",
-    "category": "Arabe",
-    "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
   {
     "id": "lattafa-mayar",
     "gender": "mujer",
@@ -1565,7 +1140,7 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/lattafa-mayar.webp"
   },
   {
     "id": "lattafa-liam-dupe-gris-charnel-bdk",
@@ -1581,9 +1156,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/lattafa-liam-dupe-gris-charnel-bdk.webp"
   },
-
   {
     "id": "emper-captcha-36-dupe-the-matcha-26-le-labo",
     "gender": "mujer",
@@ -1598,9 +1172,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/emper-captcha-36-dupe-the-matcha-26-le-labo.webp"
   },
-
   {
     "id": "armaf-club-de-nuit-woman-dupe-coco-mademoiselle-chanel",
     "gender": "mujer",
@@ -1615,9 +1188,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/armaf-club-de-nuit-woman-dupe-coco-mademoiselle-chanel.webp"
   },
-
   {
     "id": "armaf-club-de-nuit-milestone-dupe-millesime-imperial-creed",
     "gender": "mujer",
@@ -1632,9 +1204,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/armaf-club-de-nuit-milestone-dupe-millesime-imperial-creed.webp"
   },
-
   {
     "id": "armaf-club-de-nuit-sillage-dupe-silver-mountain-water-creed",
     "gender": "mujer",
@@ -1649,42 +1220,8 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/armaf-club-de-nuit-sillage-dupe-silver-mountain-water-creed.webp"
   },
-
-  {
-    "id": "calvin-klein-ck-one",
-    "gender": "mujer",
-    "brand": "Calvin Klein",
-    "name": "CK One",
-    "category": "Diseñador",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-  {
-    "id": "calvin-klein-ck-one-reflections",
-    "gender": "mujer",
-    "brand": "Calvin Klein",
-    "name": "CK One Reflections",
-    "category": "Diseñador",
-    "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/placeholder.svg"
-  },
-
   {
     "id": "armaf-tag-her-dupe-dolce-gabbana-light-blue",
     "gender": "mujer",
@@ -1699,14 +1236,6 @@
     "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/placeholder.svg"
+    "image": "/images/products/armaf-tag-her-dupe-dolce-gabbana-light-blue.webp"
   }
-
-
-
-
-  
-
 ]
-
-
