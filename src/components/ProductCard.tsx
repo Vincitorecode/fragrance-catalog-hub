@@ -196,42 +196,51 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 const active = ml === selectedMl;
                 return (
                   <button
-                    key={ml}
-                    type="button"
-                    onClick={() => setSelectedMl(ml)}
-                    className={[
-                      "rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
-                      "focus:outline-none focus:ring-2 focus:ring-primary/40",
-                      active
-                        ? "border-primary bg-primary/10 text-foreground"
-                        : "border-border bg-background/60 text-muted-foreground hover:border-primary/50",
-                    ].join(" ")}
-                  >
-                    <div
-  className={`
-    relative flex flex-col items-center leading-tight
-    ${ml === "5ml" && active ? "before:content-['Favorito🔥']" : "before:content-none"}
-    before:absolute
-    before:-top-3.5
-    before:left-1/2
-    before:-translate-x-1/2
-    before:rounded-full
-    before:bg-[#003229]
-    before:px-1.5
-    before:py-[1px]
-    before:text-[9px]
-    before:font-medium
-    before:text-white
-    before:leading-none
-    before:whitespace-nowrap
-  `}
->
-  <span className="mt-1">{formatMlLabel(ml)}</span>
+                        type="button"
+                        onClick={() => setSelectedMl(ml)}
+                        className={[
+                        "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
+                        "focus:outline-none focus:ring-2",
 
-  <span className="text-foreground">
-    ${prices![ml]}
-  </span>
-</div>
+                        // Focus ring: verde solo en 5ml activo, si no amarillo
+                        ml === "5ml" && active ? "focus:ring-[#003229]/40" : "focus:ring-primary/40",
+
+                        // Estados:
+                        ml === "5ml" && active
+                          ? "border-[#003229] bg-background text-foreground"
+                          : active
+                          ? "border-primary bg-primary/10 text-foreground"
+                          : "border-border bg-background/60 text-muted-foreground hover:border-primary/50",
+                      ].join(" ")}
+                      >
+
+
+                                          <div
+                        className={`
+                          relative flex flex-col items-center leading-tight
+                          ${ml === "5ml" && active ? "before:content-['Favorito·🔥']" : "before:content-none"}
+
+                          before:absolute
+                          before:-top-3.5
+                          before:left-1/2
+                          before:-translate-x-1/2
+                          before:rounded-full
+                          before:bg-[#003229]
+                          before:px-1.5
+                          before:py-[1px]
+                          before:text-[9px]
+                          before:font-medium
+                          before:text-white
+                          before:leading-none
+                          before:whitespace-nowrap
+                        `}
+                      >
+                        <span className="mt-1">{formatMlLabel(ml)}</span>
+
+                        <span className="text-foreground">
+                          ${prices![ml]}
+                        </span>
+                      </div>
 
 
 
