@@ -218,7 +218,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                                           <div
                         className={`
                           relative flex flex-col items-center leading-tight
-                          ${ml === "5ml" && active ? "before:content-['Favorito·🔥']" : "before:content-none"}
+                          ${ml === "5ml" && active ? "before:content-['Favorito🔥']" : "before:content-none"}
 
                           before:absolute
                           before:-top-3.5
