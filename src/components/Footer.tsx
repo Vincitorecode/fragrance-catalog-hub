@@ -143,7 +143,7 @@ export default function Footer() {
     </a>
   </div>
 
- {/* Métodos de pago */}
+{/* Métodos de pago */}
 <div
   className="
     relative rounded-2xl border border-white/15
@@ -159,40 +159,39 @@ export default function Footer() {
   <div className="grid grid-cols-2 gap-3 text-sm text-white/90">
     {/* Transferencia */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <FaBuildingColumns className="text-xl text-blue-300" />
+      <FaBuildingColumns className="text-xl text-white" />
       <span>Transferencia</span>
     </div>
 
     {/* Mercado Pago */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <SiMercadopago className="text-xl text-blue-400" />
+      <SiMercadopago className="text-xl text-white" />
       <span>Mercado Pago</span>
     </div>
 
     {/* Visa */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
         alt="Visa"
-        className="w-8"
+        className="w-8 brightness-0 invert"
       />
       <span className="text-white/70">Crédito/Débito</span>
     </div>
 
     {/* MasterCard */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" 
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
         alt="MasterCard"
-        className="w-8"
+        className="w-8 brightness-0 invert"
       />
       <span className="text-white/70">MasterCard</span>
     </div>
 
-
     {/* Amex */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
-      <SiAmericanexpress className="text-2xl text-blue-600" />
+      <SiAmericanexpress className="text-2xl text-white" />
       <span className="text-white/70">American Express</span>
     </div>
   </div>
@@ -201,6 +200,7 @@ export default function Footer() {
     * Pagos confirmados antes de preparar el envío.
   </p>
 </div>
+
   
 </div>
 
