@@ -1,6 +1,10 @@
 import GenderCard from "@/components/GenderCard";
 import Header from "@/components/Header";
 import Footer from "../components/Footer";
+import DecantInfoSection from "@/components/DecantInfoSection";
+import TrustSection from "@/components/TrustSection";
+
+
 
 const Home = () => {
   return (
@@ -119,6 +123,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <DecantInfoSection imageSrc="/images/decant-info-section.png" />
+        <TrustSection />
+
       </main>
 
       <Footer />
