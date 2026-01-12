@@ -180,14 +180,19 @@ export default function Footer() {
     </div>
 
     {/* MasterCard */}
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
-        alt="MasterCard"
-        className="w-8 brightness-0 invert"
-      />
-      <span className="text-white/70">MasterCard</span>
-    </div>
+<div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+  <svg
+    viewBox="0 0 48 32"
+    className="h-5 w-auto"
+    aria-label="MasterCard"
+  >
+    <circle cx="16" cy="16" r="10" fill="white" />
+    <circle cx="28" cy="16" r="10" fill="white" fillOpacity="0.6" />
+  </svg>
+
+  <span className="text-white/70">MasterCard</span>
+</div>
+
 
     {/* Amex */}
     <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
