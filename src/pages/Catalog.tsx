@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Product } from "@/types/product";
 import { PRODUCTS_PER_PAGE } from "@/config";
 import productsData from "@/data/products.json";
+import Footer from "@/components/Footer";
+
 
 const Catalog = () => {
   const { gender } = useParams<{ gender: string }>();
@@ -159,12 +161,8 @@ const Catalog = () => {
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-border py-6 sm:py-8 mt-10 sm:mt-12">
-        <div className="container text-center text-xs sm:text-sm text-muted-foreground">
-          <p>© 2024 Le Fragrance Club. Todos los derechos reservados.</p>
-        </div>
-      </footer>
+      <Footer />
+
     </div>
   );
 };
