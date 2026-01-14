@@ -25,23 +25,28 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#003229] text-white">
       {/* SECCIÓN 1 · TÍTULO */}
-      <section className="w-full">
-        <div className="mx-auto max-w-[1600px] px-4 sm:px-6 py-10 sm:py-14 md:py-16">
-          <h2
-            className="
-              font-grande
-              mx-auto text-center uppercase
-              whitespace-normal sm:whitespace-nowrap
-              leading-[0.82]
-              tracking-[-0.05em]
-              text-[clamp(2.2rem,9vw,11rem)]
-              max-w-full
-            "
-          >
-            LE FRAGRANCE CLUB
-          </h2>
-        </div>
-      </section>
+<section className="w-full">
+  <div className="mx-auto max-w-[1600px] px-6 sm:px-10 lg:px-14 xl:px-20 py-10 sm:py-14 md:py-16">
+    <div className="flex justify-center">
+      <h2
+        className="
+          font-grande
+          text-center uppercase
+          leading-[0.82]
+          tracking-[-0.05em]
+          text-[clamp(2.2rem,9vw,11rem)]
+          max-w-[14ch]
+          sm:max-w-none
+          whitespace-normal
+          sm:whitespace-nowrap
+        "
+      >
+        LE FRAGRANCE CLUB
+      </h2>
+    </div>
+  </div>
+</section>
+
 
       <div className="border-t border-white/15" />
 
