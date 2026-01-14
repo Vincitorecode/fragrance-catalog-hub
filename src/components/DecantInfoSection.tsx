@@ -4,7 +4,7 @@ interface DecantInfoSectionProps {
   imageSrc?: string;
 }
 
-const DecantInfoSection = ({ imageSrc = "/images/decant-info-section.png" }: DecantInfoSectionProps) => {
+const DecantInfoSection = ({ imageSrc = "/images/decant-info-section1.png" }: DecantInfoSectionProps) => {
   return (
     <section className="mt-14 sm:mt-16 md:mt-20">
       <div className="grid items-center gap-8 md:grid-cols-2">
