@@ -35,16 +35,17 @@ const ProductCard = ({ product }: ProductCardProps) => {
   } = product;
 
   // Selector de ml (por defecto 2ml si existe, si no, null)
-  const [selectedMl, setSelectedMl] = useState<MlOption>("2ml");
+  const [selectedMl, setSelectedMl] = useState<MlOption | null>(null);
+
 
   const hasMlPrices = Boolean(
     prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]
   );
 
   const selectedPrice = useMemo(() => {
-    if (!hasMlPrices) return null;
-    return prices![selectedMl];
-  }, [hasMlPrices, prices, selectedMl]);
+  if (!hasMlPrices || !selectedMl) return null;
+  return prices![selectedMl];
+}, [hasMlPrices, prices, selectedMl]);
 
   const displayPrice = selectedPrice ?? priceFrom;
 
@@ -175,10 +176,15 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
           <span className="text-base sm:text-lg font-semibold text-foreground">
             {hasMlPrices ? (
-              <>
-                {formatMlLabel(selectedMl)}: ${displayPrice} {CURRENCY}
-              </>
-            ) : (
+                  selectedMl ? (
+                    <>
+                      {formatMlLabel(selectedMl)}: ${displayPrice} {CURRENCY}
+                    </>
+                  ) : (
+                    <>Selecciona un tamaño</>
+                  )
+                ) : (
+
               <>
                 Desde ${displayPrice} {CURRENCY}
               </>
@@ -218,7 +224,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
                       <div
                         className={`
                           relative flex flex-col items-center leading-tight
-                          ${ml === "5ml" && active ? "before:content-['Favorito🔥']" : "before:content-none"}
+                          ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
+
 
                           before:absolute
                           before:-top-3.5
