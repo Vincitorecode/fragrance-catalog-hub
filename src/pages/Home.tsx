@@ -123,7 +123,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <DecantInfoSection imageSrc="/images/decant-info-section1.png" />
+        <DecantInfoSection imageSrc="/images/decant-info-section2.jpg" />
         <TrustSection />
 
       </main>

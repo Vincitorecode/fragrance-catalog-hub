@@ -4,7 +4,7 @@ interface DecantInfoSectionProps {
   imageSrc?: string;
 }
 
-const DecantInfoSection = ({ imageSrc = "/images/decant-info-section1.png" }: DecantInfoSectionProps) => {
+const DecantInfoSection = ({ imageSrc = "/images/decant-info-section2.jpg" }: DecantInfoSectionProps) => {
   return (
     <section className="mt-14 sm:mt-16 md:mt-20">
       <div className="grid items-center gap-8 md:grid-cols-2">
@@ -56,7 +56,7 @@ const DecantInfoSection = ({ imageSrc = "/images/decant-info-section1.png" }: De
             </div>
           </div>
 
-          {/* CTA mini (opcional, no hace largo) */}
+          {/* CTA mini (opcional, no hace largo) 
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               to="/hombre"
@@ -71,6 +71,7 @@ const DecantInfoSection = ({ imageSrc = "/images/decant-info-section1.png" }: De
               Ver Mujer
             </Link>
           </div>
+          */}
         </div>
       </div>
     </section>
