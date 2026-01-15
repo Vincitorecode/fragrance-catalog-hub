@@ -6,10 +6,22 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-[#003229]/95 backdrop-blur-sm text-white border-b border-white/15">
-      <div className="container py-3 sm:py-4">
-        <div className="flex flex-col gap-3 sm:gap-0 sm:flex-row sm:items-center sm:justify-between">
-          {/* Logo + Decants */}
-          <Link to="/" className="flex items-center gap-3 sm:gap-5">
+      <div className="mx-auto w-full max-w-[1600px] px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4">
+
+        {/* 
+          - mobile: columna, centrado
+          - sm+: fila, logo izquierda y nav derecha
+        */}
+        <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
+          {/* Logo */}
+          <Link
+            to="/"
+            className="
+              flex items-center justify-center
+              w-full
+              sm:w-auto sm:justify-start
+            "
+          >
             <img
               src="/logo.png"
               alt="Le Fragrance Club"
@@ -17,8 +29,11 @@ const Header = () => {
               loading="eager"
             />
 
+            {/* Texto solo en web (sm+) */}
             <span
               className="
+                hidden sm:inline-block
+                ml-5
                 text-[#EABB33]/90
                 font-normal
                 text-2xl sm:text-3xl md:text-4xl
@@ -32,13 +47,18 @@ const Header = () => {
 
           {/* Nav */}
           {!isHome && (
-            <nav className="flex items-center gap-6 sm:gap-8">
+            <nav
+              className="
+                flex items-center gap-6
+                sm:gap-8
+                w-full justify-center
+                sm:w-auto sm:justify-end
+              "
+            >
               <Link
                 to="/hombre"
                 className={`text-sm font-medium transition-colors hover:text-white ${
-                  location.pathname === "/hombre"
-                    ? "text-white"
-                    : "text-white/70"
+                  location.pathname === "/hombre" ? "text-white" : "text-white/70"
                 }`}
               >
                 Hombre
@@ -47,9 +67,7 @@ const Header = () => {
               <Link
                 to="/mujer"
                 className={`text-sm font-medium transition-colors hover:text-white ${
-                  location.pathname === "/mujer"
-                    ? "text-white"
-                    : "text-white/70"
+                  location.pathname === "/mujer" ? "text-white" : "text-white/70"
                 }`}
               >
                 Mujer
