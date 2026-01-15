@@ -23,15 +23,15 @@ const Home = () => {
           </p>
 
           <p className="
-  text-sm sm:text-base md:text-lg
-  text-muted-foreground
-  max-w-6xl mx-auto
-  px-4 sm:px-0
-  leading-relaxed
-  md:line-clamp-2
-">
-  La forma perfecta de descubrir perfumes de alta gama con frascos originales y aromas auténticos, dándote la libertad de probar, comparar y elegir antes de comprometerte con el frasco completo.
-</p>
+              text-sm sm:text-base md:text-lg
+              text-muted-foreground
+              max-w-6xl mx-auto
+              px-4 sm:px-0
+              leading-relaxed
+              md:line-clamp-2
+            ">
+              La forma perfecta de descubrir perfumes de alta gama con frascos originales y aromas auténticos, dándote la libertad de probar, comparar y elegir antes de comprometerte con el frasco completo.
+            </p>
 
 
         </div>
