@@ -1209,6 +1209,40 @@
   "rating": 0,
   "ratingCount": 0,
   "image": "/images/perfumes/mujer/P_0003_Sweet-Tooth-Me-Espresso.png"
+},
+{
+  "id": "katy-perry-purr",
+  "gender": "mujer",
+  "brand": "Katy Perry",
+  "name": "Purr",
+  "category": "Diseñador",
+  "availability": "Disponible",
+  "priceFrom": 45,
+  "prices": { "2ml": 45, "5ml": 110, "10ml": 220 },
+  "aroma": "",
+  "originalPriceFrom": null,
+  "onSale": false,
+  "rating": 0,
+  "ratingCount": 0,
+  "image": "/images/perfumes/mujer/katy-perry-purr.png"
+},
+{
+  "id": "lancome-la-vie-est-belle-en-rose",
+  "gender": "mujer",
+  "brand": "Lancôme",
+  "name": "La Vie est Belle en Rose",
+  "category": "Diseñador",
+  "availability": "Disponible",
+  "priceFrom": 80,
+  "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+  "aroma": "",
+  "originalPriceFrom": null,
+  "onSale": false,
+  "rating": 0,
+  "ratingCount": 0,
+  "image": "/images/perfumes/mujer/Lancome-women-La-Vie-Est-Belle-En-Rose.png"
 }
+
+
 
 ]
