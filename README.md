@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+# Fragrance Catalog Hub
 
-## Project info
+*A curated, scalable, and conversion-focused fragrance catalog built with modern web tooling.*
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Overview
 
-## How can I edit this code?
+I built this project as a **high-quality fragrance catalog platform** designed to showcase perfumes in a clean, structured, and scalable way.
+The goal is simple: **turn a perfume list into a product experience**.
 
-There are several ways of editing your application.
+This project is not just a UI — it reflects real-world decisions around:
 
-**Use Lovable**
+* product data modeling,
+* pricing strategies by volume,
+* availability states,
+* and future-ready commerce flows (cart → WhatsApp → conversion).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Everything is structured to grow: more brands, more categories, more logic — without rewriting the foundation.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## What I’ve Built
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* A **modular perfume catalog** with structured JSON-based product definitions
+* Support for:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+  * gender-based collections
+  * designer, niche, and Arabic fragrances
+  * multiple price tiers (2ml / 5ml / 10ml)
+  * availability and launch states
+* A **clean, modern UI** focused on clarity and browsing experience
+* A codebase ready to evolve into:
 
-Follow these steps:
+  * shopping cart flows
+  * WhatsApp checkout
+  * dynamic pricing
+  * promotions and bundles
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+This is the foundation of a real product, not a demo.
+
+---
+
+## Tech Stack
+
+I chose a modern, fast, and flexible stack to keep development smooth and scalable:
+
+* **Vite** – fast builds and instant feedback
+* **React + TypeScript** – predictable, maintainable UI logic
+* **Tailwind CSS** – utility-first styling for rapid iteration
+* **shadcn/ui** – consistent, accessible UI components
+
+The result is a project that’s easy to extend and enjoyable to work on.
+
+---
+
+## Local Development
+
+If you want to run the project locally:
+
+### Requirements
+
+* Node.js (recommended via `nvm`)
+* npm
+
+### Setup
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Go into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+You’ll get a live preview with hot reload for fast iteration.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Editing the Project
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+I actively work on this project in multiple ways depending on the task:
 
-## What technologies are used for this project?
+### Local IDE
 
-This project is built with:
+* For deeper logic, refactors, or data modeling, I work locally and push changes normally.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### GitHub / Codespaces
 
-## How can I deploy this project?
+* Quick fixes and reviews are handled directly through GitHub when needed.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+Deployment is handled directly through **Lovable**:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Open the project in Lovable
+* Click **Share → Publish**
+* The latest version goes live instantly
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Custom domains are supported and can be configured directly from the project settings.
+
+---
+
+## Vision
+
+This project is designed to grow into a **commerce-ready fragrance platform** with:
+
+* real conversion flows
+* curated product storytelling
+* scalable data structures
+* and integrations beyond the web (WhatsApp, CRM, analytics)
+
+It’s built with intention, not shortcuts.
