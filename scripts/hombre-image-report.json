@@ -1,0 +1,515 @@
+[
+  {
+    "id": "louis-vuitton-limmensite",
+    "brand": "Louis Vuitton",
+    "name": "L'Immensité",
+    "oldImage": "/images/products/louis-vuitton-limmensite.webp",
+    "newImage": "/images/perfumes/hombre/L’Immensité.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "xerjoff-naxos",
+    "brand": "Xerjoff",
+    "name": "Naxos",
+    "oldImage": "/images/products/xerjoff-naxos.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "le-labo-bergamote-22",
+    "brand": "Le Labo",
+    "name": "Bergamote 22",
+    "oldImage": "/images/products/le-labo-bergamote-22.webp",
+    "newImage": "/images/perfumes/hombre/bergamote-22.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "fugazzi-saint-remy",
+    "brand": "Fugazzi",
+    "name": "Saint Rémy",
+    "oldImage": "/images/products/fugazzi-saint-remy.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "sospiro-perfumes-vibrato",
+    "brand": "Sospiro Perfumes",
+    "name": "Vibrato",
+    "oldImage": "/images/products/sospiro-perfumes-vibrato.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "sospiro-perfumes-erba-pura-magica",
+    "brand": "Sospiro Perfumes",
+    "name": "Erba Pura Magica",
+    "oldImage": "/images/products/sospiro-perfumes-erba-pura-magica.webp",
+    "newImage": "/images/perfumes/hombre/erba-pura-magica.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "nishane-hacivat-extrait-de-parfum",
+    "brand": "Nishane",
+    "name": "Hacivat Extrait de Parfum",
+    "oldImage": "/images/products/nishane-hacivat-extrait-de-parfum.webp",
+    "newImage": "/images/perfumes/hombre/hacivat-extrait-de-parfum.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "parfums-de-marly-layton",
+    "brand": "Parfums de Marly",
+    "name": "Layton",
+    "oldImage": "/images/products/parfums-de-marly-layton.webp",
+    "newImage": "/images/perfumes/hombre/layton.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "parfums-de-marly-perseus",
+    "brand": "Parfums de Marly",
+    "name": "Perseus",
+    "oldImage": "/images/products/parfums-de-marly-perseus.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.25
+  },
+  {
+    "id": "diptyque-tam-dao",
+    "brand": "Diptyque",
+    "name": "Tam Dao",
+    "oldImage": "/images/products/diptyque-tam-dao.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "bdk-gris-charnel-eau-de-parfum",
+    "brand": "BDK",
+    "name": "Gris Charnel Eau de Parfum",
+    "oldImage": "/images/products/bdk-gris-charnel-eau-de-parfum.webp",
+    "newImage": "/images/perfumes/hombre/Gris-Charnel.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "beso-beach-beso-negro",
+    "brand": "Beso Beach",
+    "name": "Beso Negro",
+    "oldImage": "/images/products/beso-beach-beso-negro.webp",
+    "newImage": "/images/perfumes/hombre/beso-negro.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "fugazzi-angel-dust",
+    "brand": "Fugazzi",
+    "name": "Angel Dust",
+    "oldImage": "/images/products/fugazzi-angel-dust.webp",
+    "newImage": "/images/perfumes/hombre/angel-dust.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "fugazzi-orange-crush",
+    "brand": "Fugazzi",
+    "name": "Orange Crush",
+    "oldImage": "/images/products/fugazzi-orange-crush.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "amouroud-wet-stone",
+    "brand": "Amouroud",
+    "name": "Wet Stone",
+    "oldImage": "/images/products/amouroud-wet-stone.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "acqua-di-parma-colonia-club",
+    "brand": "Acqua di Parma",
+    "name": "Colonia Club",
+    "oldImage": "/images/products/acqua-di-parma-colonia-club.webp",
+    "newImage": "/images/perfumes/hombre/acqua-di-parma-colonia-club.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "hermes-terre-dhermes-eau-givree",
+    "brand": "Hermès",
+    "name": "Terre d'Hermès Eau Givrée",
+    "oldImage": "/images/products/hermes-terre-dhermes-eau-givree.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.2
+  },
+  {
+    "id": "fragrance-one-date-for-men",
+    "brand": "Fragrance One",
+    "name": "Date For Men",
+    "oldImage": "/images/products/fragrance-one-date-for-men.webp",
+    "newImage": "/images/perfumes/hombre/date-for-men.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "bvlgari-bvlgari-man-in-black",
+    "brand": "Bvlgari",
+    "name": "Bvlgari Man In Black",
+    "oldImage": "/images/products/bvlgari-bvlgari-man-in-black.webp",
+    "newImage": "/images/perfumes/hombre/bvlgari-man-in-black.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "mancera-french-riviera",
+    "brand": "Mancera",
+    "name": "French Riviera",
+    "oldImage": "/images/products/mancera-french-riviera.webp",
+    "newImage": "/images/perfumes/hombre/french-riviera.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "thomas-kosmala-exsupero",
+    "brand": "Thomas Kosmala",
+    "name": "Exsupero",
+    "oldImage": "/images/products/thomas-kosmala-exsupero.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "yves-saint-laurent-myslf-le-parfum",
+    "brand": "Yves Saint Laurent",
+    "name": "MYSLF Le Parfum",
+    "oldImage": "/images/products/yves-saint-laurent-myslf-le-parfum.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.16666666666666666
+  },
+  {
+    "id": "jean-paul-gaultier-le-male-elixir",
+    "brand": "Jean Paul Gaultier",
+    "name": "Le Male Elixir",
+    "oldImage": "/images/products/jean-paul-gaultier-le-male-elixir.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.16666666666666666
+  },
+  {
+    "id": "yves-saint-laurent-y-eau-de-parfum",
+    "brand": "Yves Saint Laurent",
+    "name": "Y Eau de parfum",
+    "oldImage": "/images/products/yves-saint-laurent-y-eau-de-parfum.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.42857142857142855
+  },
+  {
+    "id": "chedd-noir-parfums-mazunte-for-him",
+    "brand": "Chedd Noir Parfums",
+    "name": "Mazunte for Him",
+    "oldImage": "/placeholder.svg",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.16666666666666666
+  },
+  {
+    "id": "jean-paul-gaultier-le-beau",
+    "brand": "Jean Paul Gaultier",
+    "name": "Le Beau",
+    "oldImage": "/images/products/jean-paul-gaultier-le-beau.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.4
+  },
+  {
+    "id": "hugo-boss-bottled-elixir",
+    "brand": "Hugo Boss",
+    "name": "Bottled Elixir",
+    "oldImage": "/images/products/hugo-boss-bottled-elixir.webp",
+    "newImage": "/images/perfumes/hombre/bottled-elixir.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "armani-code-eau-de-parfum",
+    "brand": "Armani",
+    "name": "Code Eau de Parfum",
+    "oldImage": "/images/products/armani-code-eau-de-parfum.webp",
+    "newImage": "/images/perfumes/hombre/code-eau-de-parfum.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "issey-miyake-issey-miyake",
+    "brand": "Issey Miyake",
+    "name": "Issey Miyake",
+    "oldImage": "/images/products/issey-miyake-issey-miyake.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "chanel-allure-homme-edition-blanche",
+    "brand": "Chanel",
+    "name": "Allure Homme Edition Blanche",
+    "oldImage": "/images/products/chanel-allure-homme-edition-blanche.webp",
+    "newImage": "/images/perfumes/hombre/allure-homme-edition-blanche.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "dior-homme-cologne",
+    "brand": "Dior",
+    "name": "Homme Cologne",
+    "oldImage": "/images/products/dior-homme-cologne.webp",
+    "newImage": "/images/perfumes/hombre/homme-cologne.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "loewe-7-cobalt",
+    "brand": "Loewe",
+    "name": "7 Cobalt",
+    "oldImage": "/images/products/loewe-7-cobalt.webp",
+    "newImage": "/images/perfumes/hombre/Cobalt.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "loewe-001-man",
+    "brand": "Loewe",
+    "name": "001 Man",
+    "oldImage": "/images/products/loewe-001-man.webp",
+    "newImage": "/images/perfumes/hombre/Man.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "loewe-solo-mercurio",
+    "brand": "Loewe",
+    "name": "Solo Mercurio",
+    "oldImage": "/images/products/loewe-solo-mercurio.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "loewe-cedro",
+    "brand": "Loewe",
+    "name": "Cedro",
+    "oldImage": "/images/products/loewe-cedro.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.5
+  },
+  {
+    "id": "azzaro-the-most-wanted-intense",
+    "brand": "Azzaro",
+    "name": "The Most Wanted Intense",
+    "oldImage": "/images/products/azzaro-the-most-wanted-intense.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "essential-parfums-bois-imperial",
+    "brand": "Essential Parfums",
+    "name": "Bois Impérial",
+    "oldImage": "/images/products/essential-parfums-bois-imperial.webp",
+    "newImage": "/images/perfumes/hombre/Bois-Impérial.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "viktor-rolf-spicebomb",
+    "brand": "Viktor & Rolf",
+    "name": "Spicebomb",
+    "oldImage": "/images/products/viktor-rolf-spicebomb.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0
+  },
+  {
+    "id": "lattafa-atlas-dupe-megamare-orto-parisi",
+    "brand": "Lattafa",
+    "name": "Atlas (Dupe: Megamare- Orto Parisi)",
+    "oldImage": "/images/products/lattafa-atlas-dupe-megamare-orto-parisi.webp",
+    "newImage": "/images/perfumes/hombre/atlas.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "paris-corner-mawj-moscow-mule-dupe-blue-moon-ginger-kilian",
+    "brand": "Paris Corner",
+    "name": "Mawj Moscow Mule (Dupe: Blue Moon Ginger- Kilian)",
+    "oldImage": "/images/products/paris-corner-mawj-moscow-mule-dupe-blue-moon-ginger-kilian.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.1
+  },
+  {
+    "id": "orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv",
+    "brand": "Orientica Premium",
+    "name": "Exclusive Azure Fantasy (Dupe: Imagination - LV)",
+    "oldImage": "/images/products/orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv.webp",
+    "newImage": "/images/perfumes/hombre/Exclusive-Azure-Fantasy.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
+    "brand": "Aqua di Parma",
+    "name": "Blu Mediterraneo Fico di Amalfi",
+    "oldImage": "/images/products/aqua-di-parma-blu-mediterraneo-fico-di-amalfi.webp",
+    "newImage": "/images/perfumes/hombre/blu-mediterraneo-fico-di-amalfi.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "givenchy-gentleman-eau-de-parfum",
+    "brand": "Givenchy",
+    "name": "Gentleman Eau de Parfum",
+    "oldImage": "/images/products/givenchy-gentleman-eau-de-parfum.webp",
+    "newImage": "/images/perfumes/hombre/gentleman-eau-de-parfum.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "hugo-boss-bold-citrus",
+    "brand": "Hugo Boss",
+    "name": "Bold Citrus",
+    "oldImage": "/images/products/hugo-boss-bold-citrus.webp",
+    "newImage": "/images/perfumes/hombre/bold-citrus.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "salvatore-ferragamo-bright-leather",
+    "brand": "Salvatore Ferragamo",
+    "name": "Bright Leather",
+    "oldImage": "/images/products/salvatore-ferragamo-bright-leather.webp",
+    "newImage": "/images/perfumes/hombre/bright-leather.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "afnan-turathi-blue-dupe-vibrato-sospiro-perfumes",
+    "brand": "Afnan",
+    "name": "Turathi Blue (Dupe: Vibrato Sospiro Perfumes)",
+    "oldImage": "/images/products/afnan-turathi-blue-dupe-vibrato-sospiro-perfumes.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.14285714285714285
+  },
+  {
+    "id": "lattafa-art-of-universe-dupe-blue-talisman-ex-nihilo",
+    "brand": "Lattafa",
+    "name": "Art Of Universe (Dupe: Blue Talisman - Ex Nihilo)",
+    "oldImage": "/images/products/lattafa-art-of-universe-dupe-blue-talisman-ex-nihilo.webp",
+    "newImage": "/images/perfumes/hombre/Art-Of-Universe.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-vibe-dupe-pacific-chill-lv",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Vibe (Dupe: Pacific Chill - LV)",
+    "oldImage": "/images/products/maison-alhambra-jean-lowe-vibe-dupe-pacific-chill-lv.webp",
+    "newImage": "/images/perfumes/hombre/Jean-Lowe-Vibe.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Azure (Dupe: Afternoon Swim - LV)",
+    "oldImage": "/images/products/maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv.webp",
+    "newImage": "/images/perfumes/hombre/Jean-Lowe-Azure.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "dolce-gabbana-light-blue-2025",
+    "brand": "Dolce & Gabbana",
+    "name": "Light Blue 2025",
+    "oldImage": "/images/products/dolce-gabbana-light-blue-2025.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.16666666666666666
+  },
+  {
+    "id": "montblanc-explorer-platinum",
+    "brand": "Montblanc",
+    "name": "Explorer Platinum",
+    "oldImage": "/images/products/montblanc-explorer-platinum.webp",
+    "newImage": "/images/perfumes/hombre/explorer-platinum.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "versace-dylan-blue",
+    "brand": "Versace",
+    "name": "Dylan Blue",
+    "oldImage": "/images/products/versace-dylan-blue.webp",
+    "newImage": "/images/perfumes/hombre/dylan-blue.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "dolce-gabbana-the-one",
+    "brand": "Dolce&Gabbana",
+    "name": "The One",
+    "oldImage": "/images/products/dolce-gabbana-the-one.webp",
+    "newImage": null,
+    "method": "missing",
+    "softScore": 0.3333333333333333
+  },
+  {
+    "id": "giorgio-armani-acqua-di-gio",
+    "brand": "Giorgio Armani",
+    "name": "Acqua di Giò",
+    "oldImage": "/images/products/giorgio-armani-acqua-di-gio.webp",
+    "newImage": "/images/perfumes/hombre/Acqua-di-Giò.png",
+    "method": "soft",
+    "softScore": 0.9
+  },
+  {
+    "id": "calvin-klein-ck-one",
+    "brand": "Calvin Klein",
+    "name": "CK One",
+    "oldImage": "/images/products/calvin-klein-ck-one.webp",
+    "newImage": "/images/perfumes/hombre/calvin-klein-ck-one.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "calvin-klein-ck-one-reflections",
+    "brand": "Calvin Klein",
+    "name": "CK One Reflections",
+    "oldImage": "/images/products/calvin-klein-ck-one-reflections.webp",
+    "newImage": "/images/perfumes/hombre/ck-one-reflections.png",
+    "method": "direct",
+    "softScore": null
+  },
+  {
+    "id": "calvin-klein-eternity-summer-daze",
+    "brand": "Calvin Klein",
+    "name": "Eternity Summer Daze",
+    "oldImage": "/images/products/calvin-klein-eternity-summer-daze.webp",
+    "newImage": "/images/perfumes/hombre/eternity-summer-daze.png",
+    "method": "direct",
+    "softScore": null
+  }
+]
