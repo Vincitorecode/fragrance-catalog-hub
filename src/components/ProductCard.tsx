@@ -133,7 +133,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
 
         {/* Name */}
-        <h3 className="font-display text-base sm:text-lg font-semibold text-foreground mb-2 line-clamp-2">
+        <h3 className="font-display text-base sm:text-lg font-semibold text-foreground mb-2 line-clamp-2 min-h-[2.75rem]">
           {name}
         </h3>
 
