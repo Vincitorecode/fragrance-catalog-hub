@@ -6,8 +6,12 @@
     "name": "L'Immensité",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 154,
-    "prices": { "2ml": 154, "5ml": 385, "10ml": 770 },
+    "priceFrom": 155,
+    "prices": {
+      "2ml": 155,
+      "5ml": 390,
+      "10ml": 775
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -21,8 +25,12 @@
     "name": "Naxos",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 144,
-    "prices": { "2ml": 144, "5ml": 360, "10ml": 720 },
+    "priceFrom": 145,
+    "prices": {
+      "2ml": 145,
+      "5ml": 360,
+      "10ml": 720
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -36,8 +44,12 @@
     "name": "Bergamote 22",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 144,
-    "prices": { "2ml": 144, "5ml": 360, "10ml": 720 },
+    "priceFrom": 145,
+    "prices": {
+      "2ml": 145,
+      "5ml": 360,
+      "10ml": 720
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -51,8 +63,12 @@
     "name": "Saint Rémy",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 134,
-    "prices": { "2ml": 134, "5ml": 335, "10ml": 670 },
+    "priceFrom": 135,
+    "prices": {
+      "2ml": 135,
+      "5ml": 335,
+      "10ml": 670
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -66,8 +82,12 @@
     "name": "Vibrato",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 134,
-    "prices": { "2ml": 134, "5ml": 335, "10ml": 670 },
+    "priceFrom": 135,
+    "prices": {
+      "2ml": 135,
+      "5ml": 335,
+      "10ml": 670
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -81,8 +101,12 @@
     "name": "Erba Pura Magica",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 134,
-    "prices": { "2ml": 134, "5ml": 335, "10ml": 670 },
+    "priceFrom": 135,
+    "prices": {
+      "2ml": 135,
+      "5ml": 335,
+      "10ml": 670
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -97,7 +121,11 @@
     "category": "Nicho",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 120,
-    "prices": { "2ml": 120, "5ml": 300, "10ml": 600 },
+    "prices": {
+      "2ml": 120,
+      "5ml": 300,
+      "10ml": 600
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -111,8 +139,12 @@
     "name": "Layton",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 116,
-    "prices": { "2ml": 116, "5ml": 290, "10ml": 580 },
+    "priceFrom": 120,
+    "prices": {
+      "2ml": 120,
+      "5ml": 290,
+      "10ml": 580
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -126,8 +158,12 @@
     "name": "Perseus",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 116,
-    "prices": { "2ml": 116, "5ml": 290, "10ml": 580 },
+    "priceFrom": 120,
+    "prices": {
+      "2ml": 120,
+      "5ml": 290,
+      "10ml": 580
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -141,8 +177,12 @@
     "name": "Tam Dao",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 100,
-    "prices": { "2ml": 100, "5ml": 250, "10ml": 500 },
+    "priceFrom": 105,
+    "prices": {
+      "2ml": 105,
+      "5ml": 255,
+      "10ml": 505
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -156,8 +196,12 @@
     "name": "Gris Charnel Eau de Parfum",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 100,
-    "prices": { "2ml": 100, "5ml": 250, "10ml": 500 },
+    "priceFrom": 105,
+    "prices": {
+      "2ml": 105,
+      "5ml": 255,
+      "10ml": 505
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -172,7 +216,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -187,7 +235,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -202,7 +254,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 90,
-    "prices": { "2ml": 90, "5ml": 225, "10ml": 450 },
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -217,7 +273,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -232,7 +292,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -247,7 +311,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -261,8 +329,12 @@
     "name": "Date For Men",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 76,
-    "prices": { "2ml": 76, "5ml": 190, "10ml": 380 },
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -276,8 +348,12 @@
     "name": "Bvlgari Man In Black",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 76,
-    "prices": { "2ml": 76, "5ml": 190, "10ml": 380 },
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -291,8 +367,12 @@
     "name": "French Riviera",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 72,
-    "prices": { "2ml": 72, "5ml": 180, "10ml": 360 },
+    "priceFrom": 75,
+    "prices": {
+      "2ml": 75,
+      "5ml": 180,
+      "10ml": 360
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -306,8 +386,12 @@
     "name": "Exsupero",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 72,
-    "prices": { "2ml": 72, "5ml": 180, "10ml": 360 },
+    "priceFrom": 75,
+    "prices": {
+      "2ml": 75,
+      "5ml": 180,
+      "10ml": 360
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -321,8 +405,12 @@
     "name": "Le Male Elixir",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 68,
-    "prices": { "2ml": 68, "5ml": 170, "10ml": 340 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 175,
+      "10ml": 345
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -336,8 +424,12 @@
     "name": "Y Eau de parfum",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 68,
-    "prices": { "2ml": 68, "5ml": 170, "10ml": 340 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 175,
+      "10ml": 345
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -351,8 +443,12 @@
     "name": "Le Beau",
     "category": "Nicho",
     "availability": "Nuevo lanzamiento",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -366,8 +462,12 @@
     "name": "Bottled Elixir",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -381,8 +481,12 @@
     "name": "Code Eau de Parfum",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -396,8 +500,12 @@
     "name": "Issey Miyake",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -411,8 +519,12 @@
     "name": "Allure Homme Edition Blanche",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -426,8 +538,12 @@
     "name": "Homme Cologne",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -441,8 +557,12 @@
     "name": "001 Man",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -456,8 +576,12 @@
     "name": "Solo Mercurio",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -471,8 +595,12 @@
     "name": "Cedro",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -486,8 +614,12 @@
     "name": "The Most Wanted Intense",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -502,7 +634,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -517,7 +653,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -532,7 +672,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -547,7 +691,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -562,7 +710,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -577,7 +729,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -592,7 +748,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -607,7 +767,11 @@
     "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -621,8 +785,12 @@
     "name": "Turathi Blue (Dupe: Vibrato Sospiro Perfumes)",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 145,
+      "10ml": 285
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -636,8 +804,12 @@
     "name": "Art Of Universe (Dupe: Blue Talisman - Ex Nihilo)",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 145,
+      "10ml": 285
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -651,8 +823,12 @@
     "name": "Jean Lowe Vibe (Dupe: Pacific Chill - LV)",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 145,
+      "10ml": 285
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -666,8 +842,12 @@
     "name": "Jean Lowe Azure (Dupe: Afternoon Swim - LV)",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 145,
+      "10ml": 285
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -681,8 +861,12 @@
     "name": "Light Blue 2025",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 50,
-    "prices": { "2ml": 50, "5ml": 125, "10ml": 250 },
+    "priceFrom": 55,
+    "prices": {
+      "2ml": 55,
+      "5ml": 130,
+      "10ml": 255
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -696,8 +880,12 @@
     "name": "Explorer Platinum",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 50,
-    "prices": { "2ml": 50, "5ml": 125, "10ml": 250 },
+    "priceFrom": 55,
+    "prices": {
+      "2ml": 55,
+      "5ml": 130,
+      "10ml": 255
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -711,8 +899,12 @@
     "name": "Dylan Blue",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -726,8 +918,12 @@
     "name": "The One",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -741,8 +937,12 @@
     "name": "Acqua di Giò",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -756,8 +956,12 @@
     "name": "CK One",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -771,8 +975,12 @@
     "name": "CK One Reflections",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -786,8 +994,12 @@
     "name": "Eternity Summer Daze",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
@@ -801,8 +1013,12 @@
     "name": "Santal 33",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 168,
-    "prices": { "2ml": 168, "5ml": 420, "10ml": 840 },
+    "priceFrom": 170,
+    "prices": {
+      "2ml": 170,
+      "5ml": 420,
+      "10ml": 840
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -817,8 +1033,12 @@
     "name": "La Bomba",
     "category": "Diseñador",
     "availability": "Nuevo lanzamiento",
-    "priceFrom": 116,
-    "prices": { "2ml": 116, "5ml": 290, "10ml": 580 },
+    "priceFrom": 120,
+    "prices": {
+      "2ml": 120,
+      "5ml": 290,
+      "10ml": 580
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -834,7 +1054,11 @@
     "category": "Diseñador",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -850,7 +1074,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -866,7 +1094,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
-    "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -881,8 +1113,12 @@
     "name": "Divine",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 76,
-    "prices": { "2ml": 76, "5ml": 190, "10ml": 380 },
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -897,8 +1133,12 @@
     "name": "Libre EDP",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 76,
-    "prices": { "2ml": 76, "5ml": 190, "10ml": 380 },
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -913,8 +1153,12 @@
     "name": "Black Opium",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 76,
-    "prices": { "2ml": 76, "5ml": 190, "10ml": 380 },
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -929,8 +1173,12 @@
     "name": "Fame Eau de Parfum",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -945,8 +1193,12 @@
     "name": "Mon EDP",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -961,8 +1213,12 @@
     "name": "My Way EDP",
     "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 66,
-    "prices": { "2ml": 66, "5ml": 165, "10ml": 330 },
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -978,7 +1234,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -994,7 +1254,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1010,7 +1274,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1026,7 +1294,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1042,7 +1314,11 @@
     "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
-    "prices": { "2ml": 60, "5ml": 150, "10ml": 300 },
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1057,8 +1333,12 @@
     "name": "Delilah (Dupe: Delina Parfums de Marly)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 56,
-    "prices": { "2ml": 56, "5ml": 140, "10ml": 280 },
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 145,
+      "10ml": 285
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1073,8 +1353,12 @@
     "name": "Mayar",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1089,8 +1373,12 @@
     "name": "Liam (Dupe: Gris Charnel - BDK)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 48,
-    "prices": { "2ml": 48, "5ml": 120, "10ml": 240 },
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1105,8 +1393,12 @@
     "name": "Captcha 36 (Dupe: The Matcha 26 - Le Labo)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 46,
-    "prices": { "2ml": 46, "5ml": 115, "10ml": 230 },
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 235
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1121,8 +1413,12 @@
     "name": "Club de Nuit Woman (Dupe: Coco Mademoiselle Chanel)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1137,8 +1433,12 @@
     "name": "Club de Nuit Milestone (Dupe: Millésime Impérial Creed)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1153,8 +1453,12 @@
     "name": "Club de Nuit Sillage (Dupe: Silver Mountain Water Creed)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1169,8 +1473,12 @@
     "name": "Tag-Her (Dupe: Dolce & Gabbana Light Blue)",
     "category": "Arabe",
     "availability": "Disponible",
-    "priceFrom": 44,
-    "prices": { "2ml": 44, "5ml": 110, "10ml": 220 },
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
     "aroma": "",
     "originalPriceFrom": null,
     "onSale": false,
@@ -1179,70 +1487,83 @@
     "image": "/images/perfumes/mujer/armaf-tag-her-dupe-dolce-gabbana-light-blue.png"
   },
   {
-  "id": "britney-spears-circus-fantasy",
-  "gender": "mujer",
-  "brand": "Britney Spears",
-  "name": "Circus Fantasy",
-  "category": "Diseñador",
-  "availability": "Disponible",
-  "priceFrom": 45,
-  "prices": { "2ml": 45, "5ml": 110, "10ml": 220 },
-  "aroma": "",
-  "originalPriceFrom": null,
-  "onSale": false,
-  "rating": 0,
-  "ratingCount": 0,
-  "image": "/images/perfumes/mujer/P_0021_Circus-Fantasy.png"
-},
-{
-  "id": "sabrina-carpenter-sweet-tooth-me-espresso",
-  "gender": "mujer",
-  "brand": "Sabrina Carpenter",
-  "name": "Sweet Tooth Me Espresso",
-  "category": "Diseñador",
-  "availability": "Disponible",
-  "priceFrom": 50,
-  "prices": { "2ml": 50, "5ml": 115, "10ml": 230 },
-  "aroma": "",
-  "originalPriceFrom": null,
-  "onSale": false,
-  "rating": 0,
-  "ratingCount": 0,
-  "image": "/images/perfumes/mujer/P_0003_Sweet-Tooth-Me-Espresso.png"
-},
-{
-  "id": "katy-perry-purr",
-  "gender": "mujer",
-  "brand": "Katy Perry",
-  "name": "Purr",
-  "category": "Diseñador",
-  "availability": "Disponible",
-  "priceFrom": 45,
-  "prices": { "2ml": 45, "5ml": 110, "10ml": 220 },
-  "aroma": "",
-  "originalPriceFrom": null,
-  "onSale": false,
-  "rating": 0,
-  "ratingCount": 0,
-  "image": "/images/perfumes/mujer/katy-perry-purr.png"
-},
-{
-  "id": "lancome-la-vie-est-belle-en-rose",
-  "gender": "mujer",
-  "brand": "Lancôme",
-  "name": "La Vie est Belle en Rose",
-  "category": "Diseñador",
-  "availability": "Disponible",
-  "priceFrom": 80,
-  "prices": { "2ml": 80, "5ml": 200, "10ml": 400 },
-  "aroma": "",
-  "originalPriceFrom": null,
-  "onSale": false,
-  "rating": 0,
-  "ratingCount": 0,
-  "image": "/images/perfumes/mujer/Lancome-women-La-Vie-Est-Belle-En-Rose.png"
-}
-
-
-
+    "id": "britney-spears-circus-fantasy",
+    "gender": "mujer",
+    "brand": "Britney Spears",
+    "name": "Circus Fantasy",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/P_0021_Circus-Fantasy.png"
+  },
+  {
+    "id": "sabrina-carpenter-sweet-tooth-me-espresso",
+    "gender": "mujer",
+    "brand": "Sabrina Carpenter",
+    "name": "Sweet Tooth Me Espresso",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 55,
+    "prices": {
+      "2ml": 55,
+      "5ml": 130,
+      "10ml": 255
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/P_0003_Sweet-Tooth-Me-Espresso.png"
+  },
+  {
+    "id": "katy-perry-purr",
+    "gender": "mujer",
+    "brand": "Katy Perry",
+    "name": "Purr",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/katy-perry-purr.png"
+  },
+  {
+    "id": "lancome-la-vie-est-belle-en-rose",
+    "gender": "mujer",
+    "brand": "Lancôme",
+    "name": "La Vie est Belle en Rose",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 205,
+      "10ml": 405
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Lancome-women-La-Vie-Est-Belle-En-Rose.png"
+  }
 ]
