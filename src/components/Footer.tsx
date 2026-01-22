@@ -115,68 +115,59 @@ export default function Footer() {
             </div>
 
             {/* Métodos de pago */}
-            <div className="relative rounded-2xl border border-white/15 p-6 transition-all duration-300 hover:border-white/30">
-              <p className="text-xs uppercase tracking-widest text-white/70 mb-4">
-                Métodos de pago
-              </p>
+<div className="relative rounded-2xl border border-white/15 p-6 transition-all duration-300 hover:border-white/30">
+  <p className="text-xs uppercase tracking-widest text-white/70 mb-4">
+    Métodos de pago
+  </p>
 
-              <div className="grid grid-cols-2 gap-3 text-sm text-white/90">
-                {/* Visa */}
-                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                  <SiVisa className="text-xl text-white" />
-                  <span className="text-white/70">Crédito / Débito</span>
-                </div>
+  <div className="grid grid-cols-2 gap-3 text-sm text-white/90">
+    {/* Visa */}
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <SiVisa className="text-xl text-white" />
+      <span className="text-white/70">Crédito / Débito</span>
+    </div>
 
-                 {/* MasterCard */}
-                  <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                    <svg
-                      viewBox="0 0 48 32"
-                      className="h-5 w-auto"
-                      aria-label="MasterCard"
-                    >
-                      <circle cx="16" cy="16" r="10" fill="white" />
-                      <circle cx="28" cy="16" r="10" fill="white" fillOpacity="0.6" />
-                    </svg>
+    {/* Transferencia */}
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <FaBuildingColumns className="text-xl text-white" />
+      <span>Transferencia</span>
+    </div>
 
-                    <span className="text-white/70">MasterCard</span>
-                  </div>
+    {/* Mercado Pago */}
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <SiMercadopago className="text-xl text-white" />
+      <span>Mercado Pago</span>
+    </div>
 
-                {/* Transferencia */}
-                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                  <FaBuildingColumns className="text-xl text-white" />
-                  <span>Transferencia</span>
-                </div>
+    {/* Efectivo */}
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <span className="text-lg">💵</span>
+      <span className="text-white/70">Efectivo</span>
+    </div>
 
-                {/* Mercado Pago */}
-                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-                  <SiMercadopago className="text-xl text-white" />
-                  <span>Mercado Pago</span>
-                </div>
+    {/*
+    ==================================================
+    MasterCard / Amex (comentados por si se reactivan)
+    ==================================================
 
-                {/* Efectivo */}
-                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
-                  <span className="text-lg">💵</span>
-                  <span className="text-white/70">Efectivo</span>
-                </div>
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <SiMastercard className="text-xl text-white" />
+      <span className="text-white/70">MasterCard</span>
+    </div>
 
-                {/*
-                ==================================================
-                Amex (comentado por si se vuelve a habilitar)
-                ==================================================
+    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
+      <SiAmericanexpress className="text-2xl text-white" />
+      <span className="text-white/70">American Express</span>
+    </div>
+    */}
+  </div>
 
-                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
-                  <SiAmericanexpress className="text-2xl text-white" />
-                  <span className="text-white/70">American Express</span>
-                </div>
-                */}
-              </div>
+  <p className="mt-4 text-xs text-white/60">
+    * Pagos confirmados antes de preparar el envío.
+  </p>
+</div>
 
-              <p className="mt-4 text-xs text-white/60">
-                * Pagos confirmados antes de preparar el envío.
-              </p>
-            </div>
           </div>
-
           {/* Bottom mini */}
           <div className="mt-8 sm:mt-10 border-t border-white/15 pt-5 sm:pt-6 text-xs sm:text-sm text-white/70 text-center">
             © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos
