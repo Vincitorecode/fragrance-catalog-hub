@@ -1,26 +1,42 @@
 import { Link, useLocation } from "react-router-dom";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+
+const WHATSAPP_NUMBER = "5214435113228";
 
 const Header = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
+  const waLink = `https://wa.me/${WHATSAPP_NUMBER}`;
+
+  const navLinkClass = (path: string) =>
+    `text-sm font-medium transition-colors hover:text-white ${
+      location.pathname === path ? "text-white" : "text-white/70"
+    }`;
+
   return (
     <header className="sticky top-0 z-50 w-full bg-[#003229]/95 backdrop-blur-sm text-white border-b border-white/15">
       <div className="mx-auto w-full max-w-[1600px] px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4">
-
         {/* 
-          - mobile: columna, centrado
-          - sm+: fila, logo izquierda y nav derecha
+          Mobile: grid 3 cols (logo centrado + burger derecha)
+          Desktop: flex normal (logo izq + nav der)
         */}
-        <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
-          {/* Logo */}
+        <div className="grid grid-cols-3 items-center sm:flex sm:items-center sm:justify-between">
+          {/* Left spacer (solo mobile) */}
+          <div className="sm:hidden" />
+
+          {/* Logo (centrado en mobile) */}
           <Link
             to="/"
-            className="
-              flex items-center justify-center
-              w-full
-              sm:w-auto sm:justify-start
-            "
+            className="flex justify-center sm:justify-start col-start-2 sm:col-auto"
           >
             <img
               src="/logo.png"
@@ -28,52 +44,77 @@ const Header = () => {
               className="h-12 sm:h-14 md:h-20 w-auto object-contain"
               loading="eager"
             />
-
-            {/* Texto solo en web (sm+) */}
-            <span
-              className="
-                hidden sm:inline-block
-                ml-5
-                text-[#EABB33]/90
-                font-normal
-                text-2xl sm:text-3xl md:text-4xl
-                leading-none
-                whitespace-nowrap
-              "
-            >
-              | Decants
-            </span>
           </Link>
 
-          {/* Nav */}
-          {!isHome && (
-            <nav
-              className="
-                flex items-center gap-6
-                sm:gap-8
-                w-full justify-center
-                sm:w-auto sm:justify-end
-              "
-            >
-              <Link
-                to="/hombre"
-                className={`text-sm font-medium transition-colors hover:text-white ${
-                  location.pathname === "/hombre" ? "text-white" : "text-white/70"
-                }`}
-              >
-                Hombre
-              </Link>
+          {/* Desktop nav */}
+          <nav className="hidden sm:flex items-center gap-6 md:gap-8">
+            {!isHome && (
+              <>
+                <Link to="/hombre" className={navLinkClass("/hombre")}>
+                  Hombre
+                </Link>
+                <Link to="/mujer" className={navLinkClass("/mujer")}>
+                  Mujer
+                </Link>
+              </>
+            )}
 
-              <Link
-                to="/mujer"
-                className={`text-sm font-medium transition-colors hover:text-white ${
-                  location.pathname === "/mujer" ? "text-white" : "text-white/70"
-                }`}
-              >
-                Mujer
-              </Link>
-            </nav>
-          )}
+            <a
+              href={waLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium transition-colors text-white/70 hover:text-white"
+            >
+              Contacto
+            </a>
+          </nav>
+
+          {/* Mobile menu (burger derecha) */}
+          <div className="flex justify-end sm:hidden">
+            <Sheet>
+              <SheetTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="text-white hover:bg-white/10"
+                  aria-label="Open menu"
+                >
+                  <Menu className="h-5 w-5" />
+                </Button>
+              </SheetTrigger>
+
+              <SheetContent side="right" className="w-[320px]">
+                <SheetHeader>
+                  <SheetTitle>Menu</SheetTitle>
+                </SheetHeader>
+
+                <div className="mt-6 flex flex-col gap-2">
+                  <Link
+                    to="/hombre"
+                    className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                  >
+                    Hombre
+                  </Link>
+
+                  <Link
+                    to="/mujer"
+                    className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                  >
+                    Mujer
+                  </Link>
+
+                  <a
+                    href={waLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                  >
+                    Contacto (WhatsApp)
+                  </a>
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
     </header>
@@ -81,3 +122,4 @@ const Header = () => {
 };
 
 export default Header;
+
