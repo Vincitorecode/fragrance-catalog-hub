@@ -1,3 +1,9 @@
+# Scripts & reports (pricing)
+scripts/
+price_macro_report*.csv
+
+# Local backups
+src/data/*.backup.json
 # Logs
 logs
 *.log
