@@ -1,10 +1,7 @@
-import {
-  SiVisa,
-  SiMastercard,
-  SiAmericanexpress,
-  SiMercadopago,
-} from "react-icons/si";
+import { SiVisa, SiMercadopago } from "react-icons/si";
 import { FaBuildingColumns } from "react-icons/fa6";
+import { SiInstagram, SiFacebook } from "react-icons/si";
+import { HiOutlineMail } from "react-icons/hi";
 
 const LINKS = {
   instagram: "https://www.instagram.com/lefragranceclub/",
@@ -49,47 +46,8 @@ export default function Footer() {
       {/* SECCIÓN 2 · INFO */}
       <section className="w-full">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-7 sm:py-8 md:py-10">
-          <div className="grid gap-8 md:grid-cols-3 md:gap-12">
-            {/* Redes */}
-            <div className="relative rounded-2xl border border-white/15 p-6 transition-all duration-300 hover:border-white/30">
-              <p className="text-xs uppercase tracking-widest text-white/70 mb-4">
-                Redes
-              </p>
-
-              <ul className="space-y-4 text-base text-white/90">
-                <li>
-                  <a
-                    className="inline-flex items-center gap-3 hover:text-white transition-colors"
-                    href={LINKS.instagram}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Instagram
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="inline-flex items-center gap-3 hover:text-white transition-colors"
-                    href={LINKS.facebook}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Facebook
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="inline-flex items-center gap-3 hover:text-white transition-colors"
-                    href={`mailto:${LINKS.email}`}
-                  >
-                    {LINKS.email}
-                  </a>
-                </li>
-              </ul>
-            </div>
-
+          {/* Top cards */}
+          <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             {/* Contacto */}
             <div className="relative rounded-2xl border border-white/20 bg-white/5 p-6 transition-all duration-300 hover:border-white/40">
               <p className="text-xs uppercase tracking-widest text-white/70 mb-2">
@@ -115,63 +73,108 @@ export default function Footer() {
             </div>
 
             {/* Métodos de pago */}
-<div className="relative rounded-2xl border border-white/15 p-6 transition-all duration-300 hover:border-white/30">
-  <p className="text-xs uppercase tracking-widest text-white/70 mb-4">
-    Métodos de pago
-  </p>
+            <div className="relative rounded-2xl border border-white/15 p-6 transition-all duration-300 hover:border-white/30">
+              <p className="text-xs uppercase tracking-widest text-white/70 mb-4">
+                Métodos de pago
+              </p>
 
-  <div className="grid grid-cols-2 gap-3 text-sm text-white/90">
-    {/* Visa */}
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <SiVisa className="text-xl text-white" />
-      <span className="text-white/70">Crédito / Débito</span>
-    </div>
+              <div className="grid grid-cols-2 gap-3 text-sm text-white/90">
+                {/* Visa */}
+                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 min-h-[44px]">
+                  <span className="flex w-6 justify-center">
+                    <SiVisa className="text-xl text-white" />
+                  </span>
+                  <span className="text-white/70 whitespace-nowrap">
+                    Crédito / Débito
+                  </span>
+                </div>
 
-    {/* Transferencia */}
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <FaBuildingColumns className="text-xl text-white" />
-      <span>Transferencia</span>
-    </div>
+                {/* Transferencia */}
+                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 min-h-[44px]">
+                  <span className="flex w-6 justify-center">
+                    <FaBuildingColumns className="text-xl text-white" />
+                  </span>
+                  <span className="whitespace-nowrap">Transferencia</span>
+                </div>
 
-    {/* Mercado Pago */}
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <SiMercadopago className="text-xl text-white" />
-      <span>Mercado Pago</span>
-    </div>
+                {/* Mercado Pago */}
+                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 min-h-[44px]">
+                  <span className="flex w-6 justify-center">
+                    <SiMercadopago className="text-xl text-white" />
+                  </span>
+                  <span className="text-white/70 whitespace-nowrap">
+                    Mercado Pago
+                  </span>
+                </div>
 
-    {/* Efectivo */}
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <span className="text-lg">💵</span>
-      <span className="text-white/70">Efectivo</span>
-    </div>
+                {/* Efectivo */}
+                <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 min-h-[44px]">
+                  <span className="flex w-6 justify-center text-lg">💵</span>
+                  <span className="text-white/70 whitespace-nowrap">
+                    Efectivo
+                  </span>
+                </div>
+              </div>
 
-    {/*
-    ==================================================
-    MasterCard / Amex (comentados por si se reactivan)
-    ==================================================
-
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
-      <SiMastercard className="text-xl text-white" />
-      <span className="text-white/70">MasterCard</span>
-    </div>
-
-    <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 col-span-2">
-      <SiAmericanexpress className="text-2xl text-white" />
-      <span className="text-white/70">American Express</span>
-    </div>
-    */}
-  </div>
-
-  <p className="mt-4 text-xs text-white/60">
-    * Pagos confirmados antes de preparar el envío.
-  </p>
-</div>
-
+              <p className="mt-4 text-xs text-white/60">
+                * Pagos confirmados antes de preparar el envío.
+              </p>
+            </div>
           </div>
-          {/* Bottom mini */}
-          <div className="mt-8 sm:mt-10 border-t border-white/15 pt-5 sm:pt-6 text-xs sm:text-sm text-white/70 text-center">
-            © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos
-            reservados.
+
+                    {/* Bottom */}
+          <div className="mt-8 sm:mt-10 border-t border-white/15 pt-5 sm:pt-6">
+            <div
+              className="
+                flex items-center justify-center gap-3
+                text-xs sm:text-sm text-white/70
+                whitespace-nowrap
+              "
+            >
+              {/* Derechos */}
+              <span>
+                © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos
+                reservados.
+              </span>
+
+              {/* Separador */}
+              <span className="mx-2 text-white/30">|</span>
+
+              {/* Instagram */}
+              <a
+                href={LINKS.instagram}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"
+              >
+                <SiInstagram className="text-base text-white" />
+                <span>Instagram</span>
+              </a>
+
+              <span className="text-white/30">|</span>
+
+              {/* Facebook */}
+              <a
+                href={LINKS.facebook}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"
+              >
+                <SiFacebook className="text-base text-white" />
+                <span>Facebook</span>
+              </a>
+
+              <span className="text-white/30">|</span>
+
+              {/* Email */}
+              <a
+                href={`mailto:${LINKS.email}`}
+                className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"
+              >
+                <HiOutlineMail className="text-base text-white" />
+                <span>{LINKS.email}</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
