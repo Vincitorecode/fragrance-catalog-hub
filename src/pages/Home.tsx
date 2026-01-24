@@ -12,6 +12,9 @@ const Home = () => {
       <Header />
 
       <main className="container py-8 sm:py-12 md:py-20">
+
+
+        
         {/* Hero Section */}
         <div className="text-center mb-10 sm:mb-16 md:mb-20 animate-fade-in">
           <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-3 sm:mb-4">
