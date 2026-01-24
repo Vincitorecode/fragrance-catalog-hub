@@ -122,23 +122,23 @@ export default function Footer() {
             </div>
           </div>
 
-                    {/* Bottom */}
+          {/* Bottom */}
           <div className="mt-8 sm:mt-10 border-t border-white/15 pt-5 sm:pt-6">
             <div
               className="
-                flex items-center justify-center gap-3
+                flex flex-col items-center justify-center gap-3
+                sm:flex-row sm:flex-wrap
                 text-xs sm:text-sm text-white/70
-                whitespace-nowrap
+                text-center
               "
             >
               {/* Derechos */}
-              <span>
-                © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos
-                reservados.
+              <span className="text-white/70">
+                © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos reservados.
               </span>
 
-              {/* Separador */}
-              <span className="mx-2 text-white/30">|</span>
+              {/* Separador (solo desktop) */}
+              <span className="hidden sm:inline mx-2 text-white/30">|</span>
 
               {/* Instagram */}
               <a
@@ -151,7 +151,7 @@ export default function Footer() {
                 <span>Instagram</span>
               </a>
 
-              <span className="text-white/30">|</span>
+              <span className="hidden sm:inline text-white/30">|</span>
 
               {/* Facebook */}
               <a
@@ -164,15 +164,15 @@ export default function Footer() {
                 <span>Facebook</span>
               </a>
 
-              <span className="text-white/30">|</span>
+              <span className="hidden sm:inline text-white/30">|</span>
 
               {/* Email */}
               <a
                 href={`mailto:${LINKS.email}`}
-                className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"
+                className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors break-all sm:break-normal"
               >
                 <HiOutlineMail className="text-base text-white" />
-                <span>{LINKS.email}</span>
+                <span className="break-all sm:break-normal">{LINKS.email}</span>
               </a>
             </div>
           </div>
