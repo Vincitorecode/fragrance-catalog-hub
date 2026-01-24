@@ -11,14 +11,18 @@ const GenderCard = ({ gender, title, description, imageSrc }: GenderCardProps) =
   return (
     <Link
       to={`/${gender}`}
-      className="group relative flex flex-col items-center justify-center p-5 sm:p-8 md:p-12 rounded-2xl bg-card border border-border overflow-hidden card-hover"
+      className="
+        group relative flex flex-col items-center justify-start
+        rounded-2xl bg-card border border-border overflow-hidden card-hover
+        px-4 py-3 sm:px-6 sm:py-5 md:px-8 md:py-8
+      "
     >
-      {/* Decorative gradient overlay (solo se nota en hover desktop) */}
+      {/* Decorative gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300" />
 
-      {/* Image container */}
-      <div className="relative z-10 w-full max-w-[380px]">
-        <div className="aspect-square w-full overflow-hidden rounded-2xl bg-cream">
+      {/* Image container (más baja en mobile) */}
+      <div className="relative z-10 w-full max-w-[360px]">
+        <div className="w-full overflow-hidden rounded-2xl bg-cream aspect-[4/3] md:aspect-square">
           <img
             src={imageSrc}
             alt={title}
@@ -29,28 +33,28 @@ const GenderCard = ({ gender, title, description, imageSrc }: GenderCardProps) =
       </div>
 
       {/* Text content */}
-      <h2 className="relative z-10 mt-5 sm:mt-6 font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground sm:group-hover:text-primary transition-colors duration-300 text-center">
+      <h2 className="relative z-10 mt-2 sm:mt-3 font-display text-xl sm:text-2xl md:text-3xl font-semibold text-foreground sm:group-hover:text-primary transition-colors duration-300 text-center">
         {title}
       </h2>
 
-      <p className="relative z-10 mt-2.5 sm:mt-3 text-sm sm:text-base text-muted-foreground text-center max-w-md">
+      <p className="relative z-10 mt-1.5 text-xs sm:text-sm md:text-base text-muted-foreground text-center max-w-sm line-clamp-2">
         {description}
       </p>
 
       {/* Arrow indicator */}
       <div
         className="
-          relative z-10 mt-5 sm:mt-6 flex items-center gap-2 text-primary
-          opacity-100 translate-x-0
-          sm:opacity-0 sm:translate-x-[-10px] sm:group-hover:opacity-100 sm:group-hover:translate-x-0
+          relative z-10 mt-2 sm:mt-3 flex items-center gap-2 text-primary
+          opacity-100
+          sm:opacity-0 sm:translate-x-[-8px] sm:group-hover:opacity-100 sm:group-hover:translate-x-0
           transition-all duration-300
         "
       >
-        <span className="text-sm font-medium">Ver perfumes</span>
+        <span className="text-xs sm:text-sm font-medium">Ver perfumes</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"

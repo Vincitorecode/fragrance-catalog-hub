@@ -37,7 +37,8 @@ const Home = () => {
         </div>
 
         {/* Gender Cards */}
-        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 gap-3 sm:gap-5 md:gap-8 max-w-6xl mx-auto">
+
           <GenderCard
             gender="hombre"
             title="Hombre"
