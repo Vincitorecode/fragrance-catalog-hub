@@ -9,7 +9,6 @@ import { PRODUCTS_PER_PAGE } from "@/config";
 import productsData from "@/data/products.json";
 import Footer from "@/components/Footer";
 
-
 const Catalog = () => {
   const { gender } = useParams<{ gender: string }>();
   const [searchQuery, setSearchQuery] = useState("");
@@ -63,10 +62,9 @@ const Catalog = () => {
         result.sort((a, b) => b.priceFrom - a.priceFrom);
         break;
       case "rating":
-        result.sort((a, b) => b.rating - a.rating);
+        result.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
         break;
       default:
-        // Keep original order (relevance)
         break;
     }
 
@@ -112,12 +110,20 @@ const Catalog = () => {
         {/* Products Grid */}
         {filteredProducts.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            <div
+              className="
+                grid grid-cols-2
+                gap-3 sm:gap-5
+                md:grid-cols-3 md:gap-6
+                lg:grid-cols-4
+                xl:grid-cols-5
+              "
+            >
               {visibleProducts.map((product, index) => (
                 <div
-                  key={product.id}
+                  key={product.id ?? `${product.brand}-${product.name}-${index}`}
                   className="animate-fade-in"
-                  style={{ animationDelay: `${index * 0.05}s` }}
+                  style={{ animationDelay: `${index * 0.03}s` }}
                 >
                   <ProductCard product={product} />
                 </div>
@@ -162,7 +168,6 @@ const Catalog = () => {
       </main>
 
       <Footer />
-
     </div>
   );
 };
