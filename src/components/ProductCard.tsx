@@ -196,53 +196,60 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
                 return (
                   <button
-  key={ml}
-  type="button"
-  onClick={(e) => {
-    setSelectedMl((prev) => (prev === ml ? null : ml));
-    (e.currentTarget as HTMLButtonElement).blur();
-  }}
-  className={[
-    "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
-    "focus:outline-none focus-visible:ring-2",
+                key={ml}
+                type="button"
+                onClick={(e) => {
+                  setSelectedMl((prev) => (prev === ml ? null : ml));
+                  (e.currentTarget as HTMLButtonElement).blur();
+                }}
+                className={[
+                  "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
+                  "focus:outline-none focus-visible:ring-2",
 
-    // Focus ring solo con teclado
-    ml === "5ml" && active
-      ? "focus-visible:ring-[#003229]/40"
-      : "focus-visible:ring-primary/40",
+                  // Focus ring solo con teclado
+                  ml === "5ml" && active
+                    ? "focus-visible:ring-[#003229]/40"
+                    : "focus-visible:ring-primary/40",
 
-    // Estados
-    ml === "5ml" && active
-      ? "border-[#003229] bg-[#003229]/10 text-foreground"
-      : active
-      ? "border-primary bg-primary/10 text-foreground"
-      : "border-transparent bg-background/60 text-muted-foreground hover:border-primary/50",
-  ].join(" ")}
+                  // Estados
+                  ml === "5ml" && active
+                    ? "border-[#003229] bg-[#003229]/10 text-foreground"
+                    : active
+                    ? "border-primary bg-primary/10 text-foreground"
+                    : "border-transparent bg-background/60 text-muted-foreground hover:border-primary/50",
+                ].join(" ")}
+              >
+                <div
+  className={`
+    relative flex flex-col items-center leading-tight
+    ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
+
+    before:absolute
+    before:-top-2 sm:before:-top-3
+    before:left-1/2
+    before:-translate-x-1/2
+    before:rounded-full
+    before:bg-[#003229]
+    before:px-1 sm:before:px-1.5
+    before:py-[1px]
+    before:text-[8px] sm:before:text-[9px]
+    before:font-medium
+    before:text-white
+    before:leading-none
+    before:whitespace-nowrap
+  `}
 >
-  <div
-    className={`
-      relative flex flex-col items-center leading-tight
-      ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
+  {/* ✅ SIEMPRE en la misma línea */}
+  <span className="mt-1 whitespace-nowrap text-[11px] sm:text-sm">
+    {formatMlLabel(ml)}
+  </span>
 
-      before:absolute
-      before:-top-2 sm:before:-top-3
-      before:left-1/2
-      before:-translate-x-1/2
-      before:rounded-full
-      before:bg-[#003229]
-      before:px-1 sm:before:px-1.5
-      before:py-[1px]
-      before:text-[8px] sm:before:text-[9px]
-      before:font-medium
-      before:text-white
-      before:leading-none
-      before:whitespace-nowrap
-    `}
-  >
-    <span className="mt-1">{formatMlLabel(ml)}</span>
-    <span className="text-foreground">${prices![ml]}</span>
-  </div>
-</button>
+  <span className="text-foreground whitespace-nowrap text-[11px] sm:text-sm">
+    ${prices![ml]}
+  </span>
+</div>
+
+              </button>
 
 
                 );

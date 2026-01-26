@@ -116,8 +116,9 @@ const Catalog = () => {
                 gap-3 sm:gap-5
                 md:grid-cols-3 md:gap-6
                 lg:grid-cols-4
-                xl:grid-cols-5
+                xl:grid-cols-4
               "
+              
             >
               {visibleProducts.map((product, index) => (
                 <div
