@@ -8,6 +8,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import CartButton from "@/components/cart/CartButton";
 
 const WHATSAPP_NUMBER = "5214435113228";
 
@@ -25,15 +26,11 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-[#003229]/95 backdrop-blur-sm text-white border-b border-white/15">
       <div className="mx-auto w-full max-w-[1600px] px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4">
-        {/* 
-          Mobile: grid 3 cols (logo centrado + burger derecha)
-          Desktop: flex normal (logo izq + nav der)
-        */}
         <div className="grid grid-cols-3 items-center sm:flex sm:items-center sm:justify-between">
           {/* Left spacer (solo mobile) */}
           <div className="sm:hidden" />
 
-          {/* Logo (centrado en mobile) */}
+          {/* Logo */}
           <Link
             to="/"
             className="flex justify-center sm:justify-start col-start-2 sm:col-auto"
@@ -67,10 +64,15 @@ const Header = () => {
             >
               Contacto
             </a>
+
+            {/* Cart Button */}
+            <CartButton className="text-white hover:bg-white/10" />
           </nav>
 
-          {/* Mobile menu (burger derecha) */}
-          <div className="flex justify-end sm:hidden">
+          {/* Mobile: cart + menu */}
+          <div className="flex justify-end items-center gap-1 sm:hidden">
+            <CartButton className="text-white hover:bg-white/10" />
+            
             <Sheet>
               <SheetTrigger asChild>
                 <Button
@@ -122,4 +124,3 @@ const Header = () => {
 };
 
 export default Header;
-

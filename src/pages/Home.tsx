@@ -3,62 +3,53 @@ import Header from "@/components/Header";
 import Footer from "../components/Footer";
 import DecantInfoSection from "@/components/DecantInfoSection";
 import TrustSection from "@/components/TrustSection";
-
-
+import BrandCarousel from "@/components/BrandCarousel";
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container py-8 sm:py-12 md:py-20">
-
-
-        
-        {/* Hero Section */}
-        <div className="text-center mb-10 sm:mb-16 md:mb-20 animate-fade-in">
-          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-3 sm:mb-4">
+      <main className="container py-6 sm:py-8 md:py-12">
+        {/* Hero Section - Compact */}
+        <div className="text-center mb-6 sm:mb-8 md:mb-10 animate-fade-in">
+          <h1 className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-2 sm:mb-3">
             Le Fragrance Club
           </h1>
 
-          <p className="text-xl sm:text-2xl md:text-3xl text-primary font-display italic mb-4 sm:mb-6">
+          <p className="text-lg sm:text-xl md:text-2xl text-primary font-display italic mb-2 sm:mb-3">
             Decants
           </p>
 
-          <p className="
-              text-sm sm:text-base md:text-lg
-              text-muted-foreground
-              max-w-6xl mx-auto
-              px-4 sm:px-0
-              leading-relaxed
-              md:line-clamp-2
-            ">
-              La forma perfecta de descubrir perfumes de alta gama con frascos originales y aromas auténticos, dándote la libertad de probar, comparar y elegir antes de comprometerte con el frasco completo.
-            </p>
-
-
+          <p className="text-xs sm:text-sm md:text-base text-muted-foreground max-w-3xl mx-auto px-4 sm:px-0 leading-relaxed line-clamp-2">
+            Descubre perfumes de alta gama con frascos originales. Prueba, compara y elige antes de comprometerte.
+          </p>
         </div>
 
-        {/* Gender Cards */}
-        <div className="grid grid-cols-2 gap-3 sm:gap-5 md:gap-8 max-w-6xl mx-auto">
-
+        {/* Gender Cards - Compact */}
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 max-w-5xl mx-auto mb-4 sm:mb-6">
           <GenderCard
             gender="hombre"
             title="Hombre"
-            description="Fragancias seleccionadas por su calidad, elegancia y presencia. Clásicos y modernos para un estilo definido."
+            description="Fragancias seleccionadas por su calidad, elegancia y presencia."
             imageSrc="/images/gender/hombre.jpg"
           />
 
           <GenderCard
             gender="mujer"
             title="Mujer"
-            description="Aromas sofisticados y atemporales, pensados para destacar con elegancia y personalidad."
+            description="Aromas sofisticados y atemporales, pensados para destacar con elegancia."
             imageSrc="/images/gender/mujer.jpg"
           />
         </div>
 
+        {/* Brand Carousel - Full bleed */}
+        <div className="-mx-4 sm:-mx-6 md:-mx-8 lg:-mx-[calc((100vw-1280px)/2+2rem)]">
+          <BrandCarousel />
+        </div>
+
         {/* Features Section */}
-        <section className="mt-12 sm:mt-16 md:mt-28 text-center">
+        <section className="mt-8 sm:mt-12 md:mt-16 text-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
             <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-cream flex items-center justify-center">
@@ -136,9 +127,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <DecantInfoSection imageSrc="/images/decant-info-section2.jpg" />
         <TrustSection />
-
       </main>
 
       <Footer />

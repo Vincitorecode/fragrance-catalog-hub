@@ -1,17 +1,14 @@
 import { useMemo, useState } from "react";
-import { Star } from "lucide-react";
+import { Star, ShoppingCart, Check } from "lucide-react";
 import { Product } from "@/types/product";
-import { WHATSAPP_NUMBER, CURRENCY } from "@/config";
+import { CURRENCY } from "@/config";
 import { Button } from "@/components/ui/button";
+import { useCart, MlSize } from "@/contexts/CartContext";
 
 interface ProductCardProps {
   product: Product;
 }
 
-/**
- * Imagen informativa que aparece al hacer hover (desktop)
- * Guardada en: public/images/decant-info.jpg
- */
 const DECANT_INFO_IMAGE = "/images/decant-info.jpg";
 
 type MlOption = "2ml" | "5ml" | "10ml";
@@ -34,8 +31,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
     prices,
   } = product;
 
-  // ✅ No viene preseleccionado
+  const { addItem } = useCart();
   const [selectedMl, setSelectedMl] = useState<MlOption | null>(null);
+  const [justAdded, setJustAdded] = useState(false);
 
   const hasMlPrices = Boolean(prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]);
 
@@ -45,30 +43,17 @@ const ProductCard = ({ product }: ProductCardProps) => {
   }, [hasMlPrices, prices, selectedMl]);
 
   const displayPrice = selectedPrice ?? priceFrom;
-
   const hasDiscount = onSale && originalPriceFrom && originalPriceFrom > priceFrom;
 
-  const handleBuyClick = () => {
+  const handleAddToCart = () => {
     if (hasMlPrices && !selectedMl) return;
 
-    const mlLabel = hasMlPrices && selectedMl ? formatMlLabel(selectedMl) : null;
-    const finalPrice = hasMlPrices && selectedMl ? prices![selectedMl] : priceFrom;
-
-    const message = encodeURIComponent(
-      [
-        "Hola",
-        `Me interesa: ${brand} ${name}`,
-        mlLabel ? `Tamaño: ${mlLabel}` : null,
-        `Precio: $${finalPrice} ${CURRENCY}`,
-        "",
-        "¿Lo tienes disponible?",
-      ]
-        .filter(Boolean)
-        .join("\n")
-    );
-
-    const phone = String(WHATSAPP_NUMBER).replace(/\D/g, "");
-    window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+    const size: MlSize = selectedMl || "5ml";
+    addItem(product, size);
+    
+    // Show feedback
+    setJustAdded(true);
+    setTimeout(() => setJustAdded(false), 1500);
   };
 
   return (
@@ -82,33 +67,20 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
       {/* Image Container */}
       <div className="relative aspect-square product-image-bg flex items-center justify-center p-3 sm:p-6 overflow-hidden">
-        {/* Imagen principal */}
         <img
           src={image}
           alt={`${brand} ${name}`}
-          className="
-            absolute inset-0 w-full h-full object-contain
-            transition-opacity duration-500
-            sm:group-hover:opacity-0
-          "
+          className="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 sm:group-hover:opacity-0"
           onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.src = "/placeholder.svg";
+            (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
         />
-
-        {/* Imagen hover (solo desktop/>=sm) */}
         <img
           src={DECANT_INFO_IMAGE}
           alt="Información del decant"
-          className="
-            absolute inset-0 w-full h-full object-contain
-            opacity-0 transition-opacity duration-500
-            sm:group-hover:opacity-100
-          "
+          className="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-500 sm:group-hover:opacity-100"
           onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.src = "/placeholder.svg";
+            (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
         />
       </div>
@@ -153,7 +125,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 {rating.toFixed(1)} ({ratingCount})
               </span>
             </div>
-
             <span className="text-[10px] sm:text-xs text-muted-foreground">
               {category === "Nicho" ? "Niche" : "Selección"}
             </span>
@@ -167,7 +138,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
               ${originalPriceFrom} {CURRENCY}
             </span>
           )}
-
           <span className="text-sm sm:text-lg font-semibold text-foreground">
             {hasMlPrices ? (
               selectedMl ? (
@@ -183,89 +153,87 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </span>
         </div>
 
-        {/* Selector de ML */}
+        {/* ML Selector */}
         {hasMlPrices && (
           <div className="mb-3 sm:mb-4">
             <p className="text-[10px] sm:text-xs text-muted-foreground mb-2">
               Elige tamaño
             </p>
-
             <div className="grid grid-cols-3 gap-2">
               {ML_OPTIONS.map((ml) => {
                 const active = ml === selectedMl;
-
                 return (
                   <button
-                key={ml}
-                type="button"
-                onClick={(e) => {
-                  setSelectedMl((prev) => (prev === ml ? null : ml));
-                  (e.currentTarget as HTMLButtonElement).blur();
-                }}
-                className={[
-                  "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
-                  "focus:outline-none focus-visible:ring-2",
-
-                  // Focus ring solo con teclado
-                  ml === "5ml" && active
-                    ? "focus-visible:ring-[#003229]/40"
-                    : "focus-visible:ring-primary/40",
-
-                  // Estados
-                  ml === "5ml" && active
-                    ? "border-[#003229] bg-[#003229]/10 text-foreground"
-                    : active
-                    ? "border-primary bg-primary/10 text-foreground"
-                    : "border-transparent bg-background/60 text-muted-foreground hover:border-primary/50",
-                ].join(" ")}
-              >
-                <div
-  className={`
-    relative flex flex-col items-center leading-tight
-    ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
-
-    before:absolute
-    before:-top-2 sm:before:-top-3
-    before:left-1/2
-    before:-translate-x-1/2
-    before:rounded-full
-    before:bg-[#003229]
-    before:px-1 sm:before:px-1.5
-    before:py-[1px]
-    before:text-[8px] sm:before:text-[9px]
-    before:font-medium
-    before:text-white
-    before:leading-none
-    before:whitespace-nowrap
-  `}
->
-  {/* ✅ SIEMPRE en la misma línea */}
-  <span className="mt-1 whitespace-nowrap text-[11px] sm:text-sm">
-    {formatMlLabel(ml)}
-  </span>
-
-  <span className="text-foreground whitespace-nowrap text-[11px] sm:text-sm">
-    ${prices![ml]}
-  </span>
-</div>
-
-              </button>
-
-
+                    key={ml}
+                    type="button"
+                    onClick={(e) => {
+                      setSelectedMl((prev) => (prev === ml ? null : ml));
+                      (e.currentTarget as HTMLButtonElement).blur();
+                    }}
+                    className={[
+                      "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
+                      "focus:outline-none focus-visible:ring-2",
+                      ml === "5ml" && active
+                        ? "focus-visible:ring-[#003229]/40"
+                        : "focus-visible:ring-primary/40",
+                      ml === "5ml" && active
+                        ? "border-[#003229] bg-[#003229]/10 text-foreground"
+                        : active
+                        ? "border-primary bg-primary/10 text-foreground"
+                        : "border-transparent bg-background/60 text-muted-foreground hover:border-primary/50",
+                    ].join(" ")}
+                  >
+                    <div
+                      className={`
+                        relative flex flex-col items-center leading-tight
+                        ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
+                        before:absolute before:-top-2 sm:before:-top-3
+                        before:left-1/2 before:-translate-x-1/2
+                        before:rounded-full before:bg-[#003229]
+                        before:px-1 sm:before:px-1.5 before:py-[1px]
+                        before:text-[8px] sm:before:text-[9px]
+                        before:font-medium before:text-white
+                        before:leading-none before:whitespace-nowrap
+                      `}
+                    >
+                      <span className="mt-1 whitespace-nowrap text-[11px] sm:text-sm">
+                        {formatMlLabel(ml)}
+                      </span>
+                      <span className="text-foreground whitespace-nowrap text-[11px] sm:text-sm">
+                        ${prices![ml]}
+                      </span>
+                    </div>
+                  </button>
                 );
               })}
             </div>
           </div>
         )}
 
-        {/* Buy Button */}
+        {/* Add to Cart Button */}
         <Button
-          onClick={handleBuyClick}
+          onClick={handleAddToCart}
           disabled={hasMlPrices && !selectedMl}
-          className="mt-auto w-full btn-primary"
+          className={`mt-auto w-full gap-2 transition-all ${
+            justAdded 
+              ? "bg-green-600 hover:bg-green-600" 
+              : "btn-primary"
+          }`}
           size="lg"
         >
-          {hasMlPrices && !selectedMl ? "Elige un tamaño" : "Comprar"}
+          {justAdded ? (
+            <>
+              <Check className="h-4 w-4" />
+              ¡Agregado!
+            </>
+          ) : hasMlPrices && !selectedMl ? (
+            "Elige un tamaño"
+          ) : (
+            <>
+              <ShoppingCart className="h-4 w-4" />
+              Agregar
+            </>
+          )}
         </Button>
       </div>
     </article>
