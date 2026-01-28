@@ -36,11 +36,12 @@ const Header = () => {
             className="flex justify-center sm:justify-start col-start-2 sm:col-auto"
           >
             <img
-              src="/logo.png"
-              alt="Le Fragrance Club"
-              className="h-12 sm:h-14 md:h-20 w-auto object-contain"
-              loading="eager"
-            />
+  src="/logo.svg"
+  alt="Le Fragrance Club"
+  className="h-12 sm:h-14 md:h-20 w-auto object-contain invert brightness-0"
+  loading="eager"
+/>
+
           </Link>
 
           {/* Desktop nav */}
