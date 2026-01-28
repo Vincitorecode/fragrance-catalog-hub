@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react";
 
 const BRANDS = [
-  { name: "Acqua di Parma", logo: "/brands/acqua-di-parma.svg" },
-  { name: "Diptyque", logo: "/brands/diptyque.svg" },
-  { name: "Dolce & Gabbana", logo: "/brands/dolce-gabbana.svg" },
-  { name: "Hermès", logo: "/brands/hermes.svg" },
-  { name: "Hugo Boss", logo: "/brands/hugo-boss.svg" },
-  { name: "Jean Paul Gaultier", logo: "/brands/jpg.svg" },
-  { name: "Louis Vuitton", logo: "/brands/louis-vuitton.svg" },
-  { name: "Parfums de Marly", logo: "/brands/pdm.svg" },
-  { name: "Sospiro", logo: "/brands/sospiro.svg" },
-  { name: "Otras Marcas", logo: "/brands/other.svg" },
+    { name: "Acqua di Parma", logo: "/brands/acqua-di-parma.svg" },
+    { name: "Diptyque", logo: "/brands/diptyque.svg" },
+    { name: "Dolce & Gabbana", logo: "/brands/dolce-gabbana.svg" },
+    { name: "Hermès", logo: "/brands/hermes.svg" },
+    { name: "Hugo Boss", logo: "/brands/hugo-boss.svg" },
+    { name: "Jean Paul Gaultier", logo: "/brands/jpg.svg" },
+    { name: "Louis Vuitton", logo: "/brands/louis-vuitton.svg" },
+    { name: "Parfums de Marly", logo: "/brands/pdm.svg" },
+    { name: "Sospiro", logo: "/brands/sospiro.svg" }
+
 ];
 
 const BrandCarousel = () => {
