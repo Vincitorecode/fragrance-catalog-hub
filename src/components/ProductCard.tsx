@@ -35,6 +35,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
   const [selectedMl, setSelectedMl] = useState<MlOption | null>(null);
   const [justAdded, setJustAdded] = useState(false);
 
+  // ✅ NEW: controla el swap de imagen de forma robusta
+  const [showDecantInfo, setShowDecantInfo] = useState(false);
+
   const hasMlPrices = Boolean(prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]);
 
   const selectedPrice = useMemo(() => {
@@ -50,15 +53,13 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
     const size: MlSize = selectedMl || "5ml";
     addItem(product, size);
-    
-    // Show feedback
+
     setJustAdded(true);
     setTimeout(() => setJustAdded(false), 1500);
   };
 
   return (
     <article className="group relative flex flex-col rounded-xl bg-card border border-border overflow-hidden card-hover animate-fade-in">
-      {/* Sale Badge */}
       {onSale && (
         <div className="absolute top-2 left-2 sm:top-3 sm:left-3 z-10 badge-sale text-[10px] sm:text-sm">
           Oferta
@@ -66,11 +67,25 @@ const ProductCard = ({ product }: ProductCardProps) => {
       )}
 
       {/* Image Container */}
-      <div className="relative aspect-square product-image-bg flex items-center justify-center p-3 sm:p-6 overflow-hidden">
+      <div
+        className="relative aspect-square product-image-bg flex items-center justify-center p-3 sm:p-6 overflow-hidden"
+        // ✅ NEW: usa pointer events (cubre mouse + touch + “mantener presionado”)
+        onPointerEnter={() => setShowDecantInfo(true)}
+        onPointerLeave={() => setShowDecantInfo(false)}
+        onPointerDown={() => setShowDecantInfo(true)}
+        onPointerUp={() => setShowDecantInfo(false)}
+        onPointerCancel={() => setShowDecantInfo(false)}
+        onContextMenu={() => setShowDecantInfo(false)}
+      >
         <img
           src={image}
           alt={`${brand} ${name}`}
-          className="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 sm:group-hover:opacity-0"
+          draggable={false}
+          onDragStart={(e) => e.preventDefault()}
+          className={[
+            "absolute inset-0 w-full h-full object-contain transition-opacity duration-500",
+            showDecantInfo ? "opacity-0" : "opacity-100",
+          ].join(" ")}
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
@@ -78,7 +93,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <img
           src={DECANT_INFO_IMAGE}
           alt="Información del decant"
-          className="absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-500 sm:group-hover:opacity-100"
+          draggable={false}
+          onDragStart={(e) => e.preventDefault()}
+          className={[
+            "absolute inset-0 w-full h-full object-contain transition-opacity duration-500",
+            showDecantInfo ? "opacity-100" : "opacity-0",
+          ].join(" ")}
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
@@ -215,9 +235,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           onClick={handleAddToCart}
           disabled={hasMlPrices && !selectedMl}
           className={`mt-auto w-full gap-2 transition-all ${
-            justAdded 
-              ? "bg-green-600 hover:bg-green-600" 
-              : "btn-primary"
+            justAdded ? "bg-green-600 hover:bg-green-600" : "btn-primary"
           }`}
           size="lg"
         >
