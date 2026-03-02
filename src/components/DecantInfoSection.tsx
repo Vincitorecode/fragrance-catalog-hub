@@ -12,7 +12,7 @@ const DecantInfoSection = ({ imageSrc = "/images/decant-info-section2.jpg" }: De
           <span className="text-muted-foreground font-normal">(Y POR QUÉ LO NECESITAS)</span>
         </h2>
 
-        <div className="grid md:grid-cols-[1fr,auto] gap-12 md:gap-16 items-start">
+        <div className="grid md:grid-cols-[1fr,auto] gap-12 md:gap-16">
           {/* Left: Q&A blocks */}
           <div className="space-y-10">
             <div>
@@ -37,7 +37,7 @@ const DecantInfoSection = ({ imageSrc = "/images/decant-info-section2.jpg" }: De
           </div>
 
           {/* Right: Circular image */}
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-center md:justify-end md:self-start md:-translate-y-10">
             <div className="w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden flex-shrink-0">
               <img
                 src={imageSrc}
