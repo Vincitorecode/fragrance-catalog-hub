@@ -1,4 +1,6 @@
 import { SiWhatsapp } from "react-icons/si";
+import { CreditCard, ArrowRightLeft, Wallet, Banknote } from "lucide-react";
+import { Instagram, Facebook, Mail } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5214435113228";
 const WHATSAPP_TEXT = "Hola, me gustaría información sobre sus decants/perfumes.";
@@ -11,31 +13,33 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#013220] text-white">
       {/* Big editorial title */}
-      <section className="py-12 sm:py-16 md:py-20">
+      <section className="py-10 sm:py-12 md:py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-grande text-center uppercase leading-[0.85] tracking-[-0.04em] text-[clamp(2.5rem,9vw,10rem)] text-white/90">
+          <h2 className="font-grande text-center uppercase leading-none tracking-[-0.04em] text-[clamp(2rem,4.6vw,3.6rem)] text-white/90 whitespace-nowrap">
             LE FRAGRANCE CLUB
           </h2>
         </div>
       </section>
 
       {/* Cards section */}
-      <section className="pb-8 sm:pb-12">
+      <section className="pb-8 sm:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
             {/* Atención personalizada */}
-            <div className="rounded-2xl border border-white/20 bg-white/5 p-8 text-center">
-              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-3">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-8 text-center">
+              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-3 text-white/90">
                 ATENCIÓN PERSONALIZADA
               </h3>
               <p className="text-sm text-white/70 mb-6">
                 Asesoría directa y pedidos vía WhatsApp.
               </p>
+
+              {/* botón como screenshot: pill sobrio, verde más claro, sin glow */}
               <a
                 href={waLink(WHATSAPP_NUMBER, WHATSAPP_TEXT)}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-[#25D366] text-white px-6 py-3 text-sm font-semibold hover:bg-[#20bd5a] transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-[50px] border-2 border-[#50C878] bg-[rgba(80,200,120,0.60)] px-7 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[rgba(80,200,120,0.75)]"
               >
                 <SiWhatsapp className="text-lg" />
                 Contáctanos
@@ -43,34 +47,80 @@ export default function Footer() {
             </div>
 
             {/* Métodos de pago */}
-            <div className="rounded-2xl border border-white/20 bg-white/5 p-8">
-              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-6 text-center">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-8">
+              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-6 text-center text-white/90">
                 MÉTODOS DE PAGO
               </h3>
+
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: "💳", label: "Crédito / Débito" },
-                  { icon: "🏦", label: "Transferencia" },
-                  { icon: "💰", label: "Mercado Pago" },
-                  { icon: "💵", label: "Efectivo" },
-                ].map((m) => (
-                  <div
-                    key={m.label}
-                    className="flex items-center gap-2.5 rounded-full border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white/80"
-                  >
-                    <span className="text-base">{m.icon}</span>
-                    <span className="whitespace-nowrap">{m.label}</span>
-                  </div>
-                ))}
+                  { icon: CreditCard, label: "Crédito / Débito" },
+                  { icon: ArrowRightLeft, label: "Transferencia" },
+                  { icon: Wallet, label: "Mercado Pago" },
+                  { icon: Banknote, label: "Efectivo" },
+                ].map((m) => {
+                  const Icon = m.icon;
+
+                  return (
+                    <div
+                      key={m.label}
+                      className="flex items-center gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-4 py-2.5 text-sm"
+                    >
+                      {/* Contenedor circular del ícono */}
+                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white/10">
+                        <Icon
+                          className="h-4 w-4 text-white"
+                          strokeWidth={1.8}
+                        />
+                      </div>
+
+                      <span className="whitespace-nowrap text-white/85">
+                        {m.label}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
 
           {/* Copyright */}
           <div className="mt-8 sm:mt-10 border-t border-white/15 pt-6">
-            <p className="text-xs text-white/50 text-center sm:text-left">
-              © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos reservados.
-            </p>
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+              {/* Left - Copyright */}
+              <p className="text-xs text-white/50 text-center sm:text-left">
+                © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos reservados.
+              </p>
+
+              {/* Center - Social Icons */}
+              <div className="flex items-center gap-6">
+                <a href="#">
+                  <img
+                    src="/icons/instagram.svg"
+                    alt="Instagram"
+                    className="h-6 w-6"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    src="/icons/facebook.svg"
+                    alt="Facebook"
+                    className="h-6 w-6"
+                  />
+                </a>
+              </div>
+
+              {/* Right - Email */}
+              <div className="flex items-center gap-2 text-white/70 text-sm">
+                <Mail className="h-4 w-4 text-white/80" strokeWidth={1.5} />
+                <span className="whitespace-nowrap">
+                  lefragranceclubcontact@gmail.com
+                </span>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
