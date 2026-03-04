@@ -9,12 +9,22 @@ const BENEFITS = [
     title: "Un Universo Olfativo",
     text: (
       <>
-        De los tesoros de <strong>nicho</strong> y la opulencia <strong>árabe</strong> a los grandes iconos <strong>comerciales.</strong>
-        <br />Todo el espectro del perfume en un solo lugar.
+        De los tesoros de <strong>nicho</strong> y la opulencia{" "}
+        <strong>árabe</strong> a los grandes iconos{" "}
+        <strong>comerciales.</strong>
+        <br />
+        Todo el espectro del perfume en un solo lugar.
       </>
     ),
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.2" className="w-16 h-16 text-foreground/70">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        className="w-16 h-16 text-foreground/70"
+      >
         <ellipse cx="32" cy="42" rx="12" ry="18" />
         <rect x="28" y="20" width="8" height="6" rx="1" />
         <line x1="32" y1="20" x2="32" y2="14" />
@@ -31,11 +41,20 @@ const BENEFITS = [
     text: (
       <>
         Experimenta la evolución de cada perfume en tu piel.
-        <br />El formato <strong>decant</strong> es tu pase directo para elegir sin errores ni remordimientos.
+        <br />
+        El formato <strong>decant</strong> es tu pase directo para elegir sin
+        errores ni remordimientos.
       </>
     ),
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.2" className="w-16 h-16 text-foreground/70">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        className="w-16 h-16 text-foreground/70"
+      >
         <rect x="24" y="22" width="16" height="28" rx="3" />
         <rect x="28" y="16" width="8" height="6" rx="1" />
         <circle cx="32" cy="36" r="4" />
@@ -50,11 +69,20 @@ const BENEFITS = [
     text: (
       <>
         ¿Buscas algo <strong>único</strong>?
-        <br />Te guiamos entre notas y familias olfativas para que descubras la fragancia que realmente habla de ti.
+        <br />
+        Te guiamos entre notas y familias olfativas para que descubras la
+        fragancia que realmente habla de ti.
       </>
     ),
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.2" className="w-16 h-16 text-foreground/70">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        className="w-16 h-16 text-foreground/70"
+      >
         <path d="M20 44 C20 30, 32 20, 32 20 C32 20, 44 30, 44 44" />
         <ellipse cx="32" cy="46" rx="12" ry="8" />
         <path d="M26 36 C22 32, 16 34, 18 40" />
@@ -75,7 +103,7 @@ const Home = () => {
 
       <main>
         {/* ─── HERO ─── */}
-        <section className="py-12 sm:py-16 md:py-20 text-center">
+        <section className="pt-6 sm:pt-8 md:pt-10 pb-12 sm:pb-10 md:pb-12 text-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Script title */}
             <h1 className="font-script text-[42px] sm:text-[48px] md:text-[56px] text-[#013220] font-medium leading-tight">
@@ -83,19 +111,26 @@ const Home = () => {
             </h1>
 
             {/* Green subtitle */}
-            <p className="mt-4 text-sm sm:text-base md:text-lg font-semibold tracking-[0.15em] uppercase text-[#3CB371]">
+            <p className="mt-4 text-sm sm:text-base md:text-lg font-bold tracking-[0.15em] uppercase text-[#3CB371]">
               COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
             </p>
 
             {/* Description */}
-            <p className="mt-4 sm:mt-6 text-sm sm:text-base text-[#555] max-w-[820px] mx-auto leading-relaxed">
+            <p
+              className="mt-4 sm:mt-6 mx-auto max-w-[820px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
+              style={{
+                fontFamily:
+                  'Brandon Text, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif',
+              }}
+            >
               ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
               <br className="hidden sm:block" />
-              Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
+              Prueba las fragancias más deseadas del mundo en decants originales
+              y decide cuál merece un lugar en tu colección.
             </p>
 
-            {/* Brand logos row */}
-            <div className="mt-8 sm:mt-10 overflow-x-auto scrollbar-none">
+            {/* Brand logos row (full-bleed) */}
+            <div className="mt-8 sm:mt-10 w-screen relative left-1/2 -translate-x-1/2">
               <BrandCarousel />
             </div>
           </div>
