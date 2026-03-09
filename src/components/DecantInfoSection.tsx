@@ -2,43 +2,67 @@ interface DecantInfoSectionProps {
   imageSrc?: string;
 }
 
-const DecantInfoSection = ({ imageSrc = "/images/decant-info-section2.jpg" }: DecantInfoSectionProps) => {
+const DecantInfoSection = ({
+  imageSrc = "/images/decant-info-section2.jpg",
+}: DecantInfoSectionProps) => {
   return (
     <section className="py-16 sm:py-20 md:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section title */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-semibold text-foreground mb-12 sm:mb-16">
-          ¿QUÉ ES UN <span className="font-script text-[#013220] text-[1.2em]">Decant</span>?{" "}
-          <span className="text-muted-foreground font-normal">(Y POR QUÉ LO NECESITAS)</span>
+
+        {/* Title */}
+        <h2 className="font-brandon font-light text-2xl sm:text-3xl md:text-4xl text-[#013220] mb-12 sm:mb-16 tracking-[0.12em]">
+          ¿QUÉ ES UN{" "}
+          <span className="font-snell text-[1.25em]">
+            Decant
+          </span>
+          <span className="font-brandon font-light">
+            ? (Y POR QUÉ LO NECESITAS)
+          </span>
         </h2>
 
         <div className="grid md:grid-cols-[1fr,auto] gap-12 md:gap-16">
-          {/* Left: Q&A blocks */}
+
+          {/* Text */}
           <div className="space-y-10">
+
+            {/* Block 1 */}
             <div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground uppercase tracking-wide mb-3">
+              <h3 className="font-brandon font-bold text-lg sm:text-xl uppercase tracking-[0.08em] mb-3">
                 ¿QUÉ ES UN DECANT?
               </h3>
-              <p className="text-sm sm:text-base text-[#555] leading-relaxed">
-                <span className="text-[#3CB371] font-semibold">Fragancia totalmente original</span>{" "}
-                extraída directamente de su botella a un atomizador portátil. La libertad de usar, probar y viajar con tu fragancia favorita sin pagar el precio completo.
+
+              <p className="font-brandon font-normal text-sm sm:text-base text-[#555] leading-relaxed">
+                <span className="font-brandon font-medium text-[#3CB371]">
+                  Fragancia totalmente original
+                </span>{" "}
+                extraída directamente de su botella a un atomizador portátil.
+                La libertad de usar, probar y viajar con tu fragancia favorita
+                sin pagar el precio completo.
               </p>
             </div>
 
+            {/* Block 2 */}
             <div>
-              <h3 className="text-lg sm:text-xl font-semibold text-foreground uppercase tracking-wide mb-3">
+              <h3 className="font-brandon font-bold text-lg sm:text-xl uppercase tracking-[0.08em] mb-3">
                 ¿SON PERFUMES ORIGINALES?
               </h3>
-              <p className="text-sm sm:text-base text-[#555] leading-relaxed">
-                <span className="text-[#3CB371] font-semibold">Sí, 100%.</span>{" "}
-                Preservamos el ADN de cada fragancia. Realizamos la extracción de forma manual y precisa para asegurar que el jugo llegue a ti intacto, manteniendo su potencia y evolución original.
+
+              <p className="font-brandon font-normal text-sm sm:text-base text-[#555] leading-relaxed">
+                <span className="font-brandon font-medium text-[#3CB371]">
+                  Sí, 100%.
+                </span>{" "}
+                Preservamos el ADN de cada fragancia. Realizamos la extracción
+                de forma manual y precisa para asegurar que el jugo llegue a ti
+                intacto, manteniendo su potencia y evolución original.
               </p>
             </div>
+
           </div>
 
-          {/* Right: Circular image */}
+          {/* Image */}
           <div className="flex justify-center md:justify-end md:self-start md:-translate-y-10">
             <div className="w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden flex-shrink-0">
+
               <img
                 src={imageSrc}
                 alt="Decants Le Fragrance Club"
@@ -48,8 +72,10 @@ const DecantInfoSection = ({ imageSrc = "/images/decant-info-section2.jpg" }: De
                   (e.target as HTMLImageElement).src = "/placeholder.svg";
                 }}
               />
+
             </div>
           </div>
+
         </div>
       </div>
     </section>

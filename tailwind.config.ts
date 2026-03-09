@@ -8,16 +8,16 @@ export default {
   prefix: "",
   theme: {
     container: {
-  center: true,
-  padding: {
-    DEFAULT: "1rem",
-    sm: "1.5rem",
-    lg: "2rem",
-  },
-  screens: {
-    "2xl": "1400px",
-  },
-},
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "1.5rem",
+        lg: "2rem",
+      },
+      screens: {
+        "2xl": "1400px",
+      },
+    },
 
     extend: {
       colors: {
@@ -79,6 +79,8 @@ export default {
       },
       fontFamily: {
         grande: ['"Grande"', "system-ui", "sans-serif"],
+        brandon: ['"Brandon Grotesque"', "sans-serif"],
+        snell: ['"Snell Roundhand"', "cursive"],
         display: ["Playfair Display", "serif"],
         body: ["Inter", "sans-serif"],
       },
@@ -115,3 +117,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
