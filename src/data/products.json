@@ -1026,6 +1026,120 @@
     "image": "/images/perfumes/hombre/Light-Blue-2025.png"
   },
   {
+    "id": "hugo-boss-boss-bottled",
+    "gender": "hombre",
+    "brand": "Hugo Boss",
+    "name": "Boss Bottled",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 125,
+      "10ml": 250
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Boss-Bottled.png"
+  },
+  {
+    "id": "armaf-ombre-dor",
+    "gender": "hombre",
+    "brand": "Armaf",
+    "name": "Ombre d'Or",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Ombre-d'Or.png"
+  },
+  {
+    "id": "adolfo-dominguez-citrus-cedro",
+    "gender": "hombre",
+    "brand": "Adolfo Dominguez",
+    "name": "Citrus Cedro",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Citrus-Cedro.png"
+  },
+  {
+    "id": "lattafa-liam-gray",
+    "gender": "hombre",
+    "brand": "Lattafa",
+    "name": "Liam Gray",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Liam-Gray.png"
+  },
+  {
+    "id": "lacoste-eau-de-lacoste-l1212-white",
+    "gender": "hombre",
+    "brand": "Lacoste",
+    "name": "Eau de Lacoste L.12.12 White",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Lacoste-L.12.12.png"
+  },
+  {
+    "id": "emper-captcha-36",
+    "gender": "hombre",
+    "brand": "Emper",
+    "name": "Captcha 36",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 115,
+      "10ml": 230
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Captcha-36.png"
+  },
+  {
     "id": "montblanc-explorer-platinum",
     "gender": "hombre",
     "brand": "Montblanc",
