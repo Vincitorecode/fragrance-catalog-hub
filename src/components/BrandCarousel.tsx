@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import React from "react";
 
 const BRANDS = [
   { name: "Acqua di Parma", logo: "/images/brands/acqua-di-parma.svg" },
@@ -13,57 +13,60 @@ const BRANDS = [
   { name: "Le Labo", logo: "/images/brands/le-labo.png" },
 ];
 
+const BrandRow = ({ items }: { items: typeof BRANDS }) => (
+  <div className="flex items-center gap-10 sm:gap-14 md:gap-16 shrink-0">
+    {items.map((brand, i) => (
+      <div
+        key={`${brand.name}-${i}`}
+        className="flex-shrink-0 w-[120px] sm:w-[140px] md:w-[150px] h-6 sm:h-7 md:h-8 flex items-center justify-center"
+      >
+        <img
+          src={brand.logo}
+          alt={brand.name}
+          className="max-h-full max-w-full object-contain opacity-70 hover:opacity-85 transition-opacity duration-300"
+          style={{
+            filter: "grayscale(100%) brightness(0.72) contrast(0.88)",
+          }}
+          loading="lazy"
+          onError={(e) => {
+            (e.target as HTMLImageElement).style.display = "none";
+          }}
+        />
+      </div>
+    ))}
+  </div>
+);
+
 const BrandCarousel = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-
-    let raf = 0;
-    let pos = 0;
-    const speed = 0.45;
-
-    const animate = () => {
-      const half = el.scrollWidth / 2;
-      pos += speed;
-      if (pos >= half) pos = 0;
-      el.scrollLeft = pos;
-      raf = requestAnimationFrame(animate);
-    };
-
-    raf = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(raf);
-  }, []);
-
   return (
     <div className="relative w-full overflow-hidden">
+      <style>
+        {`
+          @keyframes brand-marquee {
+            from {
+              transform: translateX(0);
+            }
+            to {
+              transform: translateX(-33.3333%);
+            }
+          }
+        `}
+      </style>
+
       <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-14 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-14 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-      <div
-        ref={scrollRef}
-        className="overflow-hidden"
-        style={{ scrollBehavior: "auto", willChange: "scroll-position" }}
-      >
-        <div className="flex items-center gap-10 sm:gap-14 md:gap-16 whitespace-nowrap py-0.5 min-w-max">
-          {[...BRANDS, ...BRANDS].map((brand, i) => (
-            <div
-              key={`${brand.name}-${i}`}
-              className="flex-shrink-0 h-5 sm:h-6 flex items-center justify-center opacity-70 hover:opacity-90 transition-opacity duration-300"
-            >
-              <img
-                src={brand.logo}
-                alt={brand.name}
-                className="h-full w-auto object-contain opacity-70 hover:opacity-90 transition-opacity duration-300"
-                style={{ filter: "grayscale(100%) brightness(0.9) contrast(0.9)" }}
-                loading="lazy"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = "none";
-                }}
-              />
-            </div>
-          ))}
+      <div className="overflow-hidden">
+        <div
+          className="flex items-center w-max"
+          style={{
+            animation: "brand-marquee 18s linear infinite",
+            willChange: "transform",
+          }}
+        >
+          <BrandRow items={BRANDS} />
+          <BrandRow items={BRANDS} />
+          <BrandRow items={BRANDS} />
         </div>
       </div>
     </div>
