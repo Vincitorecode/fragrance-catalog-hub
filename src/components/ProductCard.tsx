@@ -46,6 +46,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   const handleAddToCart = () => {
     if (hasMlPrices && !selectedMl) return;
+    
 
     const size: MlSize = selectedMl || "5ml";
     addItem(product, size);
