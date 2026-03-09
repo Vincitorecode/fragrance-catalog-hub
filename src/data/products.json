@@ -437,6 +437,63 @@
     "image": "/images/perfumes/hombre/Le-Male-Elixir.png"
   },
   {
+    "id": "jean-paul-gaultier-paradise-garden",
+    "gender": "hombre",
+    "brand": "Jean Paul Gaultier",
+    "name": "Paradise Garden",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Le-Beau-Paradise-Garden.png"
+  },
+  {
+    "id": "valentino-uomo-born-in-roma",
+    "gender": "hombre",
+    "brand": "Valentino",
+    "name": "Uomo Born in Roma",
+    "category": "Designer",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Uomo-Born-in-Roma.png"
+  },
+  {
+    "id": "azzaro-the-most-wanted-parfum",
+    "gender": "hombre",
+    "brand": "Azzaro",
+    "name": "The Most Wanted Parfum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/The-Most-Wanted-Parfum.png"
+  },
+  {
     "id": "yves-saint-laurent-y-eau-de-parfum",
     "gender": "hombre",
     "brand": "Yves Saint Laurent",
