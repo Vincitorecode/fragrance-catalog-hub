@@ -117,16 +117,16 @@ const Home = () => {
 
             {/* Description */}
             <p
-              className="mt-4 sm:mt-6 mx-auto max-w-[820px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
+              className="mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
               style={{
                 fontFamily:
                   'Brandon Text, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif',
               }}
             >
               ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
-              <br className="hidden sm:block" />
-              Prueba las fragancias más deseadas del mundo en decants originales
-              y decide cuál merece un lugar en tu colección.
+              <br className="hidden sm:block h-6" />
+              Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
+
             </p>
 
             {/* Brand logos row (full-bleed) */}
