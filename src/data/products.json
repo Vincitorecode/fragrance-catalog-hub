@@ -608,25 +608,6 @@
     "image": "/images/perfumes/hombre/Fusion-D'Issey.png"
   },
   {
-    "id": "chanel-allure-homme-edition-blanche",
-    "gender": "hombre",
-    "brand": "Chanel",
-    "name": "Allure Homme Edition Blanche",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Allure-Homme-Edition-Blanche.png"
-  },
-  {
     "id": "dior-homme-cologne",
     "gender": "hombre",
     "brand": "Dior",
@@ -1366,44 +1347,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/The-One.png"
-  },
-  {
-    "id": "giorgio-armani-acqua-di-gio",
-    "gender": "hombre",
-    "brand": "Giorgio Armani",
-    "name": "Acqua di Giò",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Acqua-di-Giò.png"
-  },
-  {
-    "id": "calvin-klein-ck-one",
-    "gender": "hombre",
-    "brand": "Calvin Klein",
-    "name": "CK One",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Calvin-Klein-CK-One.png"
   },
   {
     "id": "calvin-klein-ck-one-reflections",
