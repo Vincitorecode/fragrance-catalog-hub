@@ -741,6 +741,25 @@
     "image": "/images/perfumes/hombre/Bois-Impérial.png"
   },
   {
+    "id": "viktor-rolf-spicebomb-extreme",
+    "gender": "hombre",
+    "brand": "Viktor&Rolf",
+    "name": "Spicebomb Extreme",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 65,
+    "prices": {
+      "2ml": 65,
+      "5ml": 160,
+      "10ml": 320
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Spicebomb-Extreme.png"
+  },
+  {
     "id": "viktor-rolf-spicebomb",
     "gender": "hombre",
     "brand": "Viktor & Rolf",
