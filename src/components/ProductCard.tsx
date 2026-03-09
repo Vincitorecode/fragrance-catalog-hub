@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Star, ShoppingCart, Check } from "lucide-react";
+import { ShoppingCart, Check } from "lucide-react";
 import { Product } from "@/types/product";
 import { CURRENCY } from "@/config";
 import { Button } from "@/components/ui/button";
@@ -9,13 +9,11 @@ interface ProductCardProps {
   product: Product;
 }
 
-const DECANT_INFO_IMAGE = "/images/decant-info.jpg";
-
 type MlOption = "2ml" | "5ml" | "10ml";
 const ML_OPTIONS: MlOption[] = ["2ml", "5ml", "10ml"];
 
 const formatMlLabel = (ml: MlOption) =>
-  ml === "2ml" ? "2 ml" : ml === "5ml" ? "5 ml" : "10 ml";
+  ml === "2ml" ? "2 ML" : ml === "5ml" ? "5 ML" : "10 ML";
 
 const ProductCard = ({ product }: ProductCardProps) => {
   const {
@@ -25,8 +23,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
     priceFrom,
     originalPriceFrom,
     onSale,
-    rating = 0,
-    ratingCount = 0,
     image,
     prices,
   } = product;
@@ -35,10 +31,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
   const [selectedMl, setSelectedMl] = useState<MlOption | null>(null);
   const [justAdded, setJustAdded] = useState(false);
 
-  // ✅ NEW: controla el swap de imagen de forma robusta
-  const [showDecantInfo, setShowDecantInfo] = useState(false);
-
-  const hasMlPrices = Boolean(prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]);
+  const hasMlPrices = Boolean(
+    prices?.["2ml"] && prices?.["5ml"] && prices?.["10ml"]
+  );
 
   const selectedPrice = useMemo(() => {
     if (!hasMlPrices || !selectedMl) return null;
@@ -46,7 +41,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
   }, [hasMlPrices, prices, selectedMl]);
 
   const displayPrice = selectedPrice ?? priceFrom;
-  const hasDiscount = onSale && originalPriceFrom && originalPriceFrom > priceFrom;
+  const hasDiscount =
+    onSale && originalPriceFrom && originalPriceFrom > priceFrom;
 
   const handleAddToCart = () => {
     if (hasMlPrices && !selectedMl) return;
@@ -59,46 +55,21 @@ const ProductCard = ({ product }: ProductCardProps) => {
   };
 
   return (
-    <article className="group relative flex flex-col rounded-xl bg-card border border-border overflow-hidden card-hover animate-fade-in">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-[18px] sm:rounded-[20px] md:rounded-[22px] border border-[#ECE7E1] bg-[#F5F3F0] shadow-[0_1px_6px_rgba(0,0,0,0.02)]">
       {onSale && (
-        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 z-10 badge-sale text-[10px] sm:text-sm">
+        <div className="absolute left-2 top-2 z-10 text-[10px] sm:left-3 sm:top-3 sm:text-xs badge-sale">
           Oferta
         </div>
       )}
 
       {/* Image Container */}
-      <div
-        className="relative aspect-square product-image-bg flex items-center justify-center p-3 sm:p-6 overflow-hidden"
-        // ✅ NEW: usa pointer events (cubre mouse + touch + “mantener presionado”)
-        onPointerEnter={() => setShowDecantInfo(true)}
-        onPointerLeave={() => setShowDecantInfo(false)}
-        onPointerDown={() => setShowDecantInfo(true)}
-        onPointerUp={() => setShowDecantInfo(false)}
-        onPointerCancel={() => setShowDecantInfo(false)}
-        onContextMenu={() => setShowDecantInfo(false)}
-      >
+      <div className="relative aspect-square overflow-hidden bg-[#F5F3F0]">
         <img
           src={image}
           alt={`${brand} ${name}`}
           draggable={false}
           onDragStart={(e) => e.preventDefault()}
-          className={[
-            "absolute inset-0 w-full h-full object-contain transition-opacity duration-500",
-            showDecantInfo ? "opacity-0" : "opacity-100",
-          ].join(" ")}
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = "/placeholder.svg";
-          }}
-        />
-        <img
-          src={DECANT_INFO_IMAGE}
-          alt="Información del decant"
-          draggable={false}
-          onDragStart={(e) => e.preventDefault()}
-          className={[
-            "absolute inset-0 w-full h-full object-contain transition-opacity duration-500",
-            showDecantInfo ? "opacity-100" : "opacity-0",
-          ].join(" ")}
+          className="h-full w-full object-cover"
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
@@ -106,150 +77,118 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-grow p-3 sm:p-4">
+      <div className="flex flex-grow flex-col p-3 sm:p-4 md:p-5">
         {/* Brand + Category */}
-        <div className="flex items-center gap-2 mb-1">
-          <span className="text-[10px] sm:text-xs font-medium text-muted-foreground uppercase tracking-wider">
+        <div className="mb-2 flex items-center justify-between gap-2">
+          <span className="min-w-0 truncate text-[10px] sm:text-[11px] md:text-[12px] font-medium uppercase tracking-[0.08em] text-[#7D7872]">
             {brand}
           </span>
+
           {category === "Nicho" && (
-            <span className="text-[10px] sm:text-xs px-2 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
+            <span className="shrink-0 rounded-full bg-[#B7E4C3] px-2.5 py-1 text-[9px] sm:px-3 sm:text-[10px] md:text-[11px] font-medium uppercase tracking-[0.06em] text-[#0B4D36]">
               Nicho
             </span>
           )}
         </div>
 
         {/* Name */}
-        <h3 className="font-display text-sm sm:text-lg font-semibold text-foreground mb-2 line-clamp-2 min-h-[2.25rem] sm:min-h-[2.75rem]">
+        <h3 className="mb-3 min-h-[2.5rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-display text-[18px] sm:text-[20px] md:text-[24px] font-semibold leading-[1.15] text-[#0B0B0B]">
           {name}
         </h3>
 
-        {/* Rating */}
-        {rating > 0 && ratingCount > 0 && (
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    size={12}
-                    className={
-                      i < Math.floor(rating)
-                        ? "fill-primary text-primary"
-                        : "fill-muted text-muted"
-                    }
-                  />
-                ))}
-              </div>
-              <span className="text-xs sm:text-sm text-muted-foreground">
-                {rating.toFixed(1)} ({ratingCount})
-              </span>
-            </div>
-            <span className="text-[10px] sm:text-xs text-muted-foreground">
-              {category === "Nicho" ? "Niche" : "Selección"}
-            </span>
-          </div>
+        {/* Size title */}
+        {hasMlPrices && (
+          <p className="mb-3 text-center text-[10px] sm:text-[11px] md:text-[12px] uppercase tracking-[0.08em] text-[#7D7872]">
+            Elige un tamaño
+          </p>
         )}
-
-        {/* Price */}
-        <div className="flex items-baseline gap-2 mb-3">
-          {hasDiscount && (
-            <span className="text-xs sm:text-sm text-muted-foreground line-through">
-              ${originalPriceFrom} {CURRENCY}
-            </span>
-          )}
-          <span className="text-sm sm:text-lg font-semibold text-foreground">
-            {hasMlPrices ? (
-              selectedMl ? (
-                <>
-                  {formatMlLabel(selectedMl)}: ${displayPrice} {CURRENCY}
-                </>
-              ) : (
-                <>Selecciona un tamaño</>
-              )
-            ) : (
-              <>Desde ${displayPrice} {CURRENCY}</>
-            )}
-          </span>
-        </div>
 
         {/* ML Selector */}
         {hasMlPrices && (
-          <div className="mb-3 sm:mb-4">
-            <p className="text-[10px] sm:text-xs text-muted-foreground mb-2">
-              Elige tamaño
-            </p>
-            <div className="grid grid-cols-3 gap-2">
-              {ML_OPTIONS.map((ml) => {
-                const active = ml === selectedMl;
-                return (
-                  <button
-                    key={ml}
-                    type="button"
-                    onClick={(e) => {
-                      setSelectedMl((prev) => (prev === ml ? null : ml));
-                      (e.currentTarget as HTMLButtonElement).blur();
-                    }}
-                    className={[
-                      "relative rounded-lg border px-3 py-2 text-sm font-semibold transition-all",
-                      "focus:outline-none focus-visible:ring-2",
-                      ml === "5ml" && active
-                        ? "focus-visible:ring-[#003229]/40"
-                        : "focus-visible:ring-primary/40",
-                      ml === "5ml" && active
-                        ? "border-[#003229] bg-[#003229]/10 text-foreground"
-                        : active
-                        ? "border-primary bg-primary/10 text-foreground"
-                        : "border-transparent bg-background/60 text-muted-foreground hover:border-primary/50",
-                    ].join(" ")}
-                  >
-                    <div
-                      className={`
-                        relative flex flex-col items-center leading-tight
-                        ${ml === "5ml" ? "before:content-['Favorito🔥']" : "before:content-none"}
-                        before:absolute before:-top-2 sm:before:-top-3
-                        before:left-1/2 before:-translate-x-1/2
-                        before:rounded-full before:bg-[#003229]
-                        before:px-1 sm:before:px-1.5 before:py-[1px]
-                        before:text-[8px] sm:before:text-[9px]
-                        before:font-medium before:text-white
-                        before:leading-none before:whitespace-nowrap
-                      `}
+          <div className="mb-4 grid grid-cols-3 gap-2 sm:gap-3">
+            {ML_OPTIONS.map((ml) => {
+              const active = ml === selectedMl;
+              const isFavorite = ml === "5ml";
+
+              return (
+                <button
+                  key={ml}
+                  type="button"
+                  onClick={(e) => {
+                    setSelectedMl(ml);
+                    (e.currentTarget as HTMLButtonElement).blur();
+                  }}
+                  className={[
+                    "relative rounded-[14px] sm:rounded-[16px] md:rounded-[18px] border px-1.5 py-3 sm:px-2 sm:py-3.5 md:px-3 md:py-4 transition-all",
+                    "focus:outline-none focus-visible:ring-2 focus-visible:ring-[#003229]/20",
+                    active
+                      ? "border-[#58C878] bg-[#CFE8D7]"
+                      : "border-[#C8C2BB] bg-transparent hover:border-[#58C878]/50",
+                  ].join(" ")}
+                >
+                  {isFavorite && (
+                    <span className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full bg-[#003F2D] px-2 py-1 text-[9px] sm:px-2.5 sm:text-[10px] md:px-3 md:text-[11px] font-medium text-white">
+                      FAV 🔥
+                    </span>
+                  )}
+
+                  <div className="flex min-h-[72px] sm:min-h-[82px] md:min-h-[96px] flex-col items-center justify-center leading-tight">
+                    <span
+                      className={[
+                        "mb-3 text-[10px] sm:text-[11px] md:text-[13px] font-medium uppercase",
+                        active ? "text-[#62816F]" : "text-[#7A7A7A]",
+                      ].join(" ")}
                     >
-                      <span className="mt-1 whitespace-nowrap text-[11px] sm:text-sm">
-                        {formatMlLabel(ml)}
-                      </span>
-                      <span className="text-foreground whitespace-nowrap text-[11px] sm:text-sm">
-                        ${prices![ml]}
-                      </span>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
+                      {formatMlLabel(ml)}
+                    </span>
+
+                    <span
+                      className={[
+                        "text-[18px] sm:text-[20px] md:text-[26px] font-semibold leading-none",
+                        active ? "text-[#003F2D]" : "text-[#0B0B0B]",
+                      ].join(" ")}
+                    >
+                      ${prices![ml]}
+                    </span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Price fallback */}
+        {!hasMlPrices && (
+          <div className="mb-4 flex flex-wrap items-baseline gap-2">
+            {hasDiscount && (
+              <span className="text-xs sm:text-sm text-muted-foreground line-through">
+                ${originalPriceFrom} {CURRENCY}
+              </span>
+            )}
+            <span className="text-sm sm:text-base md:text-lg font-semibold text-foreground">
+              Desde ${displayPrice} {CURRENCY}
+            </span>
           </div>
         )}
 
         {/* Add to Cart Button */}
         <Button
           onClick={handleAddToCart}
-          disabled={hasMlPrices && !selectedMl}
-          className={`mt-auto w-full gap-2 transition-all ${
-            justAdded ? "bg-green-600 hover:bg-green-600" : "btn-primary"
-          }`}
+          className={`mt-auto h-11 w-full rounded-full px-4 text-[13px] sm:h-12 sm:text-[14px] md:h-14 md:text-base gap-2 transition-all ${justAdded
+              ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
+              : "bg-[#004B33] text-white hover:bg-[#003A29]"
+            }`}
           size="lg"
         >
           {justAdded ? (
             <>
-              <Check className="h-4 w-4" />
+              <Check className="h-4 w-4 sm:h-[18px] sm:w-[18px] md:h-5 md:w-5" />
               ¡Agregado!
             </>
-          ) : hasMlPrices && !selectedMl ? (
-            "Elige un tamaño"
           ) : (
             <>
-              <ShoppingCart className="h-4 w-4" />
-              Agregar
+              <ShoppingCart className="h-4 w-4 sm:h-[18px] sm:w-[18px] md:h-5 md:w-5" />
+              <span className="truncate">Agregar al carrito</span>
             </>
           )}
         </Button>
