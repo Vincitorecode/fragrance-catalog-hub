@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GenderCard from "@/components/GenderCard";
@@ -80,7 +80,7 @@ const BENEFITS = [
   },
 ];
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 32 },
   visible: {
     opacity: 1,
@@ -92,7 +92,7 @@ const fadeUp = {
   },
 };
 
-const softFade = {
+const softFade: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -103,7 +103,7 @@ const softFade = {
   },
 };
 
-const staggerContainer = {
+const staggerContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
