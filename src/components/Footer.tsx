@@ -15,7 +15,7 @@ export default function Footer() {
       {/* Big editorial title */}
       <section className="py-10 sm:py-12 md:py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-grande text-center uppercase leading-none tracking-[-0.04em] text-[clamp(2rem,4.6vw,3.6rem)] text-white/90 whitespace-nowrap">
+          <h2 className="font-grande text-center uppercase leading-none tracking-[-0.04em] text-[clamp(2.4rem,5.4vw,4.4rem)] text-white/90 whitespace-nowrap">
             LE FRAGRANCE CLUB
           </h2>
         </div>
