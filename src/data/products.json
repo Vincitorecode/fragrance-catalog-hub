@@ -6,11 +6,11 @@
     "name": "L'Immensité",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 155,
+    "priceFrom": 160,
     "prices": {
-      "2ml": 155,
+      "2ml": 160,
       "5ml": 390,
-      "10ml": 775
+      "10ml": 780
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -177,11 +177,11 @@
     "name": "Tam Dao",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 105,
+    "priceFrom": 100,
     "prices": {
-      "2ml": 105,
-      "5ml": 255,
-      "10ml": 505
+      "2ml": 100,
+      "5ml": 250,
+      "10ml": 500
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -196,11 +196,11 @@
     "name": "Gris Charnel Eau de Parfum",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 105,
+    "priceFrom": 100,
     "prices": {
-      "2ml": 105,
-      "5ml": 255,
-      "10ml": 505
+      "2ml": 100,
+      "5ml": 250,
+      "10ml": 500
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -272,11 +272,11 @@
     "name": "Wet Stone",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 80,
+    "priceFrom": 75,
     "prices": {
-      "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "2ml": 75,
+      "5ml": 180,
+      "10ml": 360
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -294,8 +294,8 @@
     "priceFrom": 80,
     "prices": {
       "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "5ml": 200,
+      "10ml": 400
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -313,8 +313,8 @@
     "priceFrom": 80,
     "prices": {
       "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "5ml": 200,
+      "10ml": 400
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -361,25 +361,6 @@
     "image": "/images/perfumes/hombre/Bvlgari-Man-In-Black.png"
   },
   {
-    "id": "mancera-french-riviera",
-    "gender": "hombre",
-    "brand": "Mancera",
-    "name": "French Riviera",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 75,
-    "prices": {
-      "2ml": 75,
-      "5ml": 180,
-      "10ml": 360
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/French-Riviera.png"
-  },
-  {
     "id": "thomas-kosmala-exsupero",
     "gender": "hombre",
     "brand": "Thomas Kosmala",
@@ -408,8 +389,8 @@
     "priceFrom": 70,
     "prices": {
       "2ml": 70,
-      "5ml": 175,
-      "10ml": 345
+      "5ml": 170,
+      "10ml": 340
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -427,8 +408,8 @@
     "priceFrom": 70,
     "prices": {
       "2ml": 70,
-      "5ml": 175,
-      "10ml": 345
+      "5ml": 170,
+      "10ml": 340
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -446,8 +427,8 @@
     "priceFrom": 70,
     "prices": {
       "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
+      "5ml": 170,
+      "10ml": 340
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -633,11 +614,11 @@
     "name": "Bois Impérial",
     "category": "Nicho",
     "availability": "Disponible",
-    "priceFrom": 60,
+    "priceFrom": 70,
     "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
     },
     "onSale": false,
     "originalPriceFrom": null,
@@ -815,25 +796,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Art-Of-Universe.png"
-  },
-  {
-    "id": "maison-alhambra-jean-lowe-vibe-dupe-pacific-chill-lv",
-    "gender": "hombre",
-    "brand": "Maison Alhambra",
-    "name": "Jean Lowe Vibe (Dupe: Pacific Chill - LV)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 145,
-      "10ml": 285
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Jean-Lowe-Vibe.png"
   },
   {
     "id": "maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv",
