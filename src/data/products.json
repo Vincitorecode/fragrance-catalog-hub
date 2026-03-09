@@ -38,6 +38,25 @@
     "image": "/images/perfumes/hombre/L’Immensité.png"
   },
   {
+    "id": "louis-vuitton-meteore",
+    "gender": "hombre",
+    "brand": "Louis Vuitton",
+    "name": "Météore",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 160,
+    "prices": {
+      "2ml": 160,
+      "5ml": 390,
+      "10ml": 780
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Meteore.png"
+  },
+  {
     "id": "xerjoff-naxos",
     "gender": "hombre",
     "brand": "Xerjoff",
