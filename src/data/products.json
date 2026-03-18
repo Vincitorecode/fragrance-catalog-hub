@@ -133,25 +133,6 @@
     "image": "/images/perfumes/hombre/Vibrato.png"
   },
   {
-    "id": "sospiro-perfumes-erba-pura-magica",
-    "gender": "hombre",
-    "brand": "Sospiro Perfumes",
-    "name": "Erba Pura Magica",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 135,
-    "prices": {
-      "2ml": 135,
-      "5ml": 335,
-      "10ml": 670
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Erba-Pura-Magica.png"
-  },
-  {
     "id": "nishane-hacivat-extrait-de-parfum",
     "gender": "hombre",
     "brand": "Nishane",
@@ -874,25 +855,6 @@
     "image": "/images/perfumes/hombre/atlas.png"
   },
   {
-    "id": "orientica-premium-exclusive-azure-fantasy-dupe-imagination-lv",
-    "gender": "hombre",
-    "brand": "Orientica Premium",
-    "name": "Exclusive Azure Fantasy (Dupe: Imagination - LV)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Exclusive-Azure-Fantasy.png"
-  },
-  {
     "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
     "gender": "hombre",
     "brand": "Aqua di Parma",
@@ -1423,25 +1385,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Vibrato.png"
-  },
-  {
-    "id": "sospiro-perfumes-erba-pura-magica-mujer",
-    "gender": "mujer",
-    "brand": "Sospiro Perfumes",
-    "name": "Erba Pura Magica",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 135,
-    "prices": {
-      "2ml": 135,
-      "5ml": 335,
-      "10ml": 670
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/mujer/Erba-Pura-Magica.png"
   },
   {
     "id": "le-labo-santal-33",
