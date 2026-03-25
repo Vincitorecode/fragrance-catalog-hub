@@ -121,41 +121,41 @@ const Home = () => {
         {/* ─── HERO ─── */}
         <section className="pt-6 sm:pt-8 md:pt-10 pb-12 sm:pb-10 md:pb-12 text-center overflow-hidden">
           <motion.div
-            className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+            className="w-full"
             variants={staggerContainer}
             initial="hidden"
             animate="visible"
           >
-            <motion.h1
-              variants={fadeUp}
-              className="font-script text-[42px] sm:text-[48px] md:text-[56px] text-[#013220] font-medium leading-tight"
-            >
-              Decants
-            </motion.h1>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <motion.h1
+                variants={fadeUp}
+                className="font-script text-[42px] sm:text-[48px] md:text-[56px] text-[#013220] font-medium leading-tight"
+              >
+                Decants
+              </motion.h1>
 
-            <motion.p
-              variants={fadeUp}
-              className="mt-4 text-sm sm:text-base md:text-lg font-bold tracking-[0.15em] uppercase text-[#3CB371]"
-            >
-              COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
-            </motion.p>
+              <motion.p
+                variants={fadeUp}
+                className="mt-4 text-sm sm:text-base md:text-lg font-bold tracking-[0.15em] uppercase text-[#3CB371]"
+              >
+                COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
+              </motion.p>
 
-            <motion.p
-              variants={fadeUp}
-              className="mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
-              style={{
-                fontFamily:
-                  'Brandon Text, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif',
-              }}
-            >
-              ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
-              <br className="hidden sm:block h-6" />
-              Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
-            </motion.p>
+              <motion.p
+                variants={fadeUp}
+                className="mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
+                style={{
+                  fontFamily:
+                    'Brandon Text, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif',
+                }}
+              >
+                ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas. Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
+              </motion.p>
+            </div>
 
             <motion.div
               variants={softFade}
-              className="mt-8 sm:mt-10 w-screen relative left-1/2 -translate-x-1/2"
+              className="mt-8 sm:mt-10 w-full"
             >
               <BrandCarousel />
             </motion.div>
@@ -204,7 +204,7 @@ const Home = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8 md:gap-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 sm:gap-8 md:gap-16">
               {BENEFITS.map((b) => (
                 <motion.div
                   key={b.title}
