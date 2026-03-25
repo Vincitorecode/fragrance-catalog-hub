@@ -20,6 +20,7 @@ const App = () => (
         <Sonner />
         <Cart />
         <BrowserRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:gender" element={<Catalog />} />
