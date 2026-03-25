@@ -29,7 +29,16 @@ const GenderCard = ({ gender, title, imageSrc }: GenderCardProps) => {
 
       {/* Title */}
       <div className="absolute inset-0 flex items-end justify-center pb-8 sm:pb-10 md:pb-12">
-        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-[0.1em] uppercase drop-shadow-lg transition-all duration-500 group-hover:tracking-[0.18em]">
+        <h2
+          className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase drop-shadow-lg transition-all duration-500 group-hover:tracking-[0.18em]"
+          style={{
+            fontFamily: '"Brandon Grotesque", system-ui, sans-serif',
+            fontWeight: 500,
+            lineHeight: '1',
+            letterSpacing: '0',
+            textAlign: 'center',
+          }}
+        >
           {title}
         </h2>
       </div>
