@@ -46,7 +46,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   const handleAddToCart = () => {
     if (hasMlPrices && !selectedMl) return;
-    
 
     const size: MlSize = selectedMl || "5ml";
     addItem(product, size);
@@ -54,6 +53,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
     setJustAdded(true);
     setTimeout(() => setJustAdded(false), 1500);
   };
+
+  const showButton = !hasMlPrices || selectedMl !== null;
 
   return (
     <article className="group relative flex h-full flex-col overflow-hidden rounded-[18px] sm:rounded-[20px] md:rounded-[22px] border border-[#ECE7E1] bg-[#F5F3F0] shadow-[0_1px_6px_rgba(0,0,0,0.02)]">
@@ -63,14 +64,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
       )}
 
-      {/* Image Container */}
+      {/* Image Container with hover zoom */}
       <div className="relative aspect-square overflow-hidden bg-[#F5F3F0]">
         <img
           src={image}
           alt={`${brand} ${name}`}
           draggable={false}
           onDragStart={(e) => e.preventDefault()}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/placeholder.svg";
           }}
@@ -99,14 +100,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
         {/* Size title */}
         {hasMlPrices && (
-          <p className="mb-3 text-center text-[10px] sm:text-[11px] md:text-[12px] uppercase tracking-[0.08em] text-[#7D7872]">
+          <p className="mb-2 text-center text-[10px] sm:text-[11px] md:text-[12px] uppercase tracking-[0.08em] text-[#7D7872]">
             Elige un tamaño
           </p>
         )}
 
-        {/* ML Selector */}
+        {/* ML Selector — compact */}
         {hasMlPrices && (
-          <div className="mb-4 grid grid-cols-3 gap-2 sm:gap-3">
+          <div className="mb-3 grid grid-cols-3 gap-1.5 sm:gap-2">
             {ML_OPTIONS.map((ml) => {
               const active = ml === selectedMl;
               const isFavorite = ml === "5ml";
@@ -120,7 +121,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     (e.currentTarget as HTMLButtonElement).blur();
                   }}
                   className={[
-                    "relative rounded-[14px] sm:rounded-[16px] md:rounded-[18px] border px-1.5 py-3 sm:px-2 sm:py-3.5 md:px-3 md:py-4 transition-all",
+                    "relative rounded-[12px] sm:rounded-[14px] md:rounded-[16px] border px-1 py-2 sm:px-1.5 sm:py-2.5 md:px-2 md:py-3 transition-all",
                     "focus:outline-none focus-visible:ring-2 focus-visible:ring-[#003229]/20",
                     active
                       ? "border-[#58C878] bg-[#CFE8D7]"
@@ -128,15 +129,15 @@ const ProductCard = ({ product }: ProductCardProps) => {
                   ].join(" ")}
                 >
                   {isFavorite && (
-                    <span className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full bg-[#003F2D] px-2 py-1 text-[9px] sm:px-2.5 sm:text-[10px] md:px-3 md:text-[11px] font-medium text-white">
+                    <span className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap rounded-full bg-[#003F2D] px-2 py-0.5 text-[8px] sm:px-2.5 sm:text-[9px] md:px-3 md:text-[10px] font-medium text-white">
                       FAV 🔥
                     </span>
                   )}
 
-                  <div className="flex min-h-[72px] sm:min-h-[82px] md:min-h-[96px] flex-col items-center justify-center leading-tight">
+                  <div className="flex min-h-[52px] sm:min-h-[58px] md:min-h-[68px] flex-col items-center justify-center leading-tight">
                     <span
                       className={[
-                        "mb-3 text-[10px] sm:text-[11px] md:text-[13px] font-medium uppercase",
+                        "mb-1.5 text-[9px] sm:text-[10px] md:text-[12px] font-medium uppercase",
                         active ? "text-[#62816F]" : "text-[#7A7A7A]",
                       ].join(" ")}
                     >
@@ -145,7 +146,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
                     <span
                       className={[
-                        "text-[18px] sm:text-[20px] md:text-[26px] font-semibold leading-none",
+                        "text-[16px] sm:text-[18px] md:text-[22px] font-semibold leading-none",
                         active ? "text-[#003F2D]" : "text-[#0B0B0B]",
                       ].join(" ")}
                     >
@@ -172,27 +173,36 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </div>
         )}
 
-        {/* Add to Cart Button */}
-        <Button
-          onClick={handleAddToCart}
-          className={`mt-auto h-11 w-full rounded-full px-4 text-[13px] sm:h-12 sm:text-[14px] md:h-14 md:text-base gap-2 transition-all ${justAdded
-              ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
-              : "bg-[#004B33] text-white hover:bg-[#003A29]"
-            }`}
-          size="lg"
+        {/* Add to Cart Button — appears after ML selection */}
+        <div
+          className={`mt-auto overflow-hidden transition-all duration-300 ease-out ${
+            showButton
+              ? "max-h-16 opacity-100"
+              : "max-h-0 opacity-0"
+          }`}
         >
-          {justAdded ? (
-            <>
-              <Check className="h-4 w-4 sm:h-[18px] sm:w-[18px] md:h-5 md:w-5" />
-              ¡Agregado!
-            </>
-          ) : (
-            <>
-              <ShoppingCart className="h-4 w-4 sm:h-[18px] sm:w-[18px] md:h-5 md:w-5" />
-              <span className="truncate">Agregar al carrito</span>
-            </>
-          )}
-        </Button>
+          <Button
+            onClick={handleAddToCart}
+            className={`h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${
+              justAdded
+                ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
+                : "bg-[#004B33] text-white hover:bg-[#003A29]"
+            }`}
+            size="lg"
+          >
+            {justAdded ? (
+              <>
+                <Check className="h-4 w-4 sm:h-[18px] sm:w-[18px]" />
+                ¡Agregado!
+              </>
+            ) : (
+              <>
+                <ShoppingCart className="h-4 w-4 sm:h-[18px] sm:w-[18px]" />
+                <span className="truncate">Agregar al carrito</span>
+              </>
+            )}
+          </Button>
+        </div>
       </div>
     </article>
   );
