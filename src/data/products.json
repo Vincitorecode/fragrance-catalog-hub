@@ -19,25 +19,6 @@
     "image": "/images/perfumes/hombre/Santal-33.png"
   },
   {
-    "id": "louis-vuitton-limmensite",
-    "gender": "hombre",
-    "brand": "Louis Vuitton",
-    "name": "L'Immensité",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 160,
-    "prices": {
-      "2ml": 160,
-      "5ml": 390,
-      "10ml": 780
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/L’Immensité.png"
-  },
-  {
     "id": "louis-vuitton-meteore",
     "gender": "hombre",
     "brand": "Louis Vuitton",
@@ -55,6 +36,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Meteore.png"
+  },
+  {
+    "id": "louis-vuitton-limmensite",
+    "gender": "hombre",
+    "brand": "Louis Vuitton",
+    "name": "L'Immensité",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 160,
+    "prices": {
+      "2ml": 160,
+      "5ml": 390,
+      "10ml": 780
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/L’Immensité.png"
   },
   {
     "id": "xerjoff-naxos",
@@ -95,25 +95,6 @@
     "image": "/images/perfumes/hombre/Bergamote-22.png"
   },
   {
-    "id": "fugazzi-saint-remy",
-    "gender": "hombre",
-    "brand": "Fugazzi",
-    "name": "Saint Rémy",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 135,
-    "prices": {
-      "2ml": 135,
-      "5ml": 335,
-      "10ml": 670
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Saint-Remy.png"
-  },
-  {
     "id": "sospiro-perfumes-vibrato",
     "gender": "hombre",
     "brand": "Sospiro Perfumes",
@@ -131,6 +112,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Vibrato.png"
+  },
+  {
+    "id": "fugazzi-saint-remy",
+    "gender": "hombre",
+    "brand": "Fugazzi",
+    "name": "Saint Rémy",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 135,
+    "prices": {
+      "2ml": 135,
+      "5ml": 335,
+      "10ml": 670
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Saint-Remy.png"
   },
   {
     "id": "nishane-hacivat-extrait-de-parfum",
@@ -188,25 +188,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Perseus.png"
-  },
-  {
-    "id": "sicili-fragances-mandarino-divino",
-    "gender": "hombre",
-    "brand": "Sicili Fragances",
-    "name": "Mandarino Divino",
-    "category": "Nicho",
-    "availability": "Nuevo lanzamiento",
-    "priceFrom": 80,
-    "prices": {
-      "2ml": 80,
-      "5ml": 200,
-      "10ml": 400
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Mandarino-Divino.png"
   },
   {
     "id": "diptyque-tam-dao",
@@ -304,23 +285,23 @@
     "image": "/images/perfumes/hombre/Orange-Crush.png"
   },
   {
-    "id": "amouroud-wet-stone",
+    "id": "sicili-fragances-mandarino-divino",
     "gender": "hombre",
-    "brand": "Amouroud",
-    "name": "Wet Stone",
+    "brand": "Sicili Fragances",
+    "name": "Mandarino Divino",
     "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 75,
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 80,
     "prices": {
-      "2ml": 75,
-      "5ml": 180,
-      "10ml": 360
+      "2ml": 80,
+      "5ml": 200,
+      "10ml": 400
     },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Wet-Stone.png"
+    "image": "/images/perfumes/hombre/Mandarino-Divino.png"
   },
   {
     "id": "acqua-di-parma-colonia-club",
@@ -342,30 +323,11 @@
     "image": "/images/perfumes/hombre/Acqua-di-Parma-Colonia-Club.png"
   },
   {
-    "id": "ralph-lauren-polo-67-eau-de-parfum",
-    "gender": "hombre",
-    "brand": "Ralph Lauren",
-    "name": "Polo 67 Eau de Parfum",
-    "category": "Designer",
-    "availability": "Disponible",
-    "priceFrom": 80,
-    "prices": {
-      "2ml": 80,
-      "5ml": 190,
-      "10ml": 380
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Polo-67.png"
-  },
-  {
     "id": "hermes-terre-dhermes-eau-givree",
     "gender": "hombre",
     "brand": "Hermès",
     "name": "Terre d'Hermès Eau Givrée",
-    "category": "Nicho",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -399,11 +361,30 @@
     "image": "/images/perfumes/hombre/Date-For-Men.png"
   },
   {
+    "id": "ralph-lauren-polo-67-eau-de-parfum",
+    "gender": "hombre",
+    "brand": "Ralph Lauren",
+    "name": "Polo 67 Eau de Parfum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Polo-67.png"
+  },
+  {
     "id": "bvlgari-bvlgari-man-in-black",
     "gender": "hombre",
     "brand": "Bvlgari",
     "name": "Bvlgari Man In Black",
-    "category": "Nicho",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -416,6 +397,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Bvlgari-Man-In-Black.png"
+  },
+  {
+    "id": "amouroud-wet-stone",
+    "gender": "hombre",
+    "brand": "Amouroud",
+    "name": "Wet Stone",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 75,
+    "prices": {
+      "2ml": 75,
+      "5ml": 180,
+      "10ml": 360
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Wet-Stone.png"
   },
   {
     "id": "thomas-kosmala-exsupero",
@@ -437,11 +437,49 @@
     "image": "/images/perfumes/hombre/Thomas-Kosmala-Exsupero.png"
   },
   {
+    "id": "yves-saint-laurent-y-eau-de-parfum",
+    "gender": "hombre",
+    "brand": "Yves Saint Laurent",
+    "name": "Y Eau de parfum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Eau-de-parfum.png"
+  },
+  {
+    "id": "essential-parfums-bois-imperial",
+    "gender": "hombre",
+    "brand": "Essential Parfums",
+    "name": "Bois Impérial",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Bois-Impérial.png"
+  },
+  {
     "id": "jean-paul-gaultier-le-male-elixir",
     "gender": "hombre",
     "brand": "Jean Paul Gaultier",
     "name": "Le Male Elixir",
-    "category": "Nicho",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -475,6 +513,25 @@
     "image": "/images/perfumes/hombre/Le-Beau-Paradise-Garden.png"
   },
   {
+    "id": "jean-paul-gaultier-le-beau",
+    "gender": "hombre",
+    "brand": "Jean Paul Gaultier",
+    "name": "Le Beau",
+    "category": "Designer",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Le-Beau.png"
+  },
+  {
     "id": "valentino-uomo-born-in-roma",
     "gender": "hombre",
     "brand": "Valentino",
@@ -492,6 +549,158 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Valentino.png"
+  },
+  {
+    "id": "hugo-boss-bottled-elixir",
+    "gender": "hombre",
+    "brand": "Hugo Boss",
+    "name": "Bottled Elixir",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Bottled-Elixir.png"
+  },
+  {
+    "id": "armani-code-eau-de-parfum",
+    "gender": "hombre",
+    "brand": "Armani",
+    "name": "Code Eau de Parfum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Code-Eau-de-Parfum.png"
+  },
+  {
+    "id": "issey-miyake-issey-miyake",
+    "gender": "hombre",
+    "brand": "Issey Miyake",
+    "name": "Issey Miyake",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Fusion-D'Issey.png"
+  },
+  {
+    "id": "dior-homme-cologne",
+    "gender": "hombre",
+    "brand": "Dior",
+    "name": "Homme Cologne",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Homme-Cologne.png"
+  },
+  {
+    "id": "loewe-001-man",
+    "gender": "hombre",
+    "brand": "Loewe",
+    "name": "001 Man",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Man.png"
+  },
+  {
+    "id": "loewe-solo-mercurio",
+    "gender": "hombre",
+    "brand": "Loewe",
+    "name": "Solo Mercurio",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Mercurio.png"
+  },
+  {
+    "id": "loewe-cedro",
+    "gender": "hombre",
+    "brand": "Loewe",
+    "name": "Cedro",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Cedro.png"
+  },
+  {
+    "id": "azzaro-the-most-wanted-intense",
+    "gender": "hombre",
+    "brand": "Azzaro",
+    "name": "The Most Wanted Intense",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 165,
+      "10ml": 330
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/The-Most-Wanted-Intense.png"
   },
   {
     "id": "azzaro-the-most-wanted-parfum",
@@ -513,215 +722,6 @@
     "image": "/images/perfumes/hombre/The-Most-Wanted-Parfum.png"
   },
   {
-    "id": "yves-saint-laurent-y-eau-de-parfum",
-    "gender": "hombre",
-    "brand": "Yves Saint Laurent",
-    "name": "Y Eau de parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 170,
-      "10ml": 340
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Eau-de-parfum.png"
-  },
-  {
-    "id": "jean-paul-gaultier-le-beau",
-    "gender": "hombre",
-    "brand": "Jean Paul Gaultier",
-    "name": "Le Beau",
-    "category": "Nicho",
-    "availability": "Nuevo lanzamiento",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 170,
-      "10ml": 340
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Le-Beau.png"
-  },
-  {
-    "id": "hugo-boss-bottled-elixir",
-    "gender": "hombre",
-    "brand": "Hugo Boss",
-    "name": "Bottled Elixir",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Bottled-Elixir.png"
-  },
-  {
-    "id": "armani-code-eau-de-parfum",
-    "gender": "hombre",
-    "brand": "Armani",
-    "name": "Code Eau de Parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Code-Eau-de-Parfum.png"
-  },
-  {
-    "id": "issey-miyake-issey-miyake",
-    "gender": "hombre",
-    "brand": "Issey Miyake",
-    "name": "Issey Miyake",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Fusion-D'Issey.png"
-  },
-  {
-    "id": "dior-homme-cologne",
-    "gender": "hombre",
-    "brand": "Dior",
-    "name": "Homme Cologne",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Homme-Cologne.png"
-  },
-  {
-    "id": "loewe-001-man",
-    "gender": "hombre",
-    "brand": "Loewe",
-    "name": "001 Man",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Man.png"
-  },
-  {
-    "id": "loewe-solo-mercurio",
-    "gender": "hombre",
-    "brand": "Loewe",
-    "name": "Solo Mercurio",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Mercurio.png"
-  },
-  {
-    "id": "loewe-cedro",
-    "gender": "hombre",
-    "brand": "Loewe",
-    "name": "Cedro",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Cedro.png"
-  },
-  {
-    "id": "azzaro-the-most-wanted-intense",
-    "gender": "hombre",
-    "brand": "Azzaro",
-    "name": "The Most Wanted Intense",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/The-Most-Wanted-Intense.png"
-  },
-  {
-    "id": "essential-parfums-bois-imperial",
-    "gender": "hombre",
-    "brand": "Essential Parfums",
-    "name": "Bois Impérial",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 170,
-      "10ml": 340
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Bois-Impérial.png"
-  },
-  {
     "id": "viktor-rolf-spicebomb-extreme",
     "gender": "hombre",
     "brand": "Viktor&Rolf",
@@ -741,12 +741,12 @@
     "image": "/images/perfumes/hombre/Spicebomb-Extreme.png"
   },
   {
-    "id": "jo-milano-paris-game-of-spades-bonus",
+    "id": "lattafa-atlas-dupe-megamare-orto-parisi",
     "gender": "hombre",
-    "brand": "Jo Milano Paris",
-    "name": "Game of Spades Bonus",
-    "category": "Nicho",
-    "availability": "Nuevo lanzamiento",
+    "brand": "Lattafa",
+    "name": "Atlas (Dupe: Megamare- Orto Parisi)",
+    "category": "Árabe",
+    "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
       "2ml": 60,
@@ -757,7 +757,45 @@
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Game_of_Spades_Bonus.png"
+    "image": "/images/perfumes/hombre/atlas.png"
+  },
+  {
+    "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
+    "gender": "hombre",
+    "brand": "Aqua di Parma",
+    "name": "Blu Mediterraneo Fico di Amalfi",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Blu-Mediterraneo-Fico-di-Amalfi.png"
+  },
+  {
+    "id": "givenchy-gentleman-eau-de-parfum",
+    "gender": "hombre",
+    "brand": "Givenchy",
+    "name": "Gentleman Eau de Parfum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Gentleman-Eau-de-Parfum.png"
   },
   {
     "id": "french-avenue-safari-breeze",
@@ -798,6 +836,44 @@
     "image": "/images/perfumes/hombre/Club-de-Nuit-Bling.png"
   },
   {
+    "id": "hugo-boss-bold-citrus",
+    "gender": "hombre",
+    "brand": "Hugo Boss",
+    "name": "Bold Citrus",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Bold-Citrus.png"
+  },
+  {
+    "id": "jo-milano-paris-game-of-spades-bonus",
+    "gender": "hombre",
+    "brand": "Jo Milano Paris",
+    "name": "Game of Spades Bonus",
+    "category": "Nicho",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Game_of_Spades_Bonus.png"
+  },
+  {
     "id": "jo-milano-paris-game-of-spades-double-bonus",
     "gender": "hombre",
     "brand": "Jo Milano Paris",
@@ -815,6 +891,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Game-of-Spades-Double-Bonus.png"
+  },
+  {
+    "id": "salvatore-ferragamo-bright-leather",
+    "gender": "hombre",
+    "brand": "Salvatore Ferragamo",
+    "name": "Bright Leather",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Bright-Leather.png"
   },
   {
     "id": "french-avenue-vulcan-feu",
@@ -855,106 +950,11 @@
     "image": "/images/perfumes/hombre/Polo-Red-.png"
   },
   {
-    "id": "lattafa-atlas-dupe-megamare-orto-parisi",
-    "gender": "hombre",
-    "brand": "Lattafa",
-    "name": "Atlas (Dupe: Megamare- Orto Parisi)",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/atlas.png"
-  },
-  {
-    "id": "aqua-di-parma-blu-mediterraneo-fico-di-amalfi",
-    "gender": "hombre",
-    "brand": "Aqua di Parma",
-    "name": "Blu Mediterraneo Fico di Amalfi",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Blu-Mediterraneo-Fico-di-Amalfi.png"
-  },
-  {
-    "id": "givenchy-gentleman-eau-de-parfum",
-    "gender": "hombre",
-    "brand": "Givenchy",
-    "name": "Gentleman Eau de Parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Gentleman-Eau-de-Parfum.png"
-  },
-  {
-    "id": "hugo-boss-bold-citrus",
-    "gender": "hombre",
-    "brand": "Hugo Boss",
-    "name": "Bold Citrus",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Bold-Citrus.png"
-  },
-  {
-    "id": "salvatore-ferragamo-bright-leather",
-    "gender": "hombre",
-    "brand": "Salvatore Ferragamo",
-    "name": "Bright Leather",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 60,
-    "prices": {
-      "2ml": 60,
-      "5ml": 150,
-      "10ml": 300
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Bright-Leather.png"
-  },
-  {
     "id": "afnan-turathi-blue-dupe-vibrato-sospiro-perfumes",
     "gender": "hombre",
     "brand": "Afnan",
     "name": "Turathi Blue (Dupe: Vibrato Sospiro Perfumes)",
-    "category": "Nicho",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -973,7 +973,7 @@
     "gender": "hombre",
     "brand": "Lattafa",
     "name": "Art Of Universe (Dupe: Blue Talisman - Ex Nihilo)",
-    "category": "Nicho",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -992,7 +992,7 @@
     "gender": "hombre",
     "brand": "Maison Alhambra",
     "name": "Jean Lowe Azure (Dupe: Afternoon Swim - LV)",
-    "category": "Nicho",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1011,7 +1011,7 @@
     "gender": "hombre",
     "brand": "Dolce & Gabbana",
     "name": "Light Blue 2025",
-    "category": "Nicho",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 50,
     "prices": {
@@ -1043,6 +1043,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Boss-Bottled.png"
+  },
+  {
+    "id": "montblanc-explorer-platinum",
+    "gender": "hombre",
+    "brand": "Montblanc",
+    "name": "Explorer Platinum",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 125,
+      "10ml": 250
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Explorer-Platinum.png"
   },
   {
     "id": "armaf-ombre-dor",
@@ -1140,42 +1159,23 @@
     "image": "/images/perfumes/hombre/Captcha-36.png"
   },
   {
-    "id": "montblanc-explorer-platinum",
+    "id": "calvin-klein-eternity-summer-daze",
     "gender": "hombre",
-    "brand": "Montblanc",
-    "name": "Explorer Platinum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 50,
-    "prices": {
-      "2ml": 50,
-      "5ml": 125,
-      "10ml": 250
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Explorer-Platinum.png"
-  },
-  {
-    "id": "versace-dylan-blue",
-    "gender": "hombre",
-    "brand": "Versace",
-    "name": "Dylan Blue",
-    "category": "Nicho",
+    "brand": "Calvin Klein",
+    "name": "Eternity Summer Daze",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 45,
     "prices": {
       "2ml": 45,
-      "5ml": 110,
-      "10ml": 220
+      "5ml": 115,
+      "10ml": 225
     },
     "onSale": false,
     "originalPriceFrom": null,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Dylan-Blue.png"
+    "image": "/images/perfumes/hombre/Eternity-Summer-Daze.png"
   },
   {
     "id": "lattafa-ameer-al-oudh",
@@ -1195,6 +1195,44 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Ameer-Al-Oudh.png"
+  },
+  {
+    "id": "versace-dylan-blue",
+    "gender": "hombre",
+    "brand": "Versace",
+    "name": "Dylan Blue",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 110,
+      "10ml": 220
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Dylan-Blue.png"
+  },
+  {
+    "id": "dolce-gabbana-the-one",
+    "gender": "hombre",
+    "brand": "Dolce&Gabbana",
+    "name": "The One",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 115,
+      "10ml": 225
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/The-One.png"
   },
   {
     "id": "salvatore-ferragamo-acqua-essenziale",
@@ -1292,6 +1330,25 @@
     "image": "/images/perfumes/hombre/Barts-Men-Cologne.png"
   },
   {
+    "id": "calvin-klein-ck-one-reflections",
+    "gender": "hombre",
+    "brand": "Calvin Klein",
+    "name": "CK One Reflections",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 110,
+      "10ml": 220
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/CK-One-Reflections.png"
+  },
+  {
     "id": "dumont-nitro-red",
     "gender": "hombre",
     "brand": "Dumont",
@@ -1309,63 +1366,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Nitro-Red.png"
-  },
-  {
-    "id": "dolce-gabbana-the-one",
-    "gender": "hombre",
-    "brand": "Dolce&Gabbana",
-    "name": "The One",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/The-One.png"
-  },
-  {
-    "id": "calvin-klein-ck-one-reflections",
-    "gender": "hombre",
-    "brand": "Calvin Klein",
-    "name": "CK One Reflections",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 110,
-      "10ml": 220
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/CK-One-Reflections.png"
-  },
-  {
-    "id": "calvin-klein-eternity-summer-daze",
-    "gender": "hombre",
-    "brand": "Calvin Klein",
-    "name": "Eternity Summer Daze",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Eternity-Summer-Daze.png"
   },
   {
     "id": "le-labo-bergamote-2-mujer",
