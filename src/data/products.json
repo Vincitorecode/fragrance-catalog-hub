@@ -1430,7 +1430,7 @@
     "gender": "mujer",
     "brand": "Carolina Herrera",
     "name": "La Bomba",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 120,
     "prices": {
@@ -1450,7 +1450,7 @@
     "gender": "mujer",
     "brand": "Valentino",
     "name": "Donna Born In Roma",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 80,
     "prices": {
@@ -1470,7 +1470,7 @@
     "gender": "mujer",
     "brand": "Valentino",
     "name": "Donna Born In Roma Yellow Dream",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1490,7 +1490,7 @@
     "gender": "mujer",
     "brand": "Valentino",
     "name": "Donna Born In Roma Green Stravaganza",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1510,7 +1510,7 @@
     "gender": "mujer",
     "brand": "Jean Paul Gaultier",
     "name": "Divine",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1530,7 +1530,7 @@
     "gender": "mujer",
     "brand": "Yves Saint Laurent",
     "name": "Libre EDP",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1550,7 +1550,7 @@
     "gender": "mujer",
     "brand": "Yves Saint Laurent",
     "name": "Black Opium",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1570,7 +1570,7 @@
     "gender": "mujer",
     "brand": "Rabanne",
     "name": "Fame Eau de Parfum",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1590,7 +1590,7 @@
     "gender": "mujer",
     "brand": "Guerlain",
     "name": "Mon EDP",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1610,7 +1610,7 @@
     "gender": "mujer",
     "brand": "Giorgio Armani",
     "name": "My Way EDP",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1630,7 +1630,7 @@
     "gender": "mujer",
     "brand": "Dolce&Gabbana",
     "name": "Devotion",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1650,7 +1650,7 @@
     "gender": "mujer",
     "brand": "Ariana Grande",
     "name": "Cloud Pink",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1670,7 +1670,7 @@
     "gender": "mujer",
     "brand": "Lattafa",
     "name": "Liam (Dupe: Gris Charnel - BDK)",
-    "category": "Arabe",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 50,
     "prices": {
@@ -1690,7 +1690,7 @@
     "gender": "mujer",
     "brand": "Emper",
     "name": "Captcha 36 (Dupe: The Matcha 26 - Le Labo)",
-    "category": "Arabe",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 50,
     "prices": {
@@ -1710,7 +1710,7 @@
     "gender": "mujer",
     "brand": "Sabrina Carpenter",
     "name": "Sweet Tooth Me Espresso",
-    "category": "Diseñador",
+    "category": "Designer",
     "availability": "Disponible",
     "priceFrom": 55,
     "prices": {
@@ -1730,7 +1730,7 @@
     "gender": "mujer",
     "brand": "Armaf",
     "name": "Club de Nuit Woman (Dupe: Coco Mademoiselle Chanel)",
-    "category": "Arabe",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 45,
     "prices": {
@@ -1750,7 +1750,7 @@
     "gender": "mujer",
     "brand": "Armaf",
     "name": "Club de Nuit Milestone (Dupe: Millésime Impérial Creed)",
-    "category": "Arabe",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 45,
     "prices": {

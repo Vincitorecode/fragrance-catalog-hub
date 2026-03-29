@@ -15,6 +15,15 @@ const ML_OPTIONS: MlOption[] = ["2ml", "5ml", "10ml"];
 const formatMlLabel = (ml: MlOption) =>
   ml === "2ml" ? "2 ML" : ml === "5ml" ? "5 ML" : "10 ML";
 
+/** Maps every known raw category value to the label shown in the green badge. */
+const CATEGORY_LABEL_MAP: Record<string, string> = {
+  Nicho: "NICHO",
+  Designer: "DISEÑADOR",
+  "Diseñador": "DISEÑADOR",
+  "Árabe": "ÁRABE",
+  Arabe: "ÁRABE",
+};
+
 const ProductCard = ({ product }: ProductCardProps) => {
   const {
     brand,
@@ -86,9 +95,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
             {brand}
           </span>
 
-          {category === "Nicho" && (
+          {CATEGORY_LABEL_MAP[category] && (
             <span className="shrink-0 rounded-full bg-[#B7E4C3] px-2.5 py-1 text-[9px] sm:px-3 sm:text-[10px] md:text-[11px] font-medium uppercase tracking-[0.06em] text-[#0B4D36]">
-              Nicho
+              {CATEGORY_LABEL_MAP[category]}
             </span>
           )}
         </div>
