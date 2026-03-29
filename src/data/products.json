@@ -1377,8 +1377,8 @@
     "priceFrom": 170,
     "prices": {
       "2ml": 170,
-      "5ml": 420,
-      "10ml": 840
+      "5ml": 425,
+      "10ml": 850
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1388,7 +1388,7 @@
     "image": "/images/perfumes/mujer/le-labo-santal-33.png"
   },
   {
-    "id": "le-labo-bergamote-2-mujer",
+    "id": "le-labo-bergamote-22-mujer",
     "gender": "mujer",
     "brand": "Le Labo",
     "name": "Bergamote 22",
@@ -1400,8 +1400,9 @@
       "5ml": 360,
       "10ml": 720
     },
-    "onSale": false,
+    "aroma": "",
     "originalPriceFrom": null,
+    "onSale": false,
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/Bergamote-22.png"
@@ -1419,19 +1420,20 @@
       "5ml": 335,
       "10ml": 670
     },
-    "onSale": false,
+    "aroma": "",
     "originalPriceFrom": null,
+    "onSale": false,
     "rating": 0,
     "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Vibrato.png"
+    "image": "/images/perfumes/mujer/Vibrato.png"
   },
   {
     "id": "carolina-herrera-la-bomba",
     "gender": "mujer",
     "brand": "Carolina Herrera",
     "name": "La Bomba",
-    "category": "Designer",
-    "availability": "Nuevo lanzamiento",
+    "category": "Diseñador",
+    "availability": "Disponible",
     "priceFrom": 120,
     "prices": {
       "2ml": 120,
@@ -1446,17 +1448,137 @@
     "image": "/images/perfumes/mujer/carolina-herrera-la-bomba.png"
   },
   {
-    "id": "valentino-donna-born-in-roma",
+    "id": "bdk-gris-charnel-eau-de-parfum-mujer",
     "gender": "mujer",
-    "brand": "Valentino",
-    "name": "Donna Born In Roma",
-    "category": "Designer",
+    "brand": "BDK",
+    "name": "Gris Charnel Eau de Parfum",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 100,
+    "prices": {
+      "2ml": 100,
+      "5ml": 250,
+      "10ml": 500
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Gris-Charnel.png"
+  },
+  {
+    "id": "beso-beach-beso-negro-mujer",
+    "gender": "mujer",
+    "brand": "Beso Beach",
+    "name": "Beso Negro",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 90,
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Beso-Negro.png"
+  },
+  {
+    "id": "fugazzi-angel-dust-mujer",
+    "gender": "mujer",
+    "brand": "Fugazzi",
+    "name": "Angel Dust",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 90,
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Angel-Dust.png"
+  },
+  {
+    "id": "fugazzi-orange-crush-mujer",
+    "gender": "mujer",
+    "brand": "Fugazzi",
+    "name": "Orange Crush",
+    "category": "Nicho",
+    "availability": "Disponible",
+    "priceFrom": 90,
+    "prices": {
+      "2ml": 90,
+      "5ml": 225,
+      "10ml": 450
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Orange-Crush.png"
+  },
+  {
+    "id": "prada-prada-paradoxe",
+    "gender": "mujer",
+    "brand": "Prada",
+    "name": "Prada Paradoxe",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 85,
+    "prices": {
+      "2ml": 85,
+      "5ml": 210,
+      "10ml": 420
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Prada-Paradoxe.png"
+  },
+  {
+    "id": "sicili-fragances-mandarino-divino-mujer",
+    "gender": "mujer",
+    "brand": "Sicili Fragances",
+    "name": "Mandarino Divino",
+    "category": "Nicho",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 80,
     "prices": {
       "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "5ml": 200,
+      "10ml": 400
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Mandarino-Divino.png"
+  },
+  {
+    "id": "valentino-donna-born-in-roma",
+    "gender": "mujer",
+    "brand": "Valentino",
+    "name": "Donna Born In Roma",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 200,
+      "10ml": 400
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1470,13 +1592,13 @@
     "gender": "mujer",
     "brand": "Valentino",
     "name": "Donna Born In Roma Yellow Dream",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
       "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "5ml": 200,
+      "10ml": 400
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1490,13 +1612,13 @@
     "gender": "mujer",
     "brand": "Valentino",
     "name": "Donna Born In Roma Green Stravaganza",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
       "2ml": 80,
-      "5ml": 205,
-      "10ml": 405
+      "5ml": 200,
+      "10ml": 400
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1510,7 +1632,7 @@
     "gender": "mujer",
     "brand": "Jean Paul Gaultier",
     "name": "Divine",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1530,7 +1652,7 @@
     "gender": "mujer",
     "brand": "Yves Saint Laurent",
     "name": "Libre EDP",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1550,7 +1672,7 @@
     "gender": "mujer",
     "brand": "Yves Saint Laurent",
     "name": "Black Opium",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 80,
     "prices": {
@@ -1570,7 +1692,7 @@
     "gender": "mujer",
     "brand": "Rabanne",
     "name": "Fame Eau de Parfum",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1590,7 +1712,7 @@
     "gender": "mujer",
     "brand": "Guerlain",
     "name": "Mon EDP",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1610,7 +1732,7 @@
     "gender": "mujer",
     "brand": "Giorgio Armani",
     "name": "My Way EDP",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 70,
     "prices": {
@@ -1630,7 +1752,7 @@
     "gender": "mujer",
     "brand": "Dolce&Gabbana",
     "name": "Devotion",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1646,11 +1768,31 @@
     "image": "/images/perfumes/mujer/dolce-gabbana-devotion.png"
   },
   {
+    "id": "acqua-di-parma-blu-mediterraneo-fico-di-amalfi-mujer",
+    "gender": "mujer",
+    "brand": "Aqua di Parma",
+    "name": "Blu Mediterraneo Fico di Amalfi",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Blu-Mediterraneo-Fico-di-Amalfi.png"
+  },
+  {
     "id": "ariana-grande-cloud-pink",
     "gender": "mujer",
     "brand": "Ariana Grande",
     "name": "Cloud Pink",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1664,6 +1806,46 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/ariana-grande-cloud-pink.png"
+  },
+  {
+    "id": "french-avenue-vulcan-feu-mujer",
+    "gender": "mujer",
+    "brand": "French Avenue",
+    "name": "Vulcan Feu (Dupe: God of Fire Stéphane Humbert Lucas 777)",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 140,
+      "10ml": 280
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Vulcan-Feu.png"
+  },
+  {
+    "id": "lattafa-art-of-universe-mujer",
+    "gender": "mujer",
+    "brand": "Lattafa",
+    "name": "Art Of Universe (Dupe: Blue Talisman Ex Nihilo)",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 140,
+      "10ml": 280
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Art-Of-Universe.png"
   },
   {
     "id": "lattafa-liam-dupe-gris-charnel-bdk",
@@ -1695,8 +1877,8 @@
     "priceFrom": 50,
     "prices": {
       "2ml": 50,
-      "5ml": 120,
-      "10ml": 235
+      "5ml": 115,
+      "10ml": 230
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1710,13 +1892,13 @@
     "gender": "mujer",
     "brand": "Sabrina Carpenter",
     "name": "Sweet Tooth Me Espresso",
-    "category": "Designer",
+    "category": "Diseñador",
     "availability": "Disponible",
-    "priceFrom": 55,
+    "priceFrom": 50,
     "prices": {
-      "2ml": 55,
-      "5ml": 130,
-      "10ml": 255
+      "2ml": 50,
+      "5ml": 115,
+      "10ml": 230
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1735,8 +1917,8 @@
     "priceFrom": 45,
     "prices": {
       "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
+      "5ml": 110,
+      "10ml": 220
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1755,8 +1937,8 @@
     "priceFrom": 45,
     "prices": {
       "2ml": 45,
-      "5ml": 115,
-      "10ml": 225
+      "5ml": 110,
+      "10ml": 220
     },
     "aroma": "",
     "originalPriceFrom": null,
@@ -1764,5 +1946,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/armaf-club-de-nuit-milestone-dupe-millesime-imperial-creed.png"
+  },
+  {
+    "id": "calvin-klein-ck-one-reflections-mujer",
+    "gender": "mujer",
+    "brand": "Calvin Klein",
+    "name": "CK One Reflections",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 45,
+    "prices": {
+      "2ml": 45,
+      "5ml": 110,
+      "10ml": 220
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/CK-One-Reflections.png"
   }
 ]
