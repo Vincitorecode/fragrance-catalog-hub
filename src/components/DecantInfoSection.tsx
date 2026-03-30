@@ -6,7 +6,7 @@ const DecantInfoSection = ({
   imageSrc = "/images/decant-info-section2.jpg",
 }: DecantInfoSectionProps) => {
   return (
-    <section className="py-16 sm:py-20 md:py-24">
+    <section className="pt-16 pb-28 sm:pt-20 sm:pb-32 md:pt-24 md:pb-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}

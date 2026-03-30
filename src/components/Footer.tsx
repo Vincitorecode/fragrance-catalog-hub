@@ -14,13 +14,14 @@ export default function Footer() {
     <footer className="w-full bg-[#013220] text-white">
       {/* Big editorial title */}
       <section className="py-10 sm:py-12 md:py-14">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-grande text-center uppercase leading-none tracking-[-0.04em] text-[clamp(2.4rem,5.4vw,4.4rem)] text-white/90">
-            LE FRAGRANCE CLUB
-          </h2>
+        <div className="border-b border-white/15">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h2 className="font-grande text-center uppercase leading-none tracking-[-0.04em] text-[clamp(2.4rem,5.4vw,4.4rem)] text-white/90 pb-4">
+              LE FRAGRANCE CLUB
+            </h2>
+          </div>
         </div>
       </section>
-
       {/* Cards section */}
       <section className="pb-8 sm:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
