@@ -27,10 +27,11 @@ export default function Footer() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
             {/* Atención personalizada */}
             <div className="rounded-2xl border border-white/20 bg-transparent p-8 text-center">
-              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-3 text-white/90">
+              <h3 className="text-[20px] font-[450] leading-[100%] tracking-[0%] uppercase text-center mb-6 text-white/90 font-brandon">
                 ATENCIÓN PERSONALIZADA
               </h3>
-              <p className="text-sm text-white/70 mb-6">
+
+              <p className="text-sm text-white/90 mb-10">
                 Asesoría directa y pedidos vía WhatsApp.
               </p>
 
@@ -48,7 +49,7 @@ export default function Footer() {
 
             {/* Métodos de pago */}
             <div className="rounded-2xl border border-white/20 bg-transparent p-8">
-              <h3 className="text-sm sm:text-base font-semibold uppercase tracking-widest mb-6 text-center text-white/90">
+              <h3 className="text-[20px] font-[450] leading-[100%] tracking-[0%] uppercase text-center mb-6 text-white/90 font-brandon">
                 MÉTODOS DE PAGO
               </h3>
 
@@ -89,7 +90,7 @@ export default function Footer() {
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:justify-between">
 
               {/* Left - Copyright */}
-              <p className="text-xs text-white/50 text-center sm:text-left">
+              <p className="text-xs text-white/80 text-center sm:text-left">
                 © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos reservados.
               </p>
 
