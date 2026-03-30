@@ -68,12 +68,19 @@ export default function Footer() {
                       key={m.label}
                       className="flex items-center gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-4 py-2.5 text-sm"
                     >
-                      {/* Contenedor circular del ícono */}
                       <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white/10">
-                        <Icon
-                          className="h-4 w-4 text-white"
-                          strokeWidth={1.8}
-                        />
+                        {m.label === "Mercado Pago" ? (
+                          <img
+                            src="/icons/mercado_pago.svg"
+                            alt="Mercado Pago"
+                            className="h-6 w-6"
+                          />
+                        ) : (
+                          <Icon
+                            className="h-5 w-5 text-white"
+                            strokeWidth={1.8}
+                          />
+                        )}
                       </div>
 
                       <span className="whitespace-nowrap text-white/85">
