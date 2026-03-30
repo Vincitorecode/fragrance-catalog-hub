@@ -103,7 +103,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
 
         {/* Name */}
-        <h3 className="mb-3 min-h-[2.5rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-display text-[18px] sm:text-[20px] md:text-[24px] font-semibold leading-[1.15] text-[#0B0B0B]">
+        <h3 className="mb-3 min-h-[2.5rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-brandon text-[19px] sm:text-[21px] font-semibold leading-[100%] tracking-[0.01em] text-[#0B0B0B]">
           {name}
         </h3>
 
@@ -184,19 +184,17 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
         {/* Add to Cart Button — appears after ML selection */}
         <div
-          className={`mt-auto overflow-hidden transition-all duration-300 ease-out ${
-            showButton
-              ? "max-h-16 opacity-100"
-              : "max-h-0 opacity-0"
-          }`}
+          className={`mt-auto overflow-hidden transition-all duration-300 ease-out ${showButton
+            ? "max-h-16 opacity-100"
+            : "max-h-0 opacity-0"
+            }`}
         >
           <Button
             onClick={handleAddToCart}
-            className={`h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${
-              justAdded
-                ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
-                : "bg-[#004B33] text-white hover:bg-[#003A29]"
-            }`}
+            className={`h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${justAdded
+              ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
+              : "bg-[#004B33] text-white hover:bg-[#003A29]"
+              }`}
             size="lg"
           >
             {justAdded ? (
