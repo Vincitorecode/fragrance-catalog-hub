@@ -143,11 +143,7 @@ const Home = () => {
 
               <motion.p
                 variants={fadeUp}
-                className="mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-[390]"
-                style={{
-                  fontFamily:
-                    'Brandon Text, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif',
-                }}
+                className="font-brandon font-medium mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-bold"
               >
                 ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas. Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
               </motion.p>
@@ -224,7 +220,7 @@ const Home = () => {
                     {b.icon}
                   </motion.div>
 
-                  <h3 className="font-display text-lg sm:text-xl font-semibold text-[#3CB371] mb-3">
+                  <h3 className="font-brandon font-semibold text-lg sm:text-xl text-[#3CB371] mb-3 tracking-[0.01em]">
                     {b.title}
                   </h3>
 

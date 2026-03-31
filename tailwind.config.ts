@@ -80,6 +80,7 @@ export default {
       fontFamily: {
         grande: ['"Grande"', "system-ui", "sans-serif"],
         brandon: ['"Brandon Grotesque"', "sans-serif"],
+        scotch: ['"Scotch Display Condensed"', "serif"],
         snell: ['"Snell Roundhand"', "cursive"],
         display: ["Playfair Display", "serif"],
         body: ["Inter", "sans-serif"],

@@ -217,7 +217,7 @@
 @font-face {
   font-family: "Brandon Grotesque";
   src: url("/fonts/Brandon-Grotesque-Regular.otf") format("opentype");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -242,6 +242,14 @@
   font-family: "Snell Roundhand";
   src: url("/fonts/SnellRoundhand.ttc") format("truetype-collection");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scotch Display Condensed";
+  src: url("/fonts/ScotchDisplayCond-Lt.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
