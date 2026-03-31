@@ -136,16 +136,18 @@ const Home = () => {
 
               <motion.p
                 variants={fadeUp}
-                className="mt-4 text-sm sm:text-base md:text-lg font-bold tracking-[0.15em] uppercase text-[#3CB371]"
+                className="font-brandon font-semibold mt-4 text-sm sm:text-base md:text-lg tracking-[0] uppercase text-[#3CB371]"
               >
                 COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
               </motion.p>
 
               <motion.p
                 variants={fadeUp}
-                className="font-brandon font-medium mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[16px] tracking-[0] text-[#222] font-bold"
+                className="font-brandon font-medium mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[1.4] tracking-[0] text-[#222]"
               >
-                ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas. Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
+                ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
+                <br />
+                Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
               </motion.p>
             </div>
 
