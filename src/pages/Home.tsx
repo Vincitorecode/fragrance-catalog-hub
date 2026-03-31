@@ -143,7 +143,7 @@ const Home = () => {
 
               <motion.p
                 variants={fadeUp}
-                className="font-brandon font-medium mt-4 sm:mt-6 mx-auto max-w-[860px] text-center text-[16px] leading-[1.4] tracking-[0] text-[#222]"
+                className="font-brandon font-medium mt-2 sm:mt-3 mx-auto max-w-[860px] text-center text-[16px] leading-[1.4] tracking-[0] text-[#222]"
               >
                 ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
                 <br />
