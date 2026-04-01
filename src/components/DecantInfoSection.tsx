@@ -10,12 +10,12 @@ const DecantInfoSection = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Title */}
-        <h2 className="font-brandon font-light text-2xl sm:text-3xl md:text-4xl text-[#013220] mb-12 sm:mb-16 tracking-[0.12em]">
+        <h2 className="font-brandon font-light text-2xl sm:text-3xl md:text-4xl text-[#013220] mb-12 sm:mb-16 tracking-[0.02em]">
           ¿QUÉ ES UN{" "}
           <span className="font-snell text-[1.25em]">
             Decant
           </span>
-          <span className="font-brandon font-light">
+          <span className="font-brandon font-light text-[0.75em]">
             ? (Y POR QUÉ LO NECESITAS)
           </span>
         </h2>
@@ -60,7 +60,7 @@ const DecantInfoSection = ({
           </div>
 
           {/* Image */}
-          <div className="flex justify-center md:justify-end md:self-start md:-translate-y-10">
+          <div className="flex justify-center md:justify-end md:self-start md:-translate-y-28">
             <div className="w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden flex-shrink-0">
 
               <img
