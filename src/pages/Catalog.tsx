@@ -88,10 +88,10 @@ const Catalog = () => {
       <main className="container py-5 sm:py-8">
         {/* Page Header */}
         <div className="mb-6 sm:mb-8 animate-fade-in">
-          <h1 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-1.5 sm:mb-2">
+          <h1 className="font-brandon font-medium text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-1.5 sm:mb-2">
             {genderTitle}
           </h1>
-          <p className="text-sm sm:text-base text-muted-foreground">
+          <p className="text-sm font-brandon font-medium sm:text-base text-muted-foreground">
             {filteredProducts.length} productos encontrados
           </p>
         </div>
@@ -118,7 +118,7 @@ const Catalog = () => {
                 lg:grid-cols-4
                 xl:grid-cols-4
               "
-              
+
             >
               {visibleProducts.map((product, index) => (
                 <div
