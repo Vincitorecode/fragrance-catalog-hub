@@ -57,9 +57,9 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-3">
                 {[
                   { icon: CreditCard, label: "Crédito / Débito" },
-                  { icon: ArrowRightLeft, label: "Transferencia" },
+                  { icon: "transferencia", label: "Transferencia" },
                   { icon: Wallet, label: "Mercado Pago" },
-                  { icon: Banknote, label: "Efectivo" },
+                  { icon: "efectivo", label: "Efectivo" },
                 ].map((m) => {
                   const Icon = m.icon;
 
@@ -68,15 +68,27 @@ export default function Footer() {
                       key={m.label}
                       className="flex items-center gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-4 py-2.5 text-sm"
                     >
-                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white/10">
+                      <div className="flex items-center justify-center">
                         {m.label === "Mercado Pago" ? (
                           <img
                             src="/icons/mercado_pago.svg"
                             alt="Mercado Pago"
                             className="h-6 w-6"
                           />
+                        ) : m.icon === "transferencia" ? (
+                          <img
+                            src="/icons/Frame.svg"
+                            alt="Transferencia"
+                            className="h-5 w-5"
+                          />
+                        ) : m.icon === "efectivo" ? (
+                          <img
+                            src="/icons/Frame.png"
+                            alt="Efectivo"
+                            className="h-5 w-5"
+                          />
                         ) : (
-                          <Icon
+                          <m.icon
                             className="h-5 w-5 text-white"
                             strokeWidth={1.8}
                           />
