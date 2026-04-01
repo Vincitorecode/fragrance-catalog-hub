@@ -82,7 +82,7 @@ const Catalog = () => {
   const genderTitle = gender === "hombre" ? "Hombre" : "Mujer";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background font-brandon">
       <Header />
 
       <main className="container py-5 sm:py-8">

@@ -114,13 +114,14 @@ const staggerContainer: Variants = {
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-brandon">
       <Header />
 
       <main>
-        <div className="flex flex-col min-h-screen overflow-hidden">
+        {/* First viewport block: hero + gender, flex column, fills remaining viewport */}
+        <div className="flex flex-col" style={{ minHeight: "calc(100vh - 80px)" }}>
           {/* ─── HERO ─── */}
-          <section className="pt-4 sm:pt-5 md:pt-6 pb-8 sm:pb-8 md:pb-9 text-center overflow-hidden shrink-0">
+          <section className="shrink-0 pt-6 sm:pt-8 md:pt-10 pb-6 sm:pb-7 md:pb-8 text-center overflow-hidden">
             <motion.div
               className="w-full"
               variants={staggerContainer}
@@ -161,15 +162,15 @@ const Home = () => {
             </motion.div>
           </section>
 
-          {/* ─── GENDER SPLIT 50/50 ─── */}
-          <section className="w-full flex-1 overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2 h-full min-h-[320px] sm:min-h-[360px] md:min-h-[380px] lg:min-h-[440px]">
+          {/* ─── GENDER SPLIT 50/50 — fills remaining space ─── */}
+          <section className="w-full flex-1 min-h-0 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 h-full">
               <motion.div
                 initial={{ opacity: 0, x: -36 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-                className="h-full"
+                className="h-full min-h-[280px] sm:min-h-[320px] md:min-h-0"
               >
                 <GenderCard
                   gender="hombre"
@@ -184,7 +185,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-                className="h-full"
+                className="h-full min-h-[280px] sm:min-h-[320px] md:min-h-0"
               >
                 <GenderCard
                   gender="mujer"
