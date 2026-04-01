@@ -95,7 +95,7 @@ export default function Footer() {
                         )}
                       </div>
 
-                      <span className="whitespace-nowrap text-white/85">
+                      <span className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] whitespace-nowrap text-white/85">
                         {m.label}
                       </span>
                     </div>
@@ -110,7 +110,7 @@ export default function Footer() {
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:justify-between">
 
               {/* Left - Copyright */}
-              <p className="text-xs text-white/80 text-center sm:text-left">
+              <p className="font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-white/80 text-center sm:text-left">
                 © {new Date().getFullYear()} Le Fragrance Club. Todos los derechos reservados.
               </p>
 
@@ -134,9 +134,9 @@ export default function Footer() {
               </div>
 
               {/* Right - Email */}
-              <div className="flex items-center gap-2 text-white/70 text-sm">
+              <div className="flex items-center gap-2 text-white/70">
                 <Mail className="h-4 w-4 text-white/80" strokeWidth={1.5} />
-                <span className="whitespace-nowrap">
+                <span className="font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-white/80">
                   lefragranceclubcontact@gmail.com
                 </span>
               </div>
