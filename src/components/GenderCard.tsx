@@ -11,7 +11,7 @@ const GenderCard = ({ gender, title, imageSrc }: GenderCardProps) => {
   return (
     <Link
       to={`/${gender}`}
-      className="group relative block overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[560px]"
+      className="group relative block w-full h-full overflow-hidden"
     >
       {/* Background Image */}
       <img

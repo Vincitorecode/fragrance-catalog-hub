@@ -118,80 +118,84 @@ const Home = () => {
       <Header />
 
       <main>
-        {/* ─── HERO ─── */}
-        <section className="pt-6 sm:pt-8 md:pt-10 pb-12 sm:pb-10 md:pb-12 text-center overflow-hidden">
-          <motion.div
-            className="w-full"
-            variants={staggerContainer}
-            initial="hidden"
-            animate="visible"
-          >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <motion.h1
-                variants={fadeUp}
-                className="font-script text-[42px] sm:text-[48px] md:text-[56px] text-[#013220] font-medium leading-tight"
-              >
-                Decants
-              </motion.h1>
+        <div className="flex flex-col min-h-screen overflow-hidden">
+          {/* ─── HERO ─── */}
+          <section className="pt-4 sm:pt-5 md:pt-6 pb-8 sm:pb-8 md:pb-9 text-center overflow-hidden shrink-0">
+            <motion.div
+              className="w-full"
+              variants={staggerContainer}
+              initial="hidden"
+              animate="visible"
+            >
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <motion.h1
+                  variants={fadeUp}
+                  className="font-script text-[42px] sm:text-[48px] md:text-[56px] text-[#013220] font-medium leading-tight"
+                >
+                  Decants
+                </motion.h1>
 
-              <motion.p
-                variants={fadeUp}
-                className="font-brandon font-semibold mt-4 text-sm sm:text-base md:text-lg tracking-[0] uppercase text-[#3CB371]"
-              >
-                COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
-              </motion.p>
+                <motion.p
+                  variants={fadeUp}
+                  className="font-brandon font-semibold mt-3 text-sm sm:text-base md:text-lg tracking-[0] uppercase text-[#3CB371]"
+                >
+                  COLECCIONA EXPERIENCIAS, NO SOLO FRASCOS.
+                </motion.p>
 
-              <motion.p
-                variants={fadeUp}
-                className="font-brandon font-medium mt-2 sm:mt-3 mx-auto max-w-[860px] text-center text-[16px] leading-[1.4] tracking-[0] text-[#222]"
+                <motion.p
+                  variants={fadeUp}
+                  className="font-brandon font-medium mt-2 sm:mt-3 mx-auto max-w-[860px] text-center text-[16px] leading-[1.4] tracking-[0] text-[#222]"
+                >
+                  ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
+                  <br />
+                  Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
+                </motion.p>
+              </div>
+
+              <motion.div
+                variants={softFade}
+                className="mt-5 sm:mt-6 w-full"
               >
-                ¿Nicho, comercial o árabe? Ya no tienes que elegir a ciegas.
-                <br />
-                Prueba las fragancias más deseadas del mundo en decants originales y decide cuál merece un lugar en tu colección.
-              </motion.p>
+                <BrandCarousel />
+              </motion.div>
+            </motion.div>
+          </section>
+
+          {/* ─── GENDER SPLIT 50/50 ─── */}
+          <section className="w-full flex-1 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 h-full min-h-[320px] sm:min-h-[360px] md:min-h-[380px] lg:min-h-[440px]">
+              <motion.div
+                initial={{ opacity: 0, x: -36 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.25 }}
+                transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                className="h-full"
+              >
+                <GenderCard
+                  gender="hombre"
+                  title="HOMBRE"
+                  description=""
+                  imageSrc="/images/gender/hombre.jpg"
+                />
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 36 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.25 }}
+                transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
+                className="h-full"
+              >
+                <GenderCard
+                  gender="mujer"
+                  title="MUJER"
+                  description=""
+                  imageSrc="/images/gender/mujer.jpg"
+                />
+              </motion.div>
             </div>
-
-            <motion.div
-              variants={softFade}
-              className="mt-8 sm:mt-10 w-full"
-            >
-              <BrandCarousel />
-            </motion.div>
-          </motion.div>
-        </section>
-
-        {/* ─── GENDER SPLIT 50/50 ─── */}
-        <section className="w-full overflow-hidden">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <motion.div
-              initial={{ opacity: 0, x: -36 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <GenderCard
-                gender="hombre"
-                title="HOMBRE"
-                description=""
-                imageSrc="/images/gender/hombre.jpg"
-              />
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 36 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <GenderCard
-                gender="mujer"
-                title="MUJER"
-                description=""
-                imageSrc="/images/gender/mujer.jpg"
-              />
-            </motion.div>
-          </div>
-        </section>
+          </section>
+        </div>
 
         {/* ─── 3 BENEFITS ─── */}
         <section className="py-16 sm:py-20 md:py-24 overflow-hidden">
