@@ -16,7 +16,7 @@ export default function Footer() {
       <section className="py-10 sm:py-12 md:py-14">
         <div className="border-b border-white/15">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-scotch font-light text-center uppercase leading-none tracking-[0] text-[80px] text-white/90 pb-4">
+            <h2 className="font-scotch font-light text-center uppercase leading-none tracking-[0] text-[clamp(2.2rem,10vw,5rem)] text-white/90 pb-4">
               LE FRAGRANCE CLUB
             </h2>
           </div>
