@@ -10,11 +10,11 @@ const BENEFITS = [
     title: "Un Universo Olfativo",
     text: (
       <>
-        De los tesoros <strong>nicho</strong> y la
+        De los tesoros <strong className="font-semibold text-black">nicho</strong> y la
         <br />
-        opulencia <strong>árabe</strong> a los grandes
+        opulencia <strong className="font-semibold text-black">árabe</strong> a los grandes
         <br />
-        iconos <strong>comerciales.</strong>
+        iconos <strong className="font-semibold text-black">comerciales.</strong>
         <br />
         Todo el espectro del perfume en
         <br />
@@ -38,7 +38,7 @@ const BENEFITS = [
         <br />
         cada perfume en tu piel.
         <br />
-        El formato <strong>decant</strong> es tu pase
+        El formato <strong className="font-semibold text-black">decant</strong> es tu pase
         <br />
         directo para elegir sin errores ni
         <br />
@@ -58,7 +58,7 @@ const BENEFITS = [
     title: "Encuentra tu Firma",
     text: (
       <>
-        ¿Buscas algo <strong>único</strong>?
+        ¿Buscas algo <strong className="font-semibold text-black">único</strong>?
         <br />
         Te guiamos entre notas y
         <br />
@@ -226,7 +226,7 @@ const Home = () => {
                     {b.title}
                   </h3>
 
-                  <p className="text-sm text-[#555] leading-relaxed max-w-[300px] mx-auto">
+                  <p className="font-brandon font-normal text-sm text-[#555] leading-[1.5] max-w-[300px] mx-auto">
                     {b.text}
                   </p>
                 </motion.div>
