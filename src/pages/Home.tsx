@@ -119,7 +119,7 @@ const Home = () => {
 
       <main>
         {/* First viewport block: hero + gender, flex column, fills remaining viewport */}
-        <div className="flex flex-col" style={{ minHeight: "calc(100vh - 80px)" }}>
+        <div className="flex flex-col min-h-[600px]" style={{ height: "calc(100vh - 80px)" }}>
           {/* ─── HERO ─── */}
           <section className="shrink-0 pt-6 sm:pt-8 md:pt-10 pb-6 sm:pb-7 md:pb-8 text-center overflow-hidden">
             <motion.div
@@ -163,7 +163,7 @@ const Home = () => {
           </section>
 
           {/* ─── GENDER SPLIT 50/50 — fills remaining space ─── */}
-          <section className="w-full flex-1 min-h-[220px] sm:min-h-[260px] md:min-h-[300px] lg:min-h-[340px] max-h-[42vh] overflow-hidden">
+          <section className="w-full flex-1 min-h-0 overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 h-full">
               <motion.div
                 initial={{ opacity: 0, x: -36 }}
@@ -185,7 +185,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-                className="h-full min-h-[220px] sm:min-h-[260px] md:min-h-[300px]"
+                className="h-full"
               >
                 <GenderCard
                   gender="mujer"

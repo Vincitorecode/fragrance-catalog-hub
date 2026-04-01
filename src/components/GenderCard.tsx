@@ -11,7 +11,7 @@ const GenderCard = ({ gender, title, imageSrc }: GenderCardProps) => {
   return (
     <Link
       to={`/${gender}`}
-      className="group relative block w-full h-full overflow-hidden"
+      className="group relative block w-full h-full overflow-hidden font-brandon"
     >
       {/* Background Image — fully fluid, no fixed heights */}
       <img
