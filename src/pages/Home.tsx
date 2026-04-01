@@ -170,7 +170,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-                className="h-full min-h-[280px] sm:min-h-[320px] md:min-h-0"
+                className="h-full"
               >
                 <GenderCard
                   gender="hombre"
