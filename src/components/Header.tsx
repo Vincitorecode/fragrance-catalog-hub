@@ -25,32 +25,36 @@ const Header = () => {
               aria-label="Open menu"
             >
               <Menu className="h-6 w-6" />
-              <span className="text-sm font-medium hidden sm:inline">Menú</span>
+              <span className="font-brandon font-regular text-[14px] leading-[1] tracking-[0] hidden sm:inline">Menú</span>
             </button>
           </SheetTrigger>
 
           <SheetContent side="left" className="w-[320px]">
             <SheetHeader>
-              <SheetTitle>Menú</SheetTitle>
+              <SheetTitle className="font-brandon font-medium text-[16px] leading-[1] tracking-[0] text-[#013220]">
+                Menú
+              </SheetTitle>
             </SheetHeader>
             <div className="mt-6 flex flex-col gap-2">
               <Link
                 to="/hombre"
-                className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                className="block rounded-lg px-3 py-2 font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-[#013220] transition-all duration-200 hover:bg-[#013220] hover:text-white"
               >
                 Hombre
               </Link>
+
               <Link
                 to="/mujer"
-                className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                className="block rounded-lg px-3 py-2 font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-[#013220] transition-all duration-200 hover:bg-[#013220] hover:text-white"
               >
                 Mujer
               </Link>
+
               <a
                 href={waLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg px-3 py-2 text-sm font-medium hover:bg-muted"
+                className="block rounded-lg px-3 py-2 font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-[#013220] transition-all duration-200 hover:bg-[#013220] hover:text-white"
               >
                 Contacto (WhatsApp)
               </a>
@@ -61,7 +65,13 @@ const Header = () => {
 
       {/* RIGHT: pegado al borde de la pantalla */}
       <div className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 z-10">
-        <CartButton className="text-white hover:bg-white/10" />
+        <button className="flex items-center justify-center transition-all duration-200 hover:opacity-80 hover:scale-105">
+          <img
+            src="/icons/bac.png"
+            alt="Carrito"
+            className="h-7 w-7 filter brightness-150"
+          />
+        </button>
       </div>
 
       {/* CENTER: contenido centrado con max width */}
