@@ -28,11 +28,11 @@ export default function Footer() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
             {/* Atención personalizada */}
             <div className="rounded-2xl border border-white/20 bg-transparent p-8 text-center">
-              <h3 className="text-[20px] font-[450] leading-[100%] tracking-[0%] uppercase text-center mb-6 text-white/90 font-brandon">
+              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
                 ATENCIÓN PERSONALIZADA
               </h3>
 
-              <p className="text-sm text-white/90 mb-10">
+              <p className="font-brandon font-normal text-[16px] leading-[1] tracking-[0] text-center text-white/90 mb-10">
                 Asesoría directa y pedidos vía WhatsApp.
               </p>
 
@@ -41,7 +41,7 @@ export default function Footer() {
                 href={waLink(WHATSAPP_NUMBER, WHATSAPP_TEXT)}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-[50px] border-2 border-[#50C878] bg-[rgba(80,200,120,0.60)] px-7 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[rgba(80,200,120,0.75)]"
+                className="inline-flex items-center justify-center gap-2 rounded-[50px] border-2 border-[#50C878] bg-[rgba(80,200,120,0.60)] px-7 py-3 font-brandon font-medium text-[16px] leading-[1] tracking-[0] text-white transition-all duration-300 hover:bg-[rgba(80,200,120,0.75)]"
               >
                 <SiWhatsapp className="text-lg" />
                 Contáctanos
@@ -50,7 +50,7 @@ export default function Footer() {
 
             {/* Métodos de pago */}
             <div className="rounded-2xl border border-white/20 bg-transparent p-8">
-              <h3 className="text-[20px] font-[450] leading-[100%] tracking-[0%] uppercase text-center mb-6 text-white/90 font-brandon">
+              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
                 MÉTODOS DE PAGO
               </h3>
 
