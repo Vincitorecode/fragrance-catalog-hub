@@ -35,7 +35,7 @@ const CartBottomSheet = () => {
 
     const phone = String(WHATSAPP_NUMBER).replace(/\D/g, "");
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank");
-    
+
     clearCart();
     closeCart();
   };
@@ -44,7 +44,7 @@ const CartBottomSheet = () => {
     <Drawer open={isOpen} onOpenChange={(open) => !open && closeCart()}>
       <DrawerContent className="max-h-[85vh]">
         <DrawerHeader className="border-b pb-3">
-          <DrawerTitle className="flex items-center gap-2 justify-center">
+          <DrawerTitle className="font-brandon font-medium flex items-center gap-2 justify-center">
             <ShoppingBag className="h-5 w-5" />
             Tu Carrito
           </DrawerTitle>
@@ -148,7 +148,7 @@ const CartBottomSheet = () => {
               </div>
 
               <Button
-                className="w-full btn-primary gap-2"
+                className="w-full bg-[#013220] text-white hover:bg-[#02422c] gap-2"
                 size="lg"
                 onClick={handleWhatsAppCheckout}
               >

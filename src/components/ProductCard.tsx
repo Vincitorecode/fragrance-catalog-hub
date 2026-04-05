@@ -191,7 +191,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         >
           <Button
             onClick={handleAddToCart}
-            className={`font-brandon h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${justAdded
+            className={`font-brandon font-medium h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${justAdded
               ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
               : "bg-[#013220] text-white hover:bg-[#02422c]"
               }`}
