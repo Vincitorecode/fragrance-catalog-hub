@@ -38,20 +38,32 @@ const SearchFilters = ({
             placeholder="Buscar por nombre o marca..."
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="pl-10 bg-background h-11"
+            className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] pl-10 bg-background h-11 text-black placeholder:text-black"
           />
         </div>
 
         {/* Brand Filter */}
         <div className="md:col-span-3">
           <Select value={brandFilter} onValueChange={onBrandFilterChange}>
-            <SelectTrigger className="w-full bg-background h-11">
-              <SelectValue placeholder="Marca" />
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+              <SelectValue
+                placeholder="Marca"
+                className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
+              />
             </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Todas las marcas</SelectItem>
+            <SelectContent className="font-brandon">
+              <SelectItem
+                className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
+                value="all"
+              >
+                Todas las marcas
+              </SelectItem>
               {brands.map((brand) => (
-                <SelectItem key={brand} value={brand}>
+                <SelectItem
+                  className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
+                  key={brand}
+                  value={brand}
+                >
                   {brand}
                 </SelectItem>
               ))}
@@ -62,14 +74,25 @@ const SearchFilters = ({
         {/* Sort Order */}
         <div className="md:col-span-3">
           <Select value={sortOrder} onValueChange={onSortChange}>
-            <SelectTrigger className="w-full bg-background h-11">
-              <SelectValue placeholder="Ordenar por" />
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+              <SelectValue
+                placeholder="Ordenar por"
+                className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
+              />
             </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="default">Relevancia</SelectItem>
-              <SelectItem value="price-asc">Precio: Menor a Mayor</SelectItem>
-              <SelectItem value="price-desc">Precio: Mayor a Menor</SelectItem>
-              <SelectItem value="rating">Mejor valorados</SelectItem>
+            <SelectContent className="font-brandon">
+              <SelectItem className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]" value="default">
+                Relevancia
+              </SelectItem>
+              <SelectItem className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]" value="price-asc">
+                Precio: Menor a Mayor
+              </SelectItem>
+              <SelectItem className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]" value="price-desc">
+                Precio: Mayor a Menor
+              </SelectItem>
+              <SelectItem className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]" value="rating">
+                Mejor valorados
+              </SelectItem>
             </SelectContent>
           </Select>
         </div>
