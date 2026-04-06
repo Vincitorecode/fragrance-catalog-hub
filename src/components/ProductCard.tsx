@@ -116,7 +116,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
         {/* ML Selector — compact */}
         {hasMlPrices && (
-          <div className="mb-3 grid grid-cols-3 gap-1.5 sm:gap-2">
+          <div className="mb-2 sm:mb-3 grid grid-cols-3 gap-1 sm:gap-2">
             {ML_OPTIONS.map((ml) => {
               const active = ml === selectedMl;
               const isFavorite = ml === "5ml";
