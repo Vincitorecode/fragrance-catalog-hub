@@ -16,9 +16,9 @@
     --popover: 40 33% 98%;
     --popover-foreground: 30 10% 15%;
 
-    /* Gold accent as primary */
-    --primary: 38 60% 45%;
-    --primary-foreground: 40 33% 98%;
+    /* Brand green as primary */
+    --primary: 152 100% 10%;
+    --primary-foreground: 0 0% 100%;
 
     /* Soft beige secondary */
     --secondary: 35 30% 90%;
