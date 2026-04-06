@@ -45,7 +45,7 @@ const SearchFilters = ({
         {/* Brand Filter */}
         <div className="md:col-span-3">
           <Select value={brandFilter} onValueChange={onBrandFilterChange}>
-            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-9 sm:h-11">
               <SelectValue
                 placeholder="Marca"
                 className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
