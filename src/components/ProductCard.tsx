@@ -103,7 +103,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
 
         {/* Name */}
-        <h3 className="mb-3 min-h-[2.5rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-brandon text-[19px] sm:text-[21px] font-semibold leading-[100%] tracking-[0.01em] text-[#0B0B0B]">
+        <h3 className="mb-2 sm:mb-3 min-h-[2rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-brandon text-[15px] sm:text-[21px] font-semibold leading-[110%] tracking-[0.01em] text-[#0B0B0B]">
           {name}
         </h3>
 
