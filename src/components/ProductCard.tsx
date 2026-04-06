@@ -130,7 +130,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     (e.currentTarget as HTMLButtonElement).blur();
                   }}
                   className={[
-                    "font-brandon relative rounded-[12px] sm:rounded-[14px] md:rounded-[16px] border px-1 py-2 sm:px-1.5 sm:py-2.5 md:px-2 md:py-3 transition-all",
+                    "font-brandon relative rounded-[10px] sm:rounded-[14px] md:rounded-[16px] border px-1 py-1.5 sm:px-1.5 sm:py-2.5 md:px-2 md:py-3 transition-all",
                     "focus:outline-none focus-visible:ring-2 focus-visible:ring-[#003229]/20",
                     active
                       ? "border-[#58C878] bg-[#CFE8D7]"
