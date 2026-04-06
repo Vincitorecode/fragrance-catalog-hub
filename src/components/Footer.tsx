@@ -13,10 +13,10 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#013220] text-white">
       {/* Big editorial title */}
-      <section className="py-10 sm:py-12 md:py-14">
+      <section className="py-6 sm:py-12 md:py-14">
         <div className="border-b border-white/15">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-scotch font-light text-center uppercase leading-none tracking-[0] text-[clamp(2.2rem,10vw,5rem)] text-white/90 pb-4">
+            <h2 className="font-scotch font-light text-center uppercase leading-none tracking-[0] text-[clamp(1.8rem,8vw,5rem)] text-white/90 pb-4">
               LE FRAGRANCE CLUB
             </h2>
           </div>
@@ -27,12 +27,12 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
             {/* Atención personalizada */}
-            <div className="rounded-2xl border border-white/20 bg-transparent p-8 text-center">
-              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-5 sm:p-8 text-center">
+              <h3 className="font-brandon font-semibold text-[16px] sm:text-[20px] leading-[1] tracking-[0] text-center uppercase mb-4 sm:mb-6 text-white/90">
                 ATENCIÓN PERSONALIZADA
               </h3>
 
-              <p className="font-brandon font-normal text-[16px] leading-[1] tracking-[0] text-center text-white/90 mb-10">
+              <p className="font-brandon font-normal text-[14px] sm:text-[16px] leading-[1] tracking-[0] text-center text-white/90 mb-6 sm:mb-10">
                 Asesoría directa y pedidos vía WhatsApp.
               </p>
 
@@ -49,8 +49,8 @@ export default function Footer() {
             </div>
 
             {/* Métodos de pago */}
-            <div className="rounded-2xl border border-white/20 bg-transparent p-8">
-              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-5 sm:p-8">
+              <h3 className="font-brandon font-semibold text-[16px] sm:text-[20px] leading-[1] tracking-[0] text-center uppercase mb-4 sm:mb-6 text-white/90">
                 MÉTODOS DE PAGO
               </h3>
 

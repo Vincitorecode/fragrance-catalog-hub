@@ -88,7 +88,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
 
       {/* Content */}
-      <div className="flex flex-grow flex-col p-3 sm:p-4 md:p-5">
+      <div className="flex flex-grow flex-col p-2.5 sm:p-4 md:p-5">
         {/* Brand + Category */}
         <div className="mb-2 flex items-center justify-between gap-2">
           <span className="font-brandon min-w-0 truncate text-[10px] sm:text-[11px] md:text-[12px] font-medium uppercase tracking-[0.08em] text-[#7D7872]">
@@ -103,7 +103,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
 
         {/* Name */}
-        <h3 className="mb-3 min-h-[2.5rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-brandon text-[19px] sm:text-[21px] font-semibold leading-[100%] tracking-[0.01em] text-[#0B0B0B]">
+        <h3 className="mb-2 sm:mb-3 min-h-[2rem] sm:min-h-[2.8rem] md:min-h-[3rem] line-clamp-2 font-brandon text-[15px] sm:text-[21px] font-semibold leading-[110%] tracking-[0.01em] text-[#0B0B0B]">
           {name}
         </h3>
 
@@ -116,7 +116,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
         {/* ML Selector — compact */}
         {hasMlPrices && (
-          <div className="mb-3 grid grid-cols-3 gap-1.5 sm:gap-2">
+          <div className="mb-2 sm:mb-3 grid grid-cols-3 gap-1 sm:gap-2">
             {ML_OPTIONS.map((ml) => {
               const active = ml === selectedMl;
               const isFavorite = ml === "5ml";
@@ -130,7 +130,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     (e.currentTarget as HTMLButtonElement).blur();
                   }}
                   className={[
-                    "font-brandon relative rounded-[12px] sm:rounded-[14px] md:rounded-[16px] border px-1 py-2 sm:px-1.5 sm:py-2.5 md:px-2 md:py-3 transition-all",
+                    "font-brandon relative rounded-[10px] sm:rounded-[14px] md:rounded-[16px] border px-1 py-1.5 sm:px-1.5 sm:py-2.5 md:px-2 md:py-3 transition-all",
                     "focus:outline-none focus-visible:ring-2 focus-visible:ring-[#003229]/20",
                     active
                       ? "border-[#58C878] bg-[#CFE8D7]"
@@ -143,7 +143,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     </span>
                   )}
 
-                  <div className="flex min-h-[52px] sm:min-h-[58px] md:min-h-[68px] flex-col items-center justify-center leading-tight">
+                  <div className="flex min-h-[40px] sm:min-h-[58px] md:min-h-[68px] flex-col items-center justify-center leading-tight">
                     <span
                       className={[
                         "font-brandon mb-1.5 text-[9px] sm:text-[10px] md:text-[12px] font-medium uppercase",
@@ -191,7 +191,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         >
           <Button
             onClick={handleAddToCart}
-            className={`font-brandon font-medium h-10 w-full rounded-full px-4 text-[12px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${justAdded
+            className={`font-brandon font-medium h-9 w-full rounded-full px-4 text-[11px] sm:h-11 sm:text-[13px] md:h-12 md:text-sm gap-2 transition-all ${justAdded
               ? "bg-[#0D6B47] text-white hover:bg-[#0D6B47]"
               : "bg-[#013220] text-white hover:bg-[#02422c]"
               }`}

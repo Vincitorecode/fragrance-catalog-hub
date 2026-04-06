@@ -85,13 +85,13 @@ const Catalog = () => {
     <div className="min-h-screen bg-background font-brandon">
       <Header />
 
-      <main className="container py-5 sm:py-8">
+      <main className="container py-3 sm:py-8">
         {/* Page Header */}
-        <div className="mb-6 sm:mb-8 animate-fade-in">
-          <h1 className="font-brandon font-medium text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-1.5 sm:mb-2">
+        <div className="mb-3 sm:mb-8 animate-fade-in">
+          <h1 className="font-brandon font-medium text-xl sm:text-3xl md:text-4xl font-bold text-foreground mb-0.5 sm:mb-2">
             {genderTitle}
           </h1>
-          <p className="text-sm font-brandon font-medium sm:text-base text-muted-foreground">
+          <p className="text-xs font-brandon font-medium sm:text-base text-muted-foreground">
             {filteredProducts.length} productos encontrados
           </p>
         </div>

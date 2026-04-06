@@ -28,8 +28,8 @@ const SearchFilters = ({
   brands,
 }: SearchFiltersProps) => {
   return (
-    <div className="mb-3 sm:mb-6 p-2.5 sm:p-3 rounded-xl bg-card border border-border">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-3 sm:gap-4">
+    <div className="mb-2 sm:mb-6 p-2 sm:p-3 rounded-xl bg-card border border-border">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-2 sm:gap-4">
         {/* Search */}
         <div className="relative md:col-span-6">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
@@ -38,14 +38,14 @@ const SearchFilters = ({
             placeholder="Buscar por nombre o marca..."
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] pl-10 bg-background h-11 text-black placeholder:text-black"
+            className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] pl-10 bg-background h-9 sm:h-11 text-black placeholder:text-black"
           />
         </div>
 
         {/* Brand Filter */}
         <div className="md:col-span-3">
           <Select value={brandFilter} onValueChange={onBrandFilterChange}>
-            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-9 sm:h-11">
               <SelectValue
                 placeholder="Marca"
                 className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
@@ -74,7 +74,7 @@ const SearchFilters = ({
         {/* Sort Order */}
         <div className="md:col-span-3">
           <Select value={sortOrder} onValueChange={onSortChange}>
-            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-9 sm:h-11">
               <SelectValue
                 placeholder="Ordenar por"
                 className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"

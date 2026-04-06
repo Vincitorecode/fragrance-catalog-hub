@@ -28,7 +28,7 @@ const GenderCard = ({ gender, title, imageSrc }: GenderCardProps) => {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
       {/* Title — anchored to bottom */}
-      <div className="absolute inset-0 flex items-end justify-center pb-8 sm:pb-10 md:pb-12">
+      <div className="absolute inset-0 flex items-end justify-center pb-5 sm:pb-10 md:pb-12">
         <h2
           className="font-brandon font-bold text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase leading-[1] tracking-[0] text-center drop-shadow-lg transition-all duration-500 group-hover:tracking-[0.18em]"
         >
