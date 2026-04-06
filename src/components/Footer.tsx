@@ -95,7 +95,7 @@ export default function Footer() {
                         )}
                       </div>
 
-                      <span className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] whitespace-nowrap text-white/85">
+                      <span className="font-brandon font-normal text-[11px] sm:text-[14px] leading-[1] tracking-[0] whitespace-nowrap text-white/85">
                         {m.label}
                       </span>
                     </div>
