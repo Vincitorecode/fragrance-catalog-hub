@@ -27,12 +27,12 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
             {/* Atención personalizada */}
-            <div className="rounded-2xl border border-white/20 bg-transparent p-8 text-center">
-              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-5 sm:p-8 text-center">
+              <h3 className="font-brandon font-semibold text-[16px] sm:text-[20px] leading-[1] tracking-[0] text-center uppercase mb-4 sm:mb-6 text-white/90">
                 ATENCIÓN PERSONALIZADA
               </h3>
 
-              <p className="font-brandon font-normal text-[16px] leading-[1] tracking-[0] text-center text-white/90 mb-10">
+              <p className="font-brandon font-normal text-[14px] sm:text-[16px] leading-[1] tracking-[0] text-center text-white/90 mb-6 sm:mb-10">
                 Asesoría directa y pedidos vía WhatsApp.
               </p>
 
