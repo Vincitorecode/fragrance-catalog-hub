@@ -49,8 +49,8 @@ export default function Footer() {
             </div>
 
             {/* Métodos de pago */}
-            <div className="rounded-2xl border border-white/20 bg-transparent p-8">
-              <h3 className="font-brandon font-semibold text-[20px] leading-[1] tracking-[0] text-center uppercase mb-6 text-white/90">
+            <div className="rounded-2xl border border-white/20 bg-transparent p-5 sm:p-8">
+              <h3 className="font-brandon font-semibold text-[16px] sm:text-[20px] leading-[1] tracking-[0] text-center uppercase mb-4 sm:mb-6 text-white/90">
                 MÉTODOS DE PAGO
               </h3>
 

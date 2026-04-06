@@ -199,7 +199,7 @@ const Home = () => {
         </div>
 
         {/* ─── 3 BENEFITS ─── */}
-        <section className="py-16 sm:py-20 md:py-24 overflow-hidden">
+        <section className="py-10 sm:py-20 md:py-24 overflow-hidden">
           <motion.div
             className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
             variants={staggerContainer}

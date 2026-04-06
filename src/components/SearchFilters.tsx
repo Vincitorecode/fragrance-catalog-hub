@@ -74,7 +74,7 @@ const SearchFilters = ({
         {/* Sort Order */}
         <div className="md:col-span-3">
           <Select value={sortOrder} onValueChange={onSortChange}>
-            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-11">
+            <SelectTrigger className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] w-full bg-background h-9 sm:h-11">
               <SelectValue
                 placeholder="Ordenar por"
                 className="font-brandon font-normal text-[14px] leading-[1] tracking-[0]"
