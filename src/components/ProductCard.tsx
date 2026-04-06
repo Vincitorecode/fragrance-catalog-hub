@@ -143,7 +143,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     </span>
                   )}
 
-                  <div className="flex min-h-[52px] sm:min-h-[58px] md:min-h-[68px] flex-col items-center justify-center leading-tight">
+                  <div className="flex min-h-[40px] sm:min-h-[58px] md:min-h-[68px] flex-col items-center justify-center leading-tight">
                     <span
                       className={[
                         "font-brandon mb-1.5 text-[9px] sm:text-[10px] md:text-[12px] font-medium uppercase",
