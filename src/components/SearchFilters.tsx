@@ -38,7 +38,7 @@ const SearchFilters = ({
             placeholder="Buscar por nombre o marca..."
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] pl-10 bg-background h-11 text-black placeholder:text-black"
+            className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] pl-10 bg-background h-9 sm:h-11 text-black placeholder:text-black"
           />
         </div>
 
