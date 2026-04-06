@@ -118,10 +118,10 @@ const Home = () => {
       <Header />
 
       <main>
-        {/* First viewport block: hero + gender, flex column, fills remaining viewport */}
-        <div className="flex flex-col min-h-[600px]" style={{ height: "calc(100dvh - 72px)" }}>
+        {/* First viewport block:   hero + gender, flex column, fills remaining viewport */}
+        <div className="flex flex-col min-h-[600px]" style={{ height: "calc(100dvh - 80px)" }}>
           {/* ─── HERO ─── */}
-          <section className="shrink-0 pt-4 sm:pt-8 md:pt-10 pb-4 sm:pb-7 md:pb-8 text-center overflow-hidden">
+          <section className="shrink-0 pt-6 sm:pt-8 md:pt-10 pb-6 sm:pb-7 md:pb-8 text-center overflow-hidden">
             <motion.div
               className="w-full"
               variants={staggerContainer}
@@ -163,7 +163,7 @@ const Home = () => {
           </section>
 
           {/* ─── GENDER SPLIT 50/50 — fills remaining space ─── */}
-          <section className="w-full flex-1 min-h-[180px] overflow-hidden">
+          <section className="w-full flex-1 min-h-0 overflow-hidden">
             <div className="grid h-full grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
               <motion.div
                 initial={{ opacity: 0, x: -36 }}
@@ -199,7 +199,7 @@ const Home = () => {
         </div>
 
         {/* ─── 3 BENEFITS ─── */}
-        <section className="py-10 sm:py-20 md:py-24 overflow-hidden">
+        <section className="py-16 sm:py-20 md:py-24 overflow-hidden">
           <motion.div
             className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
             variants={staggerContainer}
