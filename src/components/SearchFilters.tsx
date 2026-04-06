@@ -28,8 +28,8 @@ const SearchFilters = ({
   brands,
 }: SearchFiltersProps) => {
   return (
-    <div className="mb-2 sm:mb-6 p-2 sm:p-3 rounded-xl bg-card border border-border">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-2 sm:gap-4">
+    <div className="mb-1.5 sm:mb-6 p-1.5 sm:p-3 rounded-xl bg-card border border-border">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-1.5 sm:gap-4">
         {/* Search */}
         <div className="relative md:col-span-6">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />

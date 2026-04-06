@@ -27,9 +27,9 @@
     --muted: 35 20% 92%;
     --muted-foreground: 30 8% 50%;
 
-    /* Warm accent */
-    --accent: 25 40% 88%;
-    --accent-foreground: 30 15% 20%;
+    /* Accent — brand green tint */
+    --accent: 152 30% 92%;
+    --accent-foreground: 152 100% 10%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;

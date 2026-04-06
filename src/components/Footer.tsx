@@ -54,7 +54,7 @@ export default function Footer() {
                 MÉTODOS DE PAGO
               </h3>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-2 sm:gap-3">
                 {[
                   { icon: CreditCard, label: "Crédito / Débito" },
                   { icon: "transferencia", label: "Transferencia" },
@@ -66,36 +66,36 @@ export default function Footer() {
                   return (
                     <div
                       key={m.label}
-                      className="flex items-center gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-4 py-2.5 text-sm"
+                      className="flex items-center gap-2 sm:gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-3 sm:px-4 py-2 sm:py-2.5 text-sm"
                     >
-                      <div className="flex items-center justify-center">
+                      <div className="flex shrink-0 items-center justify-center">
                         {m.label === "Mercado Pago" ? (
                           <img
                             src="/icons/mercado_pago.svg"
                             alt="Mercado Pago"
-                            className="h-6 w-6"
+                            className="h-5 w-5 sm:h-6 sm:w-6"
                           />
                         ) : m.icon === "transferencia" ? (
                           <img
                             src="/icons/Frame.svg"
                             alt="Transferencia"
-                            className="h-5 w-5"
+                            className="h-4 w-4 sm:h-5 sm:w-5"
                           />
                         ) : m.icon === "efectivo" ? (
                           <img
                             src="/icons/Frame.png"
                             alt="Efectivo"
-                            className="h-5 w-5"
+                            className="h-4 w-4 sm:h-5 sm:w-5"
                           />
                         ) : (
                           <m.icon
-                            className="h-5 w-5 text-white"
+                            className="h-4 w-4 sm:h-5 sm:w-5 text-white"
                             strokeWidth={1.8}
                           />
                         )}
                       </div>
 
-                      <span className="font-brandon font-normal text-[14px] leading-[1] tracking-[0] whitespace-nowrap text-white/85">
+                      <span className="font-brandon font-normal text-[11px] sm:text-[14px] leading-[1] tracking-[0] whitespace-nowrap text-white/85">
                         {m.label}
                       </span>
                     </div>
