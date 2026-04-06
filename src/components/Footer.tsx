@@ -54,7 +54,7 @@ export default function Footer() {
                 MÉTODOS DE PAGO
               </h3>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-2 sm:gap-3">
                 {[
                   { icon: CreditCard, label: "Crédito / Débito" },
                   { icon: "transferencia", label: "Transferencia" },
@@ -66,7 +66,7 @@ export default function Footer() {
                   return (
                     <div
                       key={m.label}
-                      className="flex items-center gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-4 py-2.5 text-sm"
+                      className="flex items-center gap-2 sm:gap-3 rounded-full border border-white/20 bg-[#0b3a2b] px-3 sm:px-4 py-2 sm:py-2.5 text-sm"
                     >
                       <div className="flex items-center justify-center">
                         {m.label === "Mercado Pago" ? (
