@@ -163,7 +163,7 @@ const Home = () => {
           </section>
 
           {/* ─── GENDER SPLIT 50/50 — fills remaining space ─── */}
-          <section className="w-full flex-1 min-h-0 overflow-hidden">
+          <section className="w-full flex-1 min-h-[180px] overflow-hidden">
             <div className="grid h-full grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
               <motion.div
                 initial={{ opacity: 0, x: -36 }}
