@@ -88,7 +88,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
 
       {/* Content */}
-      <div className="flex flex-grow flex-col p-3 sm:p-4 md:p-5">
+      <div className="flex flex-grow flex-col p-2.5 sm:p-4 md:p-5">
         {/* Brand + Category */}
         <div className="mb-2 flex items-center justify-between gap-2">
           <span className="font-brandon min-w-0 truncate text-[10px] sm:text-[11px] md:text-[12px] font-medium uppercase tracking-[0.08em] text-[#7D7872]">
