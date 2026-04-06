@@ -23,7 +23,7 @@
     "gender": "hombre",
     "brand": "Louis Vuitton",
     "name": "Météore",
-    "category": "Nicho",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 160,
     "prices": {
@@ -42,7 +42,7 @@
     "gender": "hombre",
     "brand": "Louis Vuitton",
     "name": "L'Immensité",
-    "category": "Nicho",
+    "category": "Diseñador",
     "availability": "Disponible",
     "priceFrom": 160,
     "prices": {
@@ -764,7 +764,7 @@
     "gender": "hombre",
     "brand": "Aqua di Parma",
     "name": "Blu Mediterraneo Fico di Amalfi",
-    "category": "Designer",
+    "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -777,6 +777,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Blu-Mediterraneo-Fico-di-Amalfi.png"
+  },
+  {
+    "id": "rabanne-invictus-parfum",
+    "gender": "hombre",
+    "brand": "Rabanne",
+    "name": "Invictus Parfum",
+    "category": "Diseñador",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Invictus.png"
   },
   {
     "id": "givenchy-gentleman-eau-de-parfum",
@@ -859,7 +878,7 @@
     "gender": "hombre",
     "brand": "Jo Milano Paris",
     "name": "Game of Spades Bonus",
-    "category": "Nicho",
+    "category": "Árabe",
     "availability": "Nuevo lanzamiento",
     "priceFrom": 60,
     "prices": {
@@ -878,7 +897,7 @@
     "gender": "hombre",
     "brand": "Jo Milano Paris",
     "name": "Game of Spades Double Bonus",
-    "category": "Nicho",
+    "category": "Árabe",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
@@ -1408,6 +1427,25 @@
     "image": "/images/perfumes/mujer/Bergamote-22.png"
   },
   {
+    "id": "xerjoff-torino-21",
+    "gender": "mujer",
+    "brand": "Xerjoff",
+    "name": "Torino 21",
+    "category": "Nicho",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 145,
+    "prices": {
+      "2ml": 145,
+      "5ml": 360,
+      "10ml": 720
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Torino.png"
+  },
+  {
     "id": "sospiro-perfumes-vibrato-mujer",
     "gender": "mujer",
     "brand": "Sospiro Perfumes",
@@ -1772,7 +1810,7 @@
     "gender": "mujer",
     "brand": "Aqua di Parma",
     "name": "Blu Mediterraneo Fico di Amalfi",
-    "category": "Diseñador",
+    "category": "Nicho",
     "availability": "Disponible",
     "priceFrom": 60,
     "prices": {
