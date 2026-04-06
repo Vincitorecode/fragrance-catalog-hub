@@ -119,9 +119,9 @@ const Home = () => {
 
       <main>
         {/* First viewport block: hero + gender, flex column, fills remaining viewport */}
-        <div className="flex flex-col min-h-[600px]" style={{ height: "calc(100dvh - 80px)" }}>
+        <div className="flex flex-col min-h-[600px]" style={{ height: "calc(100dvh - 72px)" }}>
           {/* ─── HERO ─── */}
-          <section className="shrink-0 pt-6 sm:pt-8 md:pt-10 pb-6 sm:pb-7 md:pb-8 text-center overflow-hidden">
+          <section className="shrink-0 pt-4 sm:pt-8 md:pt-10 pb-4 sm:pb-7 md:pb-8 text-center overflow-hidden">
             <motion.div
               className="w-full"
               variants={staggerContainer}
