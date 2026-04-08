@@ -7,11 +7,12 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import CartButton from "@/components/cart/CartButton";
+import { useCart } from "@/contexts/CartContext";
 
 const WHATSAPP_NUMBER = "5214435113228";
 
 const Header = () => {
+  const { itemCount, openCart } = useCart();
   const waLink = `https://wa.me/${WHATSAPP_NUMBER}`;
 
   return (
@@ -65,12 +66,20 @@ const Header = () => {
 
       {/* RIGHT: pegado al borde de la pantalla */}
       <div className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 z-10">
-        <button className="flex items-center justify-center transition-all duration-200 hover:opacity-80 hover:scale-105">
+        <button
+          onClick={openCart}
+          className="relative flex items-center justify-center transition-all duration-200 hover:opacity-80 hover:scale-105"
+        >
           <img
             src="/icons/bac.png"
             alt="Carrito"
             className="h-7 w-7 filter brightness-150"
           />
+          {itemCount > 0 && (
+            <span className="absolute -top-1.5 -right-1.5 flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#B7E4C3] text-[9px] font-bold text-[#013220] shadow-[0_2px_4px_rgba(0,0,0,0.2)]">
+              {itemCount > 9 ? "9+" : itemCount}
+            </span>
+          )}
         </button>
       </div>
 

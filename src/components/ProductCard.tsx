@@ -126,7 +126,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                   key={ml}
                   type="button"
                   onClick={(e) => {
-                    setSelectedMl(ml);
+                    setSelectedMl((prev) => (prev === ml ? null : ml));
                     (e.currentTarget as HTMLButtonElement).blur();
                   }}
                   className={[
