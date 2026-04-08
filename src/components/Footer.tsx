@@ -116,7 +116,11 @@ export default function Footer() {
 
               {/* Center - Social Icons */}
               <div className="flex items-center gap-6">
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/lefragranceclub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/icons/instagram.svg"
                     alt="Instagram"
@@ -124,7 +128,10 @@ export default function Footer() {
                   />
                 </a>
 
-                <a href="#">
+                <a href="https://www.facebook.com/share/1CdF5U7NWr/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/icons/facebook.svg"
                     alt="Facebook"
@@ -136,9 +143,12 @@ export default function Footer() {
               {/* Right - Email */}
               <div className="flex items-center gap-2 text-white/70">
                 <Mail className="h-4 w-4 text-white/80" strokeWidth={1.5} />
-                <span className="font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-white/80">
+                <a
+                  href="mailto:lefragranceclubcontact@gmail.com?subject=Contacto%20desde%20la%20web"
+                  className="font-brandon font-medium text-[14px] leading-[1] tracking-[0] text-white/80"
+                >
                   lefragranceclubcontact@gmail.com
-                </span>
+                </a>
               </div>
 
             </div>
