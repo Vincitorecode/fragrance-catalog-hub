@@ -1826,6 +1826,25 @@
     "image": "/images/perfumes/mujer/ariana-grande-cloud-pink.png"
   },
   {
+    "id": "jo-milano-paris-game-of-spades-bonus",
+    "gender": "mujer",
+    "brand": "Jo Milano Paris",
+    "name": "Game of Spades Bonus",
+    "category": "Árabe",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 150,
+      "10ml": 300
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Game_of_Spades_Bonus.png"
+  },
+  {
     "id": "maison-alhambra-jean-lowe-summer-vibes-mujer",
     "gender": "mujer",
     "brand": "Maison Alhambra",
