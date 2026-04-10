@@ -57,6 +57,25 @@
     "image": "/images/perfumes/hombre/L’Immensité.png"
   },
   {
+    "id": "xerjoff-torino-21",
+    "gender": "hombre",
+    "brand": "Xerjoff",
+    "name": "Torino 21",
+    "category": "Nicho",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 145,
+    "prices": {
+      "2ml": 145,
+      "5ml": 360,
+      "10ml": 720
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Torino.png"
+  },
+  {
     "id": "xerjoff-naxos",
     "gender": "hombre",
     "brand": "Xerjoff",
@@ -207,25 +226,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Tam-Dao.png"
-  },
-  {
-    "id": "bdk-gris-charnel-eau-de-parfum",
-    "gender": "hombre",
-    "brand": "BDK",
-    "name": "Gris Charnel Eau de Parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 100,
-    "prices": {
-      "2ml": 100,
-      "5ml": 250,
-      "10ml": 500
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Gris-Charnel.png"
   },
   {
     "id": "beso-beach-beso-negro",
@@ -703,25 +703,6 @@
     "image": "/images/perfumes/hombre/The-Most-Wanted-Intense.png"
   },
   {
-    "id": "azzaro-the-most-wanted-parfum",
-    "gender": "hombre",
-    "brand": "Azzaro",
-    "name": "The Most Wanted Parfum",
-    "category": "Designer",
-    "availability": "Disponible",
-    "priceFrom": 70,
-    "prices": {
-      "2ml": 70,
-      "5ml": 165,
-      "10ml": 330
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/The-Most-Wanted-Parfum.png"
-  },
-  {
     "id": "viktor-rolf-spicebomb-extreme",
     "gender": "hombre",
     "brand": "Viktor&Rolf",
@@ -1007,6 +988,25 @@
     "image": "/images/perfumes/hombre/Art-Of-Universe.png"
   },
   {
+    "id": "maison-alhambra-jean-lowe-summer-vibes-hombre",
+    "gender": "hombre",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Summer Vibes",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 140,
+      "10ml": 280
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/jean-lowe-summer-vibes.png"
+  },
+  {
     "id": "maison-alhambra-jean-lowe-azure-dupe-afternoon-swim-lv",
     "gender": "hombre",
     "brand": "Maison Alhambra",
@@ -1081,6 +1081,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/Explorer-Platinum.png"
+  },
+  {
+    "id": "riiffs-freeze-hombre",
+    "gender": "hombre",
+    "brand": "Riiffs Perfumes",
+    "name": "Freeze",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/freeze.png"
   },
   {
     "id": "armaf-ombre-dor",
@@ -1252,25 +1271,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/The-One.png"
-  },
-  {
-    "id": "salvatore-ferragamo-acqua-essenziale",
-    "gender": "hombre",
-    "brand": "Salvatore Ferragamo",
-    "name": "Acqua Essenziale",
-    "category": "Designer",
-    "availability": "Disponible",
-    "priceFrom": 45,
-    "prices": {
-      "2ml": 45,
-      "5ml": 110,
-      "10ml": 220
-    },
-    "onSale": false,
-    "originalPriceFrom": null,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/hombre/Acqua-Essenziale.png"
   },
   {
     "id": "john-varvatos-artisan",
@@ -1484,26 +1484,6 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/carolina-herrera-la-bomba.png"
-  },
-  {
-    "id": "bdk-gris-charnel-eau-de-parfum-mujer",
-    "gender": "mujer",
-    "brand": "BDK",
-    "name": "Gris Charnel Eau de Parfum",
-    "category": "Nicho",
-    "availability": "Disponible",
-    "priceFrom": 100,
-    "prices": {
-      "2ml": 100,
-      "5ml": 250,
-      "10ml": 500
-    },
-    "aroma": "",
-    "originalPriceFrom": null,
-    "onSale": false,
-    "rating": 0,
-    "ratingCount": 0,
-    "image": "/images/perfumes/mujer/Gris-Charnel.png"
   },
   {
     "id": "beso-beach-beso-negro-mujer",
@@ -1846,6 +1826,25 @@
     "image": "/images/perfumes/mujer/ariana-grande-cloud-pink.png"
   },
   {
+    "id": "maison-alhambra-jean-lowe-summer-vibes-mujer",
+    "gender": "mujer",
+    "brand": "Maison Alhambra",
+    "name": "Jean Lowe Summer Vibes",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 60,
+    "prices": {
+      "2ml": 60,
+      "5ml": 140,
+      "10ml": 280
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/jean-lowe-summer-vibes.png"
+  },
+  {
     "id": "french-avenue-vulcan-feu-mujer",
     "gender": "mujer",
     "brand": "French Avenue",
@@ -1884,6 +1883,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/Art-Of-Universe.png"
+  },
+  {
+    "id": "riiffs-freeze-mujer",
+    "gender": "mujer",
+    "brand": "Riiffs Perfumes",
+    "name": "Freeze",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/freeze.png"
   },
   {
     "id": "lattafa-liam-dupe-gris-charnel-bdk",
