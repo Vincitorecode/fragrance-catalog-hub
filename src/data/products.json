@@ -513,6 +513,25 @@
     "image": "/images/perfumes/hombre/Le-Beau-Paradise-Garden.png"
   },
   {
+    "id": "jean-paul-gaultier-le-beau-narcisse",
+    "gender": "hombre",
+    "brand": "Jean Paul Gaultier",
+    "name": "Le Beau Narcisse",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 70,
+    "prices": {
+      "2ml": 70,
+      "5ml": 170,
+      "10ml": 340
+    },
+    "onSale": false,
+    "originalPriceFrom": 88,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Le Beau Narcisse.png"
+  },
+  {
     "id": "jean-paul-gaultier-le-beau",
     "gender": "hombre",
     "brand": "Jean Paul Gaultier",
@@ -1100,6 +1119,44 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/hombre/freeze.png"
+  },
+  {
+    "id": "paris-corner-mawj-moscow-mule",
+    "gender": "hombre",
+    "brand": "Paris Corner",
+    "name": "Mawj Moscow Mule",
+    "category": "Árabe",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Mule.png"
+  },
+  {
+    "id": "afnan-supremacy-collectors-edition",
+    "gender": "hombre",
+    "brand": "Afnan",
+    "name": "Supremacy Collector's Edition",
+    "category": "Designer",
+    "availability": "Disponible",
+    "priceFrom": 50,
+    "prices": {
+      "2ml": 50,
+      "5ml": 120,
+      "10ml": 240
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Supremacy.png"
   },
   {
     "id": "armaf-ombre-dor",
