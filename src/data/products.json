@@ -209,6 +209,25 @@
     "image": "/images/perfumes/hombre/Perseus.png"
   },
   {
+    "id": "diptyque-lilyphea",
+    "gender": "hombre",
+    "brand": "Diptyque",
+    "name": "Lilyphea",
+    "category": "Nicho",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 100,
+    "prices": {
+      "2ml": 100,
+      "5ml": 250,
+      "10ml": 500
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/hombre/Lilyphea.png"
+  },
+  {
     "id": "diptyque-tam-dao",
     "gender": "hombre",
     "brand": "Diptyque",
@@ -1541,6 +1560,25 @@
     "rating": 0,
     "ratingCount": 0,
     "image": "/images/perfumes/mujer/carolina-herrera-la-bomba.png"
+  },
+  {
+    "id": "diptyque-lilyphea",
+    "gender": "mujer",
+    "brand": "Diptyque",
+    "name": "Lilyphea",
+    "category": "Nicho",
+    "availability": "Nuevo lanzamiento",
+    "priceFrom": 100,
+    "prices": {
+      "2ml": 100,
+      "5ml": 250,
+      "10ml": 500
+    },
+    "onSale": false,
+    "originalPriceFrom": null,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Lilyphea.png"
   },
   {
     "id": "beso-beach-beso-negro-mujer",
