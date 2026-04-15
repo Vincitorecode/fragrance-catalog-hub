@@ -1781,6 +1781,26 @@
     "image": "/images/perfumes/mujer/yves-saint-laurent-libre-edp.png"
   },
   {
+    "id": "yves-saint-laurent-black-opium-over-red",
+    "gender": "mujer",
+    "brand": "Yves Saint Laurent",
+    "name": "Black Opium Over Red",
+    "category": "Diseñador",
+    "availability": "Disponible",
+    "priceFrom": 80,
+    "prices": {
+      "2ml": 80,
+      "5ml": 190,
+      "10ml": 380
+    },
+    "aroma": "",
+    "originalPriceFrom": null,
+    "onSale": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "image": "/images/perfumes/mujer/Black-Opium-Over-Red.png"
+  },
+  {
     "id": "yves-saint-laurent-black-opium",
     "gender": "mujer",
     "brand": "Yves Saint Laurent",
